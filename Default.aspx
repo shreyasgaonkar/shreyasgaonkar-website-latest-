@@ -41,6 +41,9 @@
         <!-- end container -->
     </div>
     <!-- end header -->
+
+    
+
     <div class="content">
         <div class="white">
             <div class="container">
@@ -76,12 +79,63 @@
         </div>
         <!-- end white -->
 
+        <!-- Websites -->
+    <div class="container">
+        <div class="line-behind-text">
+                <h6>Portfolio</h6>
+            </div>
+
+        <div class="grid-items-lines">
+            <a href="javascript:void(0)" class="grid-item">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
+                <h1>Web Developer</h1>
+                <p>Chitramandaar.com</p>
+            </a>
+            <a href="javascript:void(0)" class="grid-item">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+                <h1>Web Content Manager</h1>
+                <p>University of Illinois at Chicago </p>
+            </a>
+            <a href="javascript:void(0)" class="grid-item">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+                <h1>Co-founder & Web Developer</h1>
+                <p>Novelpic.com</p>
+            </a>
+            <a href="javascript:void(0)" class="grid-item grid-item-big">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+                <h1>Lead Web Developer & UX/UI Designer</h1>
+                <p>CollegeLife LLC</p>
+            </a>
+            <a href="javascript:void(0)" class="grid-item">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+                <h1>Co-founder & Web Designer</h1>
+                <p>Techweekends.in</p>
+            </a>
+            <a href="javascript:void(0)" class="grid-item">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+                <h1>Web Designer & Developer</h1>
+                <p>Zenscorner.com</p>
+            </a>
+            <a href="javascript:void(0)" class="grid-item grid-item-big">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+                <h1>Web Development & Live Streaming</h1>
+                <p>Vidyalankar Institute of Technology</p>
+            </a>
+            <div class="right-cover"></div>
+            <div class="bottom-cover"></div>
+        </div>
+    </div>
+    <!-- End Container -->
+
+    <!-- end Websites -->
+
+
         <div class="container">
             <div class="line-behind-text">
                 <h6>Testimonials</h6>
             </div>
             <hr />
-            <div class="testimonials" style="margin:50px 0;">
+            <div class="testimonials" style="margin: 50px 0;">
                 <div class="comment">
                     <div class="comment-image">
                         <img src="images/50x50.jpg" alt="Logo image" />
