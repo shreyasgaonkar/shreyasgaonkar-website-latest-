@@ -1,3 +1,3 @@
-# shreyasgaonkar-website-beta
+# Website code for my personal website.
 
-Code of my personal website (beta)
+Technology used: HTML, CSS, JavaScript, SASS, Refills, Bourbon & C#
