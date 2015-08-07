@@ -5,7 +5,10 @@
 /*XS Devices (smaller devices, 768px and below*/
 @media (max-width: 768px) {
   .header {
-    padding: 50px 50px 50px 50px; } }
+    margin-top: -50px; }
+
+  footer ul li {
+    padding: 5px 0; } }
 @media (max-width: 487px) {
   .header-social {
     display: none; }

@@ -10,25 +10,30 @@
 //@media (min-width: @screen-lg-min) {}
 
 /*XS Devices (smaller devices, 768px and below*/
-@media (max-width: 768px){
-.header {
-    padding:50px 50px 50px 50px;
+@media (max-width: 768px) {
+    .header {
+        //padding: 50px 50px 50px 50px; This isn't working, hence the margin
+        margin-top:-50px;
+    }
+
+    footer ul li{
+        padding: 5px 0;
     }
 }
 
-@media (max-width: 487px){
-    .header-social{
-        display:none; //Social Icons are not displayed due to the space constraints.
+@media (max-width: 487px) {
+    .header-social {
+        display: none; //Social Icons are not displayed due to the space constraints.
     }
 
-    .hidden-on-small-viewport{
-        display:none;
+    .hidden-on-small-viewport {
+        display: none;
     }
 }
 
-@media (min-width: 488px){
-   
-    .visible-on-small-viewport{
-        display:none;
+@media (min-width: 488px) {
+
+    .visible-on-small-viewport {
+        display: none;
     }
 }

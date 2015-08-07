@@ -87,37 +87,37 @@
 
         <div class="grid-items-lines">
             <a href="javascript:void(0)" class="grid-item">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
-                <h1>Web Developer</h1>
-                <p>Chitramandaar.com</p>
-            </a>
+                <img src="images/websites/techweekends.png" alt="Techweekends" />
+                <h1>Co-founder & Web Designer</h1>
+                <p>Techweekends.in</p>
             <a href="javascript:void(0)" class="grid-item">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
-                <h1>Web Content Manager</h1>
+                <img src="images/websites/uic.png" alt="" />
+                <h1>Graduate Student Associate</h1>
                 <p>University of Illinois at Chicago </p>
             </a>
             <a href="javascript:void(0)" class="grid-item">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+                <img src="images/websites/novelpic.png" alt="" />
                 <h1>Co-founder & Web Developer</h1>
                 <p>Novelpic.com</p>
             </a>
             <a href="javascript:void(0)" class="grid-item grid-item-big">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+                <img src="images/websites/mote.png" alt="mote" />
                 <h1>Lead Web Developer & UX/UI Designer</h1>
                 <p>CollegeLife LLC</p>
             </a>
-            <a href="javascript:void(0)" class="grid-item">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-                <h1>Co-founder & Web Designer</h1>
-                <p>Techweekends.in</p>
             </a>
             <a href="javascript:void(0)" class="grid-item">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+                <img src="images/websites/zenscorner.png" alt="Zenscorner" />
                 <h1>Web Designer & Developer</h1>
                 <p>Zenscorner.com</p>
             </a>
+             <a href="javascript:void(0)" class="grid-item">
+                <img src="images/websites/chitramandaar.png" alt="" />
+                <h1>Web Developer</h1>
+                <p>Chitramandaar.com</p>
+            </a>
             <a href="javascript:void(0)" class="grid-item grid-item-big">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
+                <img src="images/websites/vit.jpg" alt="VIT" />
                 <h1>Web Development & Live Streaming</h1>
                 <p>Vidyalankar Institute of Technology</p>
             </a>
