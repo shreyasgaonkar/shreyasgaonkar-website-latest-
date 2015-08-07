@@ -16,7 +16,7 @@
                 <span style="font-size: 30px;">Shreyas Gaonkar </span>
                 <br />
                 Web Developer / UX - UI Designer / Grad Student<br />
-                <span class="glyphicon glyphicon-globe"></span>Chicago, IL
+                <span class="glyphicon glyphicon-globe"></span> Chicago, IL
             </div>
             <!-- End header-info -->
             <div class="header-social">
