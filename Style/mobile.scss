@@ -20,4 +20,15 @@
     .header-social{
         display:none; //Social Icons are not displayed due to the space constraints.
     }
+
+    .hidden-on-small-viewport{
+        display:none;
+    }
+}
+
+@media (min-width: 488px){
+   
+    .visible-on-small-viewport{
+        display:none;
+    }
 }

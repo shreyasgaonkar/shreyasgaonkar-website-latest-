@@ -45,7 +45,7 @@
     
 
     <div class="content">
-        <div class="white">
+        <div class="white" id="about">
             <div class="container">
                 <p class="lead">
                     <!--LEading text stands out, makes it awesome-->
@@ -80,7 +80,7 @@
         <!-- end white -->
 
         <!-- Websites -->
-    <div class="container">
+    <div class="container" id="portfolio">
         <div class="line-behind-text">
                 <h6>Portfolio</h6>
             </div>
@@ -130,18 +130,18 @@
     <!-- end Websites -->
 
 
-        <div class="container">
+        <div class="container" id="testimonial">
             <div class="line-behind-text">
                 <h6>Testimonials</h6>
             </div>
             <hr />
-            <div class="testimonials" style="margin: 50px 0;">
+            <div class="testimonials row" style="margin: 50px 0;">
                 <div class="comment">
                     <div class="comment-image">
-                        <img src="images/50x50.jpg" alt="Logo image" />
+                        <img src="images/Ks.jpg" alt="Kevin Schafer" />
                     </div>
                     <div class="comment-content">
-                        <h1><strong>Kevin S.</strong></h1>
+                        <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />kschaf696@gmail.com</span></h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
                         <p class="comment-detail">COO, CollegeLife LLC</p>
                     </div>
@@ -149,10 +149,10 @@
 
                 <div class="comment">
                     <div class="comment-image">
-                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="Logo image" />
+                        <img src="images/As.jpg" alt="Logo image" />
                     </div>
                     <div class="comment-content">
-                        <h1><strong>Anand Satyanarayanan</strong></h1>
+                        <h1><strong>Anand Satyanarayanan</strong><span class="email"><br class="visible-on-small-viewport" />anand@boutline.com</span></h1>
                         <p>"I have been Shreyas’ tutor for Website Management & Development. I found him to be consistently pleasant, tackling all assignments with dedication and a smile. Besides being a joy to work with, Shreyas likes to try out new things on his own. Also, he is a take charge person."</p>
                         <p class="comment-detail">Co-Founder,Samefaretaxi Studios.</p>
                     </div>
@@ -160,10 +160,10 @@
 
                 <div class="comment">
                     <div class="comment-image">
-                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="Logo image" />
+                        <img src="images/Ms.jpg" alt="Logo image" />
                     </div>
                     <div class="comment-content">
-                        <h1><strong>Mandaar Shinde</strong></h1>
+                        <h1><strong>Mandaar Shinde</strong><span class="email"><br class="visible-on-small-viewport" />mandaarshinde@yahoo.in</span></h1>
                         <p>"I appreciate your zeal & sincerity I experienced in designing this website, an attitude which will take you much further in life. I always feel very happy to see young talented people like you show such commitment towards their job."</p>
                         <p class="comment-detail">Director, Chitramandaar.com</p>
                     </div>
