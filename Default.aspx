@@ -2,13 +2,14 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>Shreyas Gaonkar</title>
-    <script src="Scripts/nav-top.js"></script>
     <link href='//fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css' />
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' />
 
+    
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+   
     <div class="header">
         <div class="container">
             <img src="images/srg.png" />
@@ -53,6 +54,8 @@
                     <!-- Changing text -->
                     <span id="changeText"></span>
                     <script type="text/javascript">
+                
+
                         var text = ["Web Developer.", "UX/UI Designer.", "Grad Student.", "Shreyas."];
                         var counter = 1;
                         var elem = document.getElementById("changeText");
@@ -64,7 +67,7 @@
                             if (counter >= text.length) { clearInterval(refreshIntervalI); }
                         }
                     </script>
-
+                    
                     <!-- Changing Text Ends -->
                     <br />
                     I design responsive websites optimized for desktops and mobile platforms. I love coding and playing around with Photoshop. When I am not at School or designing websites,
@@ -84,7 +87,7 @@
         <div class="line-behind-text">
                 <h6>Portfolio</h6>
             </div>
-
+        <hr />
         <div class="grid-items-lines">
             <a href="javascript:void(0)" class="grid-item">
                 <img src="images/websites/techweekends.png" alt="Techweekends" />
@@ -176,5 +179,7 @@
 
     </div>
     <!-- end content -->
+
+    
 </asp:Content>
 

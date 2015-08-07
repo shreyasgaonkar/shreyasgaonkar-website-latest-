@@ -20,7 +20,8 @@
 
     <!-- Javascript -->
     <script src="Scripts/script.js"></script>
-    <script src="Scripts/nav-top.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="Scripts/smoothscroll.js"></script>
 
     <!-- Favicon -->
 
@@ -70,9 +71,9 @@
   <div class="footer-links">
     <ul>
       <li><h3>Content</h3></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#testimonial">Testimonials</a></li>
+      <li><a href="#about" class="smoothScroll">About</a></li>
+      <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+      <li><a href="#testimonial" class="smoothScroll">Testimonials</a></li>
     </ul>
     <ul>
       <li><h3>Follow Me</h3></li>
