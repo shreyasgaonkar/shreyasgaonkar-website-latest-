@@ -800,7 +800,7 @@ a {
   background: white; }
 
 #changeText {
-  color: #09234A; }
+  color: #EF3742; }
 
 .learn-more a {
   display: inline-block;
@@ -816,8 +816,8 @@ a {
 
 .learn-more a:hover {
   text-decoration: none;
-  color: #09234A;
-  border: 1px solid #09234A; }
+  color: #EF3742;
+  border: 1px solid #EF3742; }
 
 .line-behind-text {
   text-align: center;
@@ -846,7 +846,7 @@ a {
   position: fixed;
   left: 50%;
   top: 50%;
-  margin: -43px 0 0 -43px;
+  margin: -43px 0px 0px -43px;
   width: 100%;
   height: 100%;
   z-index: 9999;

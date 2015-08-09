@@ -2,8 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>Shreyas Gaonkar</title>
-    <link href='//fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css' />
-    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' />
+   <!-- <link href='//fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
 
     
 
@@ -139,16 +139,16 @@
             </div>
             <hr />
             <div class="testimonials row" style="margin: 50px 0;">
-                <div class="comment">
+               <!-- <div class="comment">
                     <div class="comment-image">
                         <img src="images/Ks.jpg" alt="Kevin Schafer" />
                     </div>
                     <div class="comment-content">
                         <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />kschaf696@gmail.com</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+                        <p></p>
                         <p class="comment-detail">COO, CollegeLife LLC</p>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="comment">
                     <div class="comment-image">

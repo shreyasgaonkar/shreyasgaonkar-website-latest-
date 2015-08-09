@@ -13,9 +13,9 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet" /> -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="bootstrap/js/bootstrap.js"></script>
+    <!-- <script src="bootstrap/js/bootstrap.js"></script> -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Javascript -->
@@ -24,7 +24,6 @@
     <script src="Scripts/smoothscroll.js"></script>
 
     <!-- Favicon -->
-
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png" />
