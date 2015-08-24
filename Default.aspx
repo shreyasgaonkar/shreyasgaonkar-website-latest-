@@ -4,10 +4,10 @@
     <title>Shreyas Gaonkar</title>
     <!-- <link href='//fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css' />
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
-        <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
-        <meta name="title" content="Shreyas Gaonkar" />
-        <meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />
-        <meta name="author" content="Shreyas Gaonkar" />
+    <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
+    <meta name="title" content="Shreyas Gaonkar" />
+    <meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />
+    <meta name="author" content="Shreyas Gaonkar" />
 
 
 </asp:Content>
@@ -20,7 +20,7 @@
                 <span style="font-size: 30px;">Shreyas Gaonkar </span>
                 <br />
                 Web Developer / UX - UI Designer / Grad Student<br />
-                <span class="glyphicon glyphicon-globe"></span> 
+                <span class="glyphicon glyphicon-globe"></span>
                 Chicago, IL
             </div>
             <!-- End header-info -->
@@ -78,13 +78,19 @@
                     I enjoy Photography and playing Music.<br />
                     Learn more about me by clicking the link below.
                 </p>
-                <section class="learn-more">
-                    <a href="docs/Shreyas Gaonkar Resume.pdf" title="Learn More">Learn More </a>
-                </section>
+
+                <span class="learn-more">
+                    <a href="me.aspx" title="Learn More">Learn More </a>
+                </span>
+                <span class="learn-more">
+                    <a href="docs/Shreyas Gaonkar Resume.pdf" title="Learn More">Resume </a>
+                </span>
+
             </div>
             <!-- end container -->
         </div>
         <!-- end white -->
+
 
         <!-- Websites -->
         <div class="container" id="portfolio">
@@ -92,11 +98,12 @@
                 <h6>Portfolio</h6>
             </div>
             <hr />
-            <div class="grid-items-lines" style="cursor:pointer;">
+            <div class="grid-items-lines" style="cursor: pointer;">
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/techweekends.png" alt="Techweekends" />
                     <h1>Co-founder & Web Designer</h1>
                     <p>Techweekends.in</p>
+                    <p><i>March 2015 - Present</i></p>
                     <a href="javascript:void(0)" class="grid-item">
                         <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
@@ -131,9 +138,9 @@
                 <a href="javascript:void(0)" class="grid-item grid-item-big">
                     <img src="images/websites/chem.png" alt="ChemEnviroTech" />
                     <h1>Web Developer</h1>
-                    <p>TechEnviroTech Corp.</p>
+                    <p>ChemEnviroTech Corp.</p>
                 </a>
-                 <a href="javascript:void(0)" class="grid-item">
+                <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/svc.png" alt="" />
                     <h1>Logo Designer</h1>
                     <p>S.V. Corp.</p>
@@ -142,6 +149,11 @@
                 <div class="right-cover"></div>
                 <div class="bottom-cover"></div>
             </div>
+
+
+
+
+
         </div>
         <!-- End Container -->
 
@@ -194,8 +206,11 @@
         </div>
         <!-- end container -->
 
-
-        <div class="container" style="margin-top: -40px">
+        <!---------------------------------------------------------------------------------------------------------->
+       
+       
+        <!---------------------------------------------------------------------------------------------------------->
+        <div class="container" style="margin-top: -40px" id="contact">
             <div class="line-behind-text">
                 <h6>Lets work together</h6>
             </div>
@@ -205,14 +220,14 @@
                     <input type="text" name="name" placeholder="Name" />
                     <input type="email" name="_replyto" placeholder="Email" />
                     <textarea name="message" placeholder="Enter your Message"></textarea>
-                        <input type="submit" value="Submit" />
+                    <input type="submit" value="Submit" />
                 </form>
             </div>
         </div>
     </div>
 
     <!-- end content -->
-
+    
 
 </asp:Content>
 

@@ -118,6 +118,7 @@
                     <h3>Content</h3>
                 </li>
                 <li><a href="Default.aspx">Home</a></li>
+                <li><a href="me.aspx">About Me</a></li>
                 <li><a href="Papers.aspx">Technical Papers</a></li>
                 <li><a href="Photo.aspx">Photos</a></li>
                 <li><a href="Projects.aspx">Other Projects</a></li>
@@ -177,12 +178,12 @@
         }
     </script>
     <!-- sur.ly ranking -->
-    <script type="text/javascript" src="//surdotly.com/js/Surly.min.js"></script>
+    <%--<script type="text/javascript" src="//surdotly.com/js/Surly.min.js"></script>
     <script type="text/javascript">
         var surly = new Surly('AA000014');
         surly.whiteList(window.location.hostname);
         surly.process(document.getElementsByTagName('BODY'));
-    </script>
+    </script>--%>
 
 </body>
 </html>
