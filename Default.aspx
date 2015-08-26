@@ -99,13 +99,13 @@
             </div>
             <hr />
             <div class="grid-items-lines" style="cursor: pointer;">
-                <a href="javascript:void(0)" class="grid-item">
+                <a href="http://techweekends.in/" class="grid-item" target="_blank">
                     <img src="images/websites/techweekends.png" alt="Techweekends" />
                     <h1>Co-founder & Web Designer</h1>
                     <p><i>March 2015 - Present</i></p>
                     <p>Techweekends.in</p>
                     
-                    <a href="javascript:void(0)" class="grid-item">
+                    <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank"> 
                         <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
                          <p><i>Oct 2014 - Present</i></p>
@@ -117,7 +117,7 @@
                         <p><i>Oct 2012</i></p>
                         <p>Novelpic.com</p>
                     </a>
-                    <a href="javascript:void(0)" class="grid-item grid-item-big">
+                    <a href="http://www.motelife.co/" class="grid-item grid-item-big" target="_blank">
                         <img src="images/websites/mote.png" alt="mote" />
                         <h1>Lead Web Developer & UX/UI Designer</h1>
                         <p><i>May 2015 - Present</i></p>
@@ -130,7 +130,7 @@
                     <p><i>July 2015 - Present</i></p>
                     <p>Zenscorner</p>
                 </a>
-                <a href="javascript:void(0)" class="grid-item">
+                <a href="http://chitramandaar.com/" class="grid-item" target="_blank">
                     <img src="images/websites/chitramandaar.png" alt="" />
                     <h1>Online Presence</h1>
                      <p><i>Feb 2013 - Feb 2015</i></p>

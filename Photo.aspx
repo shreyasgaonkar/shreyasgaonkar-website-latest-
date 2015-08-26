@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="JQuery/img/css/default.css" />
+    <link href="JQuery/img/css/style.css" rel="stylesheet" />
+   <%-- <link rel="stylesheet" type="text/css" href="JQuery/img/css/default.css" />
     <link rel="stylesheet" type="text/css" href="JQuery/img/css/component.css" />
-    <script src="JQuery/img/js/modernizr.custom.js"></script>
+    <script src="JQuery/img/js/modernizr.custom.js"></script>--%>
+    <script src="JQuery/img/js/modernizr.custom.min.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h2 style="margin:40px 10px 10px 40px;">Shreyas Gaonkar <small>Photographs</small></h2>

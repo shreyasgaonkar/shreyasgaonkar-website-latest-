@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Test.aspx.vb" Inherits="Test" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"> <title>Shreyas Gaonkar</title>
-    <script src="Scripts/nav-top.js"></script>
+    <%--<script src="Scripts/nav-top.js"></script>
     <link href='//fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css' />
-    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' />--%>
 
     
 </asp:Content>
