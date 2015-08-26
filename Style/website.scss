@@ -22,6 +22,7 @@
   $grid-item-height: 14em;
   margin:75px 0 0 0;
 
+
   @include clearfix;
   position: relative;
     
@@ -45,9 +46,11 @@
 
     &:focus,
     &:hover {
-      background: transparentize($grid-item-color, 0.95);
+      //background: transparentize(#5abbc9, 0.95);
+      background: rgba(65,94,155, 0.09);
     }
   }
+
 
   .grid-item img {
       display: block;

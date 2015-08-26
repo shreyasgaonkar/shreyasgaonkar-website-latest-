@@ -5,6 +5,8 @@
 @import "footer";
 @import "testimonials";
 @import "website";
+@import "papers";
+@import "breadcrumb";
 
 //@import "../Style/top-nav";
 /*@import "hero";
@@ -12,6 +14,9 @@
 
 $color1: #253040;
 $color2: #EF3742;
+$color3: #253040;
+$color4: #40526B;
+$deg: 2deg;
 
 body, html {
     margin: 0;
@@ -23,8 +28,16 @@ a {
     outline: none;
 }
 
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
 .header {
-    padding:111px 50px 50px 50px;
+    padding: 111px 50px 50px 50px;
     background: #253040;
     //@include padding(50px);
     color: white;
@@ -82,11 +95,29 @@ a {
     color: $color2;
     border: 1px solid $color2;
 }
-.line-behind-text{
-    text-align:center;
-    font-size:24px;
+
+.aboutme {
+    padding: 50px 10px 50px 10px;
+    font-size: 20px;
+    line-height: 36px;
+    font-family: $georgia;
+    color: black;
+    text-align: justify;
+    /*background-image: url('../images/srg1.png');
+    background-repeat:no-repeat;
+    background-position: 100% 0%;*/
+    p {
+        padding: 50px 0 0 0;
+        z-index: 1;
+    }
 }
-.line-behind-text h6{
+
+.line-behind-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.line-behind-text h6 {
     background: #fff;
     color: #808080;
     display: inline-block;
@@ -99,10 +130,144 @@ a {
     top: 34px;
     margin-bottom: -1.5em;
 }
-.email{
-    font-size:12px;
-    color:gray;
-    padding:0 10px;
+
+.myStory{
+    text-align:right;
+    color: #5abbc9;
+}
+
+/*Proects*/
+.list-group-item{
+    color: #5abbc9;
+}
+.email {
+    font-size: 12px;
+    color: gray;
+    padding: 0 10px;
+}
+
+.contact {
+    padding: 40px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0px auto 50px auto;
+}
+
+form input {
+    margin-bottom: 20px;
+    display: block;
+}
+
+form textarea {
+    margin-bottom: 10px;
+    display: block;
+}
+
+form input[type="submit"] {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: inherit;
+    border: 1px solid $color1;
+    color: $color1;
+    margin-top: 1.5em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: 16px;
+    /* background:$color1;
+    color:white;
+    font-size:18px;
+    text-transform:uppercase;*/
+}
+
+form input[type="submit"]:hover {
+    /**/ text-decoration: none;
+    color: $color2;
+    border: 1px solid $color2;
+    background-color: inherit;
+    //background:$color2;
+}
+
+form input[type="submit"]:visited, form input[type="submit"]:active, form input[type="submit"]:checked, form input[type="submit"]:focus {
+    text-decoration: none;
+    background: inherit;
+    color: $color1;
+    border: 1px solid $color1;
+}
+
+.navigation-bar{
+    background-color: $color3;
+    //@include linear-gradient(to top, $color3, $color4);
+    margin: -2.0% auto 0;
+    padding: 2% 20px 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-transform: skewY(-$deg);
+    -moz-transform: skewY(-$deg);
+    -ms-transform: skewY(-$deg);
+    -o-transform: skewY(-$deg);
+    transform: skewY(-$deg);
+}
+
+.skew-pos {
+    -webkit-transform: skewY($deg);
+    -moz-transform: skewY($deg);
+    -ms-transform: skewY($deg);
+    -o-transform: skewY($deg);
+    transform: skewY($deg);
+
+    h3{
+        font-family:$georgia;
+        padding-left:2%;
+        color: #5abbc9;
+        font-weight:300;
+        font-size:14px;
+        letter-spacing:5px;
+    }
+    a{
+        color:#5abbc9;
+        text-decoration:none;
+    }
+    a:hover {
+        color:#FFF;
+        opacity:0.9;
+        text-decoration:none;
+    }
+    /*a:active,a:focus,a:visited{
+        color:#5abbc9;
+        text-decoration:none;
+    }*/
+}
+.me-title{
+    font-size:4vh;
+    color:#FFF;
+    font-family:Tahoma;
+    float:right;  
+    margin-right:4.5%;
+    padding:3px;
+    background: rgba(0, 0, 0, 0.4);
+    letter-spacing:15px;
+    padding-left:20px;
+    text-align:right;
+}
+
+.me-title1{
+    font-size:26px;
+    color:#FFF;
+    font-family:Tahoma;
+    float:right;  
+    margin:-8px 1% 0 0;
+    padding:3px;
+    background: rgba(0, 0, 0, 0.4);
+    letter-spacing:10px;
+    padding-left:20px;
+    text-align:right;
+}
+
+
+.aboutme-content{
+    background:#F5F5F5;
 }
 /*Loading Effect */
 .loader {
