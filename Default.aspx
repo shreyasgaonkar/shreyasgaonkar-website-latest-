@@ -19,7 +19,7 @@
             <div class="header-info">
                 <span style="font-size: 30px;">Shreyas Gaonkar </span>
                 <br />
-                Web Developer / UX - UI Designer / Grad Student<br />
+                Web Developer / UI - UX Designer / Grad Student<br />
                 <span class="glyphicon glyphicon-globe"></span>
                 Chicago, IL
             </div>
@@ -60,7 +60,7 @@
                     <script type="text/javascript">
 
 
-                        var text = ["Web Developer.", "UX/UI Designer.", "an Engineer", "Shreyas."];
+                        var text = ["Web Developer.", "UI/UX Designer.", "an Engineer", "Shreyas."];
                         var counter = 1;
                         var elem = document.getElementById("changeText");
                         elem.innerHTML = text[0];
@@ -102,47 +102,56 @@
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/techweekends.png" alt="Techweekends" />
                     <h1>Co-founder & Web Designer</h1>
-                    <p>Techweekends.in</p>
                     <p><i>March 2015 - Present</i></p>
+                    <p>Techweekends.in</p>
+                    
                     <a href="javascript:void(0)" class="grid-item">
                         <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
+                         <p><i>Oct 2014 - Present</i></p>
                         <p>University of Illinois at Chicago </p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
                         <img src="images/websites/novelpic.png" alt="" />
                         <h1>Co-founder & Web Developer</h1>
+                        <p><i>Oct 2012</i></p>
                         <p>Novelpic.com</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item grid-item-big">
                         <img src="images/websites/mote.png" alt="mote" />
                         <h1>Lead Web Developer & UX/UI Designer</h1>
+                        <p><i>May 2015 - Present</i></p>
                         <p>CollegeLife LLC</p>
                     </a>
                 </a>
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/zenscorner.png" alt="Zenscorner" />
                     <h1>Web Designer & Developer</h1>
+                    <p><i>July 2015 - Present</i></p>
                     <p>Zenscorner</p>
                 </a>
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/chitramandaar.png" alt="" />
-                    <h1>Web Developer</h1>
+                    <h1>Online Presence</h1>
+                     <p><i>Feb 2013 - Feb 2015</i></p>
                     <p>Chitramandaar.com</p>
                 </a>
                 <a href="javascript:void(0)" class="grid-item grid-item-big">
                     <img src="images/websites/vit.jpg" alt="VIT" />
                     <h1>Web Development & Live Streaming</h1>
+                    <p><i>Sept 2011 - April 2013</i></p>
                     <p>Vidyalankar Institute of Technology</p>
                 </a>
                 <a href="javascript:void(0)" class="grid-item grid-item-big">
                     <img src="images/websites/chem.png" alt="ChemEnviroTech" />
                     <h1>Web Developer</h1>
+                    <p><i>May 2015 - Present</i></p>
                     <p>ChemEnviroTech Corp.</p>
                 </a>
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/svc.png" alt="" />
                     <h1>Logo Designer</h1>
+                    <p><i>July 2015</i></p>
                     <p>S.V. Corp.</p>
                 </a>
 

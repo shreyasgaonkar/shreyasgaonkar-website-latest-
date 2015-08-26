@@ -20,8 +20,9 @@
 
     <!-- Javascript -->
     <script src="Scripts/script.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="Scripts/smoothscroll.js"></script>
+    <%--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>--%>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/smoothscroll.min.js"></script>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png" />
@@ -108,7 +109,7 @@
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     </asp:ContentPlaceHolder>
 
-    <footer class="footer" role="contentinfo">
+    <footer class="footer" role="contentinfo" id="footer">
         <div class="footer-logo">
             <img src="images/SG.png" alt="Shreyas Gaonkar" />
         </div>
