@@ -9,7 +9,7 @@
 
     <!-- CSS -->
     <link href="Style/style.css" rel="stylesheet" />
-    <link href="Style/top-nav.css" rel="stylesheet" />
+    <%--<link href="Style/top-nav.css" rel="stylesheet" />--%>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Bootstrap -->
@@ -138,8 +138,13 @@
                 </li>
                 <!-- <li><a href="javascript:void(0)">Terms and Conditions</a></li> -->
                 <li><a href="Privacy-Policy.html" target="_blank">Privacy Policy</a></li>
+
             </ul>
         </div>
+
+        <div class="menu">
+        <a href="#!" class="btn" type="button" id="modal_open">Open the Modal</a>
+      </div>
 
         <hr />
 

@@ -65,6 +65,7 @@
                 <div id="fadein" style="display: none;">
                     <div class="media1">
                         <img src="images/srg1-lg.png" class="pull-left" />
+                        <%--<img src="images/Shreyas.png" class="pull-left" />--%>
                     </div>
                     <div class="media2">
                         <img src="images/srg1-md.png" class="pull-left" />
@@ -126,9 +127,16 @@
                 <!-- End row -->
             </div>
             <!-- End Header-Social -->
+            
+            <%--<div class="shreyas">
+                asdsk
+            </div>
+            --%>
 
         </div>
         <!-- end container -->
+
+        
     </div>
 </asp:Content>
 

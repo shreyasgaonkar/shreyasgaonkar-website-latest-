@@ -8,7 +8,7 @@
     <meta name="title" content="Shreyas Gaonkar" />
     <meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />
     <meta name="author" content="Shreyas Gaonkar" />
-
+    <script src="Scripts/easteregg.js"></script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -46,17 +46,19 @@
         <!-- end container -->
     </div>
     <!-- end header -->
-
+    
 
 
     <div class="content">
         <div class="white" id="about">
             <div class="container">
+                
                 <p class="lead">
+
                     <!--LEading text stands out, makes it awesome-->
                     Hi, I'm  
                     <!-- Changing text -->
-                    <span id="changeText"></span>
+                    <span id="changeText" class="colorchange"></span>
                     <script type="text/javascript">
 
 
@@ -236,7 +238,8 @@
     </div>
 
     <!-- end content -->
-    
+   
+       <div id="info"></div>
 
 </asp:Content>
 
