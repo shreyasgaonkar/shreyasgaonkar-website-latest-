@@ -1,5 +1,4 @@
 # Source code for my personal website.
-=========
 Technology used: HTML, CSS, JavaScript, SASS, Refills, Bourbon & C# - optimized for larger desktops and mobile devices. 
 
 ## About Me
