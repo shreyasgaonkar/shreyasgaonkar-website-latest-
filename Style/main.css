@@ -1138,10 +1138,14 @@ a {
 
 .social-icons {
   padding: 10px;
-  transition: all .2s ease-in-out; }
-  .social-icons :hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1); }
+  .social-icons:hover {
     transform: scale(1.1); }
 
+/*.social-icons:hover {
+    transform: scale(1.1);
+}*/
 .content {
   font-size: 16px;
   line-height: 24px; }
@@ -1336,6 +1340,25 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 
 .aboutme-content {
   background: #F5F5F5; }
+
+.winner-content {
+  background: #EF3742; }
+
+.winner {
+  height: 100vh;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.winner-name {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  border: 3px solid white; }
 
 /*.shreyas{
     z-index:0;
