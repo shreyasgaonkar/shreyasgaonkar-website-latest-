@@ -5,7 +5,7 @@
 
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="About Me | Shreyas Gaonkar" />
-    <meta name="description" content="My story as Front End Web Developer, Shreyas Gaonkar" />
+    <meta name="description" content="Shreyas Gaonkar's personal portfolio website. View entire portfolio at shreyasg.com" />
     <meta name="author" content="Shreyas Gaonkar" />
 
     <script type="text/javascript">
@@ -45,7 +45,7 @@
 
             <div class="aboutme">
 
-                <%-- <div class="row">
+               <%-- <div class="row">
                     <div class="me-title">
                         Shreyas gaonkar
                     </div>
@@ -56,7 +56,7 @@
                     </div>
                 </div>--%>
 
-                <h1 class="myStory">My Story
+                 <h1 class="myStory">My Story
                 <br />
                     <small>as Front End Developer</small>
                 </h1>
@@ -76,8 +76,8 @@
             </div>--%>
 
                 <p>
-                    Web Dev has gone far beyond the HTML & CSS. Now very often new technologies and frameworks are introduced that together help in creating
-                    beautiful web designs with rich <i>Typography</i> and <i>Graphic</i> experience. I love creating <strong>responsive websites</strong> meticulously designed for each project.
+                    Web Dev has gone far beyond solely HTML & CSS, but lot of new technologies and frameworks that together create beautiful web designs with rich <i>Typography</i> and <i>Graphic</i> experience.
+                I love creating <strong>responsive websites</strong> meticulously designed for each project.
                 </p>
                 <%--<p class="right">
                     " Web Users don't read, they just click away and move over "<br />
@@ -127,15 +127,16 @@
                 <!-- End row -->
             </div>
             <!-- End Header-Social -->
-
+            
             <%--<div class="shreyas">
                 asdsk
             </div>
             --%>
+
         </div>
         <!-- end container -->
 
-
+        
     </div>
 </asp:Content>
 
