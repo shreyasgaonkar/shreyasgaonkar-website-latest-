@@ -106,7 +106,7 @@
                     <h1>Co-founder & Web Designer</h1>
                     <p><i>March 2015 - Present</i></p>
                     <p>Techweekends.in</p>
-                    
+                    </a>
                     <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank"> 
                         <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
@@ -125,7 +125,7 @@
                         <p><i>May 2015 - Present</i></p>
                         <p>CollegeLife LLC</p>
                     </a>
-                </a>
+                
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/zenscorner.png" alt="Zenscorner" />
                     <h1>Web Designer & Developer</h1>
@@ -177,16 +177,16 @@
             </div>
             <hr />
             <div class="testimonials row" style="margin: 50px 0;">
-                <!-- <div class="comment">
+                 <div class="comment">
                     <div class="comment-image">
                         <img src="images/Ks.jpg" alt="Kevin Schafer" />
                     </div>
                     <div class="comment-content">
                         <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />kschaf696@gmail.com</span></h1>
-                        <p></p>
+                        <p>Shreyas has been a great addition to our startup team, bringing initiative and constantly refining his work for perfection. He is knowledgeable in many web development languages including HTML, CSS, SASS, JQuery, JavaScript (AngularJS), and Google & Rest API's. Shreyas has been an integral asset to our team and works both effectively and efficiently</p>
                         <p class="comment-detail">COO, CollegeLife LLC</p>
                     </div>
-                </div> -->
+                </div> 
 
                 <div class="comment">
                     <div class="comment-image">
