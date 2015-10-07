@@ -12,105 +12,105 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-
-    <div class="header">
-        <div class="container">
-            <img src="images/srg.png" />
-            <div class="header-info">
-                <span style="font-size: 30px;">Shreyas Gaonkar </span>
-                <br />
-                Web Developer / UI - UX Designer / Grad Student<br />
-                <span class="glyphicon glyphicon-globe"></span>
-                Chicago, IL
-            </div>
-            <!-- End header-info -->
-            <div class="header-social">
-                <div class="row">
-
-                    <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
-                        <img src="icons/3-linkedin.png" />
-                    </a></span>
-                    <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
-                        <img src="icons/2-github.png" /></a> </span>
-                    <span class="social-icons"><a href="https://angel.co/shreyasgaonkar" title="AngelList" target="_blank">
-                        <img src="icons/4-angellist.png" />
-                    </a></span>
-                    <span class="social-icons"><a href="https://www.facebook.com/shreyas.gaonkar" title="Facebook" target="_blank">
-                        <img src="icons/1-fb.png" /></a> </span>
-
-                </div>
-                <!-- End row -->
-            </div>
-            <!-- End Header-Social -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end header -->
     
-
-
-    <div class="content">
-        <div class="white" id="about">
+        <div class="header">
             <div class="container">
-                
-                <p class="lead">
-
-                    <!--LEading text stands out, makes it awesome-->
-                    Hi, I'm  
-                    <!-- Changing text -->
-                    <span id="changeText" class="colorchange"></span>
-                    <script type="text/javascript">
-
-
-                        var text = ["Web Developer.", "UI/UX Designer.", "an Engineer", "Shreyas."];
-                        var counter = 1;
-                        var elem = document.getElementById("changeText");
-                        elem.innerHTML = text[0];
-                        var refreshIntervalI = setInterval(change, 2500);
-                        function change() {
-                            elem.innerHTML = text[counter];
-                            counter++;
-                            if (counter >= text.length) { clearInterval(refreshIntervalI); }
-                        }
-                    </script>
-
-                    <!-- Changing Text Ends -->
+                <img src="images/srg.png" />
+                <div class="header-info">
+                    <span style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
-                    I design responsive websites optimized for desktops and mobile platforms. I love coding and playing around with Photoshop. When I am not at School or designing websites,
-                    I enjoy Photography and playing Music.<br />
-                    Learn more about me by clicking the link below.
-                </p>
+                    Web Developer / UI - UX Designer / Grad Student<br />
+                    <span class="glyphicon glyphicon-globe"></span>
+                    Chicago, IL
+                </div>
+                <!-- End header-info -->
+                <div class="header-social">
+                    <div class="row">
 
-                <span class="learn-more">
-                    <a href="me.aspx" title="Learn More">Learn More </a>
-                </span>
-                <span class="learn-more">
-                    <a href="docs/Shreyas Gaonkar Resume.pdf" title="Learn More">Resume </a>
-                </span>
+                        <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
+                            <img src="icons/3-linkedin.png" />
+                        </a></span>
+                        <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
+                            <img src="icons/2-github.png" /></a> </span>
+                        <span class="social-icons"><a href="https://angel.co/shreyasgaonkar" title="AngelList" target="_blank">
+                            <img src="icons/4-angellist.png" />
+                        </a></span>
+                        <span class="social-icons"><a href="https://www.facebook.com/shreyas.gaonkar" title="Facebook" target="_blank">
+                            <img src="icons/1-fb.png" /></a> </span>
 
+                    </div>
+                    <!-- End row -->
+                </div>
+                <!-- End Header-Social -->
             </div>
             <!-- end container -->
         </div>
-        <!-- end white -->
+        <!-- end header -->
 
 
-        <!-- Websites -->
-        <div class="container" id="portfolio">
-            <div class="line-behind-text">
-                <h6>Portfolio</h6>
+
+        <div class="content">
+            <div class="white" id="about">
+                <div class="container">
+
+                    <p class="lead">
+
+                        <!--LEading text stands out, makes it awesome-->
+                        Hi, I'm  
+                    <!-- Changing text -->
+                        <span id="changeText" class="colorchange"></span>
+                        <script type="text/javascript">
+
+
+                            var text = ["Web Developer.", "UI/UX Designer.", "an Engineer", "Shreyas."];
+                            var counter = 1;
+                            var elem = document.getElementById("changeText");
+                            elem.innerHTML = text[0];
+                            var refreshIntervalI = setInterval(change, 2500);
+                            function change() {
+                                elem.innerHTML = text[counter];
+                                counter++;
+                                if (counter >= text.length) { clearInterval(refreshIntervalI); }
+                            }
+                        </script>
+
+                        <!-- Changing Text Ends -->
+                        <br />
+                        I design responsive websites optimized for desktops and mobile platforms. I love coding and playing around with Photoshop. When I am not at School or designing websites,
+                    I enjoy Photography and playing Music.<br />
+                        Learn more about me by clicking the link below.
+                    </p>
+
+                    <span class="learn-more">
+                        <a href="me.aspx" title="Learn More">Learn More </a>
+                    </span>
+                    <span class="learn-more">
+                        <a href="docs/Shreyas Gaonkar Resume.pdf" title="Learn More">Resume </a>
+                    </span>
+
+                </div>
+                <!-- end container -->
             </div>
-            <hr />
-            <div class="grid-items-lines" style="cursor: pointer;">
-                <a href="http://techweekends.in/" class="grid-item" target="_blank">
-                    <img src="images/websites/techweekends.png" alt="Techweekends" />
-                    <h1>Co-founder & Web Designer</h1>
-                    <p><i>March 2015 - Present</i></p>
-                    <p>Techweekends.in</p>
+            <!-- end white -->
+
+
+            <!-- Websites -->
+            <div class="container" id="portfolio">
+                <div class="line-behind-text">
+                    <h6>Portfolio</h6>
+                </div>
+                <hr />
+                <div class="grid-items-lines" style="cursor: pointer;">
+                    <a href="http://techweekends.in/" class="grid-item" target="_blank">
+                        <img src="images/websites/techweekends.png" alt="Techweekends" />
+                        <h1>Co-founder & Web Designer</h1>
+                        <p><i>March 2015 - Present</i></p>
+                        <p>Techweekends.in</p>
                     </a>
-                    <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank"> 
+                    <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank">
                         <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
-                         <p><i>Oct 2014 - Present</i></p>
+                        <p><i>Oct 2014 - Present</i></p>
                         <p>University of Illinois at Chicago </p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
@@ -125,121 +125,122 @@
                         <p><i>May 2015 - Present</i></p>
                         <p>CollegeLife LLC</p>
                     </a>
-                
-                <a href="javascript:void(0)" class="grid-item">
-                    <img src="images/websites/zenscorner.png" alt="Zenscorner" />
-                    <h1>Web Designer & Developer</h1>
-                    <p><i>July 2015 - Present</i></p>
-                    <p>Zenscorner</p>
-                </a>
-                <a href="http://chitramandaar.com/" class="grid-item" target="_blank">
-                    <img src="images/websites/chitramandaar.png" alt="" />
-                    <h1>Online Presence</h1>
-                     <p><i>Feb 2013 - Feb 2015</i></p>
-                    <p>Chitramandaar.com</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item grid-item-big">
-                    <img src="images/websites/vit.jpg" alt="VIT" />
-                    <h1>Web Development & Live Streaming</h1>
-                    <p><i>Sept 2011 - April 2013</i></p>
-                    <p>Vidyalankar Institute of Technology</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item grid-item-big">
-                    <img src="images/websites/chem.png" alt="ChemEnviroTech" />
-                    <h1>Web Developer</h1>
-                    <p><i>May 2015 - Present</i></p>
-                    <p>ChemEnviroTech Corp.</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item">
-                    <img src="images/websites/svc.png" alt="" />
-                    <h1>Logo Designer</h1>
-                    <p><i>July 2015</i></p>
-                    <p>S.V. Corp.</p>
-                </a>
 
-                <div class="right-cover"></div>
-                <div class="bottom-cover"></div>
-            </div>
+                    <a href="javascript:void(0)" class="grid-item">
+                        <img src="images/websites/zenscorner.png" alt="Zenscorner" />
+                        <h1>Web Designer & Developer</h1>
+                        <p><i>July 2015 - Present</i></p>
+                        <p>Zenscorner</p>
+                    </a>
+                    <a href="http://chitramandaar.com/" class="grid-item" target="_blank">
+                        <img src="images/websites/chitramandaar.png" alt="" />
+                        <h1>Online Presence</h1>
+                        <p><i>Feb 2013 - Feb 2015</i></p>
+                        <p>Chitramandaar.com</p>
+                    </a>
+                    <a href="javascript:void(0)" class="grid-item grid-item-big">
+                        <img src="images/websites/vit.jpg" alt="VIT" />
+                        <h1>Web Development & Live Streaming</h1>
+                        <p><i>Sept 2011 - April 2013</i></p>
+                        <p>Vidyalankar Institute of Technology</p>
+                    </a>
+                    <a href="javascript:void(0)" class="grid-item grid-item-big">
+                        <img src="images/websites/chem.png" alt="ChemEnviroTech" />
+                        <h1>Web Developer</h1>
+                        <p><i>May 2015 - Present</i></p>
+                        <p>ChemEnviroTech Corp.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="grid-item">
+                        <img src="images/websites/svc.png" alt="" />
+                        <h1>Logo Designer</h1>
+                        <p><i>July 2015</i></p>
+                        <p>S.V. Corp.</p>
+                    </a>
 
-
-
-
-
-        </div>
-        <!-- End Container -->
-
-        <!-- end Websites -->
-
-
-        <div class="container" id="testimonial">
-            <div class="line-behind-text">
-                <h6>Testimonials</h6>
-            </div>
-            <hr />
-            <div class="testimonials row" style="margin: 50px 0;">
-                 <div class="comment">
-                    <div class="comment-image">
-                        <img src="images/Ks.jpg" alt="Kevin Schafer" />
-                    </div>
-                    <div class="comment-content">
-                        <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />kschaf696@gmail.com</span></h1>
-                        <p>Shreyas has been a great addition to our startup team, bringing initiative and constantly refining his work for perfection. He is knowledgeable in many web development languages including HTML, CSS, SASS, JQuery, JavaScript (AngularJS), and Google & Rest API's. Shreyas has been an integral asset to our team and works both effectively and efficiently</p>
-                        <p class="comment-detail">COO, CollegeLife LLC</p>
-                    </div>
-                </div> 
-
-                <div class="comment">
-                    <div class="comment-image">
-                        <img src="images/As.jpg" alt="Logo image" />
-                    </div>
-                    <div class="comment-content">
-                        <h1><strong>Anand Satyanarayanan</strong><span class="email"><br class="visible-on-small-viewport" />
-                            anand@boutline.com</span></h1>
-                        <p>"I have been Shreyas’ tutor for Website Management & Development. I found him to be consistently pleasant, tackling all assignments with dedication and a smile. Besides being a joy to work with, Shreyas likes to try out new things on his own. Also, he is a take charge person."</p>
-                        <p class="comment-detail">Co-Founder,Samefaretaxi Studios.</p>
-                    </div>
+                    <div class="right-cover"></div>
+                    <div class="bottom-cover"></div>
                 </div>
 
-                <div class="comment">
-                    <div class="comment-image">
-                        <img src="images/Ms.jpg" alt="Logo image" />
-                    </div>
-                    <div class="comment-content">
-                        <h1><strong>Mandaar Shinde</strong><span class="email"><br class="visible-on-small-viewport" />
-                            mandaarshinde@yahoo.in</span></h1>
-                        <p>"I appreciate your zeal & sincerity I experienced in designing this website, an attitude which will take you much further in life. I always feel very happy to see young talented people like you show such commitment towards their job."</p>
-                        <p class="comment-detail">Director, Chitramandaar.com</p>
-                    </div>
+
+
+
+
+            </div>
+            <!-- End Container -->
+
+            <!-- end Websites -->
+
+
+            <div class="container" id="testimonial">
+                <div class="line-behind-text">
+                    <h6>Testimonials</h6>
                 </div>
+                <hr />
+                <div class="testimonials row" style="margin: 50px 0;">
+                    <div class="comment">
+                        <div class="comment-image">
+                            <img src="images/Ks.jpg" alt="Kevin Schafer" />
+                        </div>
+                        <div class="comment-content">
+                            <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />
+                                kschaf696@gmail.com</span></h1>
+                            <p>Shreyas has been a great addition to our startup team, bringing initiative and constantly refining his work for perfection. He is knowledgeable in many web development languages including HTML, CSS, SASS, JQuery, JavaScript (AngularJS), and Google & Rest API's. Shreyas has been an integral asset to our team and works both effectively and efficiently</p>
+                            <p class="comment-detail">COO, CollegeLife LLC</p>
+                        </div>
+                    </div>
 
+                    <div class="comment">
+                        <div class="comment-image">
+                            <img src="images/As.jpg" alt="Logo image" />
+                        </div>
+                        <div class="comment-content">
+                            <h1><strong>Anand Satyanarayanan</strong><span class="email"><br class="visible-on-small-viewport" />
+                                anand@boutline.com</span></h1>
+                            <p>"I have been Shreyas’ tutor for Website Management & Development. I found him to be consistently pleasant, tackling all assignments with dedication and a smile. Besides being a joy to work with, Shreyas likes to try out new things on his own. Also, he is a take charge person."</p>
+                            <p class="comment-detail">Co-Founder,Samefaretaxi Studios.</p>
+                        </div>
+                    </div>
+
+                    <div class="comment">
+                        <div class="comment-image">
+                            <img src="images/Ms.jpg" alt="Logo image" />
+                        </div>
+                        <div class="comment-content">
+                            <h1><strong>Mandaar Shinde</strong><span class="email"><br class="visible-on-small-viewport" />
+                                mandaarshinde@yahoo.in</span></h1>
+                            <p>"I appreciate your zeal & sincerity I experienced in designing this website, an attitude which will take you much further in life. I always feel very happy to see young talented people like you show such commitment towards their job."</p>
+                            <p class="comment-detail">Director, Chitramandaar.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end testimonials -->
             </div>
-            <!-- end testimonials -->
+            <!-- end container -->
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+
+            <!---------------------------------------------------------------------------------------------------------->
+            <div class="container" style="margin-top: -40px" id="contact">
+                <div class="line-behind-text">
+                    <h6>Lets work together</h6>
+                </div>
+                <hr />
+                <div class="contact">
+                    <form action="//formspree.io/sgaonk2@uic.edu" method="POST">
+                        <input type="text" name="name" placeholder="Name" />
+                        <input type="email" name="_replyto" placeholder="Email" />
+                        <textarea name="message" placeholder="Enter your Message"></textarea>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
         </div>
-        <!-- end container -->
 
-        <!---------------------------------------------------------------------------------------------------------->
-       
-       
-        <!---------------------------------------------------------------------------------------------------------->
-        <div class="container" style="margin-top: -40px" id="contact">
-            <div class="line-behind-text">
-                <h6>Lets work together</h6>
-            </div>
-            <hr />
-            <div class="contact">
-                <form action="//formspree.io/sgaonk2@uic.edu" method="POST">
-                    <input type="text" name="name" placeholder="Name" />
-                    <input type="email" name="_replyto" placeholder="Email" />
-                    <textarea name="message" placeholder="Enter your Message"></textarea>
-                    <input type="submit" value="Submit" />
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!-- end content -->
+        <!-- end content -->
    
-       <div id="info"></div>
+    <div id="info"></div>
 
 </asp:Content>
 

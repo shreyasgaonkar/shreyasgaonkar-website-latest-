@@ -1,5 +1,5 @@
 ﻿//var secret = "38384040373937396665"; //up up down down left right left right B A
-var secret = "79806978836983657769"; //god
+var secret = "79806978836983657769"; //OpenSesame
 var input = "";
 var timer;
 var mode = false;
