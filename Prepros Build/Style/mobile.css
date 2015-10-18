@@ -1,0 +1,38 @@
+/*MEDIA QUERIES FOR MOBILES AND TABLETS*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1201px) {
+  .media2 {
+    display: none;
+    background-repeat: no-repeat; } }
+@media (max-width: 1200px) and (min-width: 769px) {
+  .media1 {
+    display: none;
+    background-repeat: no-repeat; }
+
+  .media2 {
+    display: normal;
+    background-repeat: no-repeat; } }
+/*XS Devices (smaller devices, 768px and below*/
+@media (max-width: 768px) {
+  .header {
+    margin-top: -50px; }
+
+  footer ul li {
+    padding: 5px 0; }
+
+  .media1, .media2 {
+    display: none;
+    background-repeat: no-repeat; } }
+@media (max-width: 487px) {
+  .header-social {
+    display: none; }
+
+  .hidden-on-small-viewport {
+    display: none; } }
+@media (min-width: 488px) {
+  .visible-on-small-viewport {
+    display: none; } }
+
+/*# sourceMappingURL=mobile.css.map */

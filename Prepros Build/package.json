@@ -1,0 +1,33 @@
+{
+  "name": "shreyas",
+  "version": "1.9.1",
+  "description": "test",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasgaonkar/shreyasgaonkar-website-beta.git"
+  },
+  "keywords": [
+    "tt"
+  ],
+  "author": "shreyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyasgaonkar/shreyasgaonkar-website-beta/issues"
+  },
+  "homepage": "https://github.com/shreyasgaonkar/shreyasgaonkar-website-beta#readme"
+}
