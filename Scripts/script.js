@@ -1,14 +1,5 @@
 ﻿$(function () {
-
-    //Visit Home
-    if (!$.cookie('seen') && $('body').hasClass('Home')) {
-        $.cookie('seen', 'step1', { expires: 120, path: '/' });
-        console.log('home origin');
-    }
-
-    //Visit me.aspx
-    //Visit Home again --> Modal
-
+        
     $('#fadein').fadeIn(2000);
 });
 
