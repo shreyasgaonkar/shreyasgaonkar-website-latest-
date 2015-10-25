@@ -6,7 +6,16 @@
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
-    <meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />
+    <meta name="description" content="Learn more about Shreyas Gaonkar's projects, skills sets, web experience and contact information at www.shreyasg.com" />
+
+    <!-- Meta tags for links on social networks -->
+    <meta property="og:title" content="Shreyas Gaonkar | shreyasg.com" />
+    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png"/>
+    <meta property="og:description" content="Learn more about Shreyas Gaonkar's projects, skills sets, web experience and contact information at www.shreyasg.com" />
+
+    
+
+    <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
     <script src="Scripts/easteregg.js"></script>
 
