@@ -8,7 +8,25 @@
     <meta name="author" content="Shreyas Gaonkar" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="Papers">
+
+    <div class="navigation-bar">
+        <div class="container">
+            <div class="skew-pos">
+                <h3>
+                    <a href="Default.aspx">HOME </a>
+                    /
+                        <a href="me.aspx">ABOUT ME</a>
+                </h3>
+            </div>
+            <!-- end skew-pos -->
+        </div>
+        <!-- end containter -->
+    </div>
+    <!-- end navigation-bar -->
+
+
+    <div class="Papers" style="margin-top: 50px;">
+
         <div class="container">
 
             <div class="well">
@@ -25,8 +43,25 @@
 
                     <div class="col-sm-6">
                         <!-- Left Col -->
+
                         <div class="list-group">
-                            <a href="http://www.motelife.co" target="_blank" class="list-group-item">
+                            <a href="#/" target="_blank" class="list-group-item">
+                                <h4 class="list-group-item-heading">Hollo - cross platform Text messaging application
+                                    <br />
+                                    <small>August - December 2015</small></h4>
+                                <p class="list-group-item-text ">
+                                    <strong>Info</strong>:
+                                     <span>As part of our Software Engineering course (CS 440) at UIC, I was developing Hollo - a text messaging applications
+                                          to run on all cross platforms - Windows, Ubuntu, Mac OS and Android OS. The app works like the standard text based 
+                                         application and allows the users to easily communicate with each other on multiple devices. We used Amazon EC2 Cloud server 
+                                         to store the Database and the messages that were sent to the users.
+                                     </span>
+                            </a>
+                        </div>
+
+
+                        <div class="list-group">
+                            <a href="http://mote-app.github.io/MTWebsite/" target="_blank" class="list-group-item">
                                 <h4 class="list-group-item-heading">Summer Intern - Mote
                                     <br />
                                     <small>May - August 2015</small></h4>
@@ -97,6 +132,24 @@
                     <div class="col-sm-6">
                         <!-- Right Col -->
 
+
+                        <div class="list-group">
+                            <a href="#/" target="_blank" class="list-group-item">
+                                <h4 class="list-group-item-heading">Microprocessor performance using SimpleScalar simulations
+                                    <br />
+                                    <small>Nov 2015</small></h4>
+                                <p class="list-group-item-text ">
+                                    <strong>Abstract</strong>:
+                                     <span>Simplescalar is a popular processor simulation software that can simulate any of the microprocessor and their 
+                                         features without the need for the physical hardware. This is super useful in designing future processor and analyze 
+                                         the impact on speed and performance prior to building the microprocessor. During my Advanced Computer Architecture coursework,
+                                          I learnt about the basic working and functionality of Simplescalar software running on a Linux operating system. 
+                                         I ran tests on SPEC2000 benchmark program to analyze performance values like CPI, IPC, simulation times, miss rate and 
+                                         others with are vital for benchmarks. I also speculated the performance of a very long instructions program with the help
+                                          of various commands in Simplescalar. I observed changes in missrate, CPI and IPC values when the instruction and data cache was altered.  
+                                     </span>
+                            </a>
+                        </div>
 
 
                         <div class="list-group">
