@@ -10,10 +10,10 @@
 
     <!-- Meta tags for links on social networks -->
     <meta property="og:title" content="Shreyas Gaonkar | shreyasg.com" />
-    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png"/>
+    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png" />
     <meta property="og:description" content="Learn more about Shreyas Gaonkar's projects, skills sets, web experience and contact information at www.shreyasg.com" />
 
-    
+
 
     <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
@@ -21,7 +21,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    
+    <div class="Home">
         <div class="header">
             <div class="container">
                 <img src="images/srg.png" />
@@ -94,7 +94,7 @@
                         <a href="me.aspx" title="Learn More">Learn More </a>
                     </span>
                     <span class="learn-more">
-                        <a href="docs/Shreyas Gaonkar Resume.pdf" title="Learn More">Resume </a>
+                        <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
                     </span>
 
                 </div>
@@ -110,7 +110,7 @@
                 </div>
                 <hr />
                 <div class="grid-items-lines" style="cursor: pointer;">
-                    
+
                     <a href="http://www.amlhealthcoaching.com" class="grid-item" target="_blank">
                         <img src="images/websites/AML.png" alt="AML Health Coach" />
                         <h1>Web Developer Intern</h1>
@@ -130,21 +130,21 @@
                         <p><i>March 2015 - July 2015</i></p>
                         <p>Techweekends.in</p>
                     </a>
-                   
+
                     <a href="http://mote-app.github.io/MTWebsite/" class="grid-item grid-item-big" target="_blank">
                         <img src="images/websites/mote.png" alt="mote" />
                         <h1>Lead Web Developer & UI/UX Designer</h1>
                         <p><i>May 2015 - Aug 2015</i></p>
                         <p>CollegeLife LLC</p>
                     </a>
-                     <a href="javascript:void(0)" class="grid-item">
+                    <a href="javascript:void(0)" class="grid-item">
                         <img src="images/websites/novelpic.png" alt="" />
                         <h1>Co-founder & Web Developer</h1>
                         <p><i>Oct 2012</i></p>
                         <p>Novelpic.com</p>
                     </a>
-                    
-                    
+
+
                     <a href="http://chitramandaar.shreyasg.com/" class="grid-item" target="_blank">
                         <img src="images/websites/chitramandaar.png" alt="" />
                         <h1>Online Presence</h1>
@@ -256,9 +256,44 @@
             </div>
         </div>
 
-        <!-- end content -->
-   
-    <div id="info"></div>
+        <!-- Modal -->
+        <aside class="signup-modal">
+            <div class="signup-modal--overlay"></div>
+            <div class="signup-modal--card">
+                <div class="close">&#10006;</div>
+                <h3>Hello there!</h3>
+                <br />
+                <p>
+                    Welcome back, please feel free to check out my story and my resume if you haven't checked it before!
+                    <br />
 
+                </p>
+                <span class="learn-more">
+                    <a href="me.aspx" title="My Story">My Story </a>
+                </span> &nbsp;
+                <span class="learn-more">
+                    <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
+                </span>
+
+                <br /><br />
+                <p>
+                    <small>Close this modal from reappearing</small>
+                </p>
+
+                <%-- <form>
+                    <input type="text" placeholder="Email" />
+                    <input type="submit" />
+                </form>--%>
+
+            </div>
+        </aside>
+
+
+        <!-- end content -->
+
+
+
+        <div id="info"></div>
+    </div>
 </asp:Content>
 
