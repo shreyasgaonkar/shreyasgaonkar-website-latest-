@@ -41,6 +41,9 @@
                   </li>
                   <li>3. Forms used are developed by <a href="http://formspree.io/">Formspree</a>
                   </li>
+                  <li>
+                      4. This website uses cookies for enhanced User Experience
+                  </li>
               </ol>
         </div>
     <!-- end container -->
