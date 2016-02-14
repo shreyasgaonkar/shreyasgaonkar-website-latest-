@@ -1,25 +1,16 @@
 {
   "name": "shreyas",
-  "description": "test",
-  "main": "index.js",
-  "authors": [
-    "shreyas"
-  ],
-  "license": "ISC",
-  "keywords": [
-    "tt"
-  ],
-  "moduleType": [],
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "private": true,
   "dependencies": {
-    "backbone": "^1.2.3",
-    "jquery": "^2.2.0"
+    "bootstrap-sass": "~3.3.5"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
   }
 }
