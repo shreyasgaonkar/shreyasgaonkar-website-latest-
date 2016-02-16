@@ -10,7 +10,7 @@
         is looking to make career in Web Design & Development." />
 
     <!-- Meta tags for links on social networks -->
-    <meta property="og:title" content="Shreyas Gaonkar | shreyasg.com" />
+    <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
     <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png" />
     <meta property="og:description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
         is looking to make career in Web Design & Development." />
