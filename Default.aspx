@@ -275,12 +275,15 @@
                 </p>
                 <span class="learn-more">
                     <a href="me.aspx" title="My Story">My Story </a>
-                </span> &nbsp;
+                </span>&nbsp;
                 <span class="learn-more">
                     <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
                 </span>
-
-                <br /><br />
+                <span class="learn-more">
+                    <a href="docs/Shreyas_Gaonkar_skills.pdf" title="Resume">Skill Tree </a>
+                </span>
+                <br />
+                <br />
                 <p>
                     <small>Close this modal from reappearing</small>
                 </p>
@@ -289,7 +292,6 @@
                     <input type="text" placeholder="Email" />
                     <input type="submit" />
                 </form>--%>
-
             </div>
         </aside>
 
