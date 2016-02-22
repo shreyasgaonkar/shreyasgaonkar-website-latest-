@@ -20,7 +20,6 @@
     <!-- CSS -->
     <link href="Style/style.css" rel="stylesheet" />
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
-    
 
     <%--<link href="Style/top-nav.css" rel="stylesheet" />--%>
 
@@ -54,7 +53,7 @@
     <meta name="theme-color" content="#ffffff" />
 
     <!-- remove when not using beta site -->
-    <meta name="alexaVerifyID" content="paWASB1cyJZhza1R19l_ShfeBF4"/>
+    <meta name="alexaVerifyID" content="L-iyMcRQfegaVYQcQKgivFA2ztU" />
 
     <!-- Heap Analytics -->
 
@@ -116,7 +115,7 @@
 
     <footer class="footer" role="contentinfo" id="footer">
         <div class="footer-logo">
-            <img src="images/SG.png" width="119" alt="Shreyas Gaonkar" title="Shreyas Gaonkar"/>
+            <img src="images/SG.png" alt="Shreyas Gaonkar" />
         </div>
         <div class="footer-links">
             <ul>
@@ -154,17 +153,15 @@
         <p>Designed and coded by Shreyas Gaonkar</p>
     </footer>
 
-    
-
      <!-- JQuery CDN -->
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
 
     <!-- if JQuery CDN fails, use local-->
     <script>window.jQuery || document.write('<script src="JQuery/jquery-2.1.4.min.js"><\/script>');</script>
 
-    <script src="Scripts/cookie-dist.js"></script>
-    <script src="Scripts/script-dist.js"></script>
-   
+
+    <script src="Scripts/cookie.js"></script>
+    <script src="Scripts/script.js"></script>
 
     <script type="application/ld+json">
         {

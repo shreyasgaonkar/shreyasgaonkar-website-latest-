@@ -6,12 +6,12 @@
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
-    <meta name="description" content="Shreyas Gaonkar is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
-        is looking to make career in Web Design & Development. Learn more at www.shreyasgaonkar.com" />
+    <meta name="description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
+        is looking to make career in Web Design & Development." />
 
     <!-- Meta tags for links on social networks -->
     <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
-    <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png" />
+    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png" />
     <meta property="og:description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
         is looking to make career in Web Design & Development." />
 
@@ -19,14 +19,14 @@
 
     <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
-    <script src="Scripts/easteregg-dist.js"></script>
+    <script src="Scripts/easteregg.js"></script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="Home">
         <div class="header">
             <div class="container">
-                <img src="images/srg.png" width="250" alt="Shreyas Gaonkar" title="Shreyas Gaonkar" />
+                <img src="images/srg.png" />
                 <div class="header-info">
                     <span style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
@@ -39,15 +39,15 @@
                     <div class="row">
 
                         <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
-                            <img src="icons/3-linkedin.png" width="64" title="LinkedIn" alt="LinkedIn"/>
+                            <img src="icons/3-linkedin.png" />
                         </a></span>
                         <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
-                            <img src="icons/2-github.png" width="64" title="GitHub" alt="GitGub"/></a> </span>
+                            <img src="icons/2-github.png" /></a> </span>
                         <span class="social-icons"><a href="https://angel.co/shreyasgaonkar" title="AngelList" target="_blank">
-                            <img src="icons/4-angellist.png" width="64" title="AngelList" alt="AngelList"/>
+                            <img src="icons/4-angellist.png" />
                         </a></span>
                         <span class="social-icons"><a href="https://www.facebook.com/shreyas.gaonkar" title="Facebook" target="_blank">
-                            <img src="icons/1-fb.png" width="64" title="Facebook" alt="Facebook"/></a> </span>
+                            <img src="icons/1-fb.png" /></a> </span>
 
                     </div>
                     <!-- End row -->
@@ -124,7 +124,7 @@
                     </a>
 
                     <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank">
-                        <img src="images/websites/uic.png" alt="75" />
+                        <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
                         <p><i>Oct 2014 - Present</i></p>
                         <p>University of Illinois at Chicago </p>
@@ -143,7 +143,7 @@
                         <p>CollegeLife LLC</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
-                        <img src="images/websites/novelpic.png" alt="Novelpic" />
+                        <img src="images/websites/novelpic.png" alt="" />
                         <h1>Co-founder & Web Developer</h1>
                         <p><i>Oct 2012</i></p>
                         <p>Novelpic.com</p>
@@ -151,7 +151,7 @@
 
 
                     <a href="http://chitramandaar.shreyasg.com/" class="grid-item" target="_blank">
-                        <img src="images/websites/chitramandaar.png"  alt="Chitramandaar" />
+                        <img src="images/websites/chitramandaar.png" alt="" />
                         <h1>Online Presence</h1>
                         <p><i>Feb 2013 - Feb 2015</i></p>
                         <p>Chitramandaar.com</p>
@@ -169,7 +169,7 @@
                         <p>random.shreyasg.com</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
-                        <img src="images/websites/svc.png" alt="SVC" />
+                        <img src="images/websites/svc.png" alt="" />
                         <h1>Logo Designer</h1>
                         <p><i>July 2015</i></p>
                         <p>S.V. Corp.</p>
@@ -202,7 +202,7 @@
                 <div class="testimonials row" style="margin: 50px 0;">
                     <div class="comment">
                         <div class="comment-image">
-                            <img src="images/Ks.jpg" width="64" alt="Kevin Schafer" />
+                            <img src="images/Ks.jpg" alt="Kevin Schafer" />
                         </div>
                         <div class="comment-content">
                             <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />
@@ -214,7 +214,7 @@
 
                     <div class="comment">
                         <div class="comment-image">
-                            <img src="images/As.jpg" width="64" alt="Logo image" />
+                            <img src="images/As.jpg" alt="Logo image" />
                         </div>
                         <div class="comment-content">
                             <h1><strong>Anand Satyanarayanan</strong><span class="email"><br class="visible-on-small-viewport" />
@@ -226,7 +226,7 @@
 
                     <div class="comment">
                         <div class="comment-image">
-                            <img src="images/Ms.jpg" width="64" alt="Logo image" />
+                            <img src="images/Ms.jpg" alt="Logo image" />
                         </div>
                         <div class="comment-content">
                             <h1><strong>Mandaar Shinde</strong><span class="email"><br class="visible-on-small-viewport" />
@@ -269,7 +269,7 @@
                 <h3>Hello there!</h3>
                 <br />
                 <p>
-                    Welcome back, please feel free to check out the following links if you haven't checked it before!
+                    Welcome back, please feel free to check out my story and my resume if you haven't checked it before!
                     <br />
 
                 </p>
@@ -285,7 +285,7 @@
                 <br />
                 <br />
                 <p>
-                    <small><a href="#/" class="close-modal">Close this modal from reappearing</a></small>
+                    <small>Close this modal from reappearing</small>
                 </p>
 
                 <%-- <form>

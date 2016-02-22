@@ -6,12 +6,12 @@
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
-    <meta name="description" content="Shreyas Gaonkar is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
-        is looking to make career in Web Design & Development. Learn more at www.shreyasgaonkar.com" />
+    <meta name="description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
+        is looking to make career in Web Design & Development." />
 
     <!-- Meta tags for links on social networks -->
     <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
-    <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png" />
+    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png" />
     <meta property="og:description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
         is looking to make career in Web Design & Development." />
 
@@ -26,7 +26,7 @@
     <div class="Home">
         <div class="header">
             <div class="container">
-                <img src="images/srg.png" width="250" alt="Shreyas Gaonkar" title="Shreyas Gaonkar" />
+                <img src="images/srg.png" />
                 <div class="header-info">
                     <span style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
@@ -39,15 +39,15 @@
                     <div class="row">
 
                         <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
-                            <img src="icons/3-linkedin.png" width="64" title="LinkedIn" alt="LinkedIn"/>
+                            <img src="icons/3-linkedin.png" />
                         </a></span>
                         <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
-                            <img src="icons/2-github.png" width="64" title="GitHub" alt="GitGub"/></a> </span>
+                            <img src="icons/2-github.png" /></a> </span>
                         <span class="social-icons"><a href="https://angel.co/shreyasgaonkar" title="AngelList" target="_blank">
-                            <img src="icons/4-angellist.png" width="64" title="AngelList" alt="AngelList"/>
+                            <img src="icons/4-angellist.png" />
                         </a></span>
                         <span class="social-icons"><a href="https://www.facebook.com/shreyas.gaonkar" title="Facebook" target="_blank">
-                            <img src="icons/1-fb.png" width="64" title="Facebook" alt="Facebook"/></a> </span>
+                            <img src="icons/1-fb.png" /></a> </span>
 
                     </div>
                     <!-- End row -->
@@ -117,33 +117,33 @@
                 <div class="grid-items-lines" style="cursor: pointer;">
 
                     <a href="http://www.amlhealthcoaching.com" class="grid-item" target="_blank">
-                        <img src="images/websites/AML.png" width="75" alt="AML Health Coach" />
+                        <img src="images/websites/AML.png" alt="AML Health Coach" />
                         <h1>Web Developer Intern</h1>
                         <p><i>Jan 2016 - Present</i></p>
                         <p>AML Health Coaching</p>
                     </a>
 
                     <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank">
-                        <img src="images/websites/uic.png" width="75" alt="" />
+                        <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
                         <p><i>Oct 2014 - Present</i></p>
                         <p>University of Illinois at Chicago </p>
                     </a>
                     <a href="http://techweekends.in/" class="grid-item" target="_blank">
-                        <img src="images/websites/techweekends.png" width="75" alt="Techweekends" />
+                        <img src="images/websites/techweekends.png" alt="Techweekends" />
                         <h1>Co-founder & Web Designer</h1>
                         <p><i>March 2015 - July 2015</i></p>
                         <p>Techweekends.in</p>
                     </a>
 
                     <a href="http://mote-app.github.io/MTWebsite/" class="grid-item grid-item-big" target="_blank">
-                        <img src="images/websites/mote.png" width="75" alt="mote" />
+                        <img src="images/websites/mote.png" alt="mote" />
                         <h1>Lead Web Developer & UI/UX Designer</h1>
                         <p><i>May 2015 - Aug 2015</i></p>
                         <p>CollegeLife LLC</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
-                        <img src="images/websites/novelpic.png" width="75" alt="Novelpic" />
+                        <img src="images/websites/novelpic.png" alt="" />
                         <h1>Co-founder & Web Developer</h1>
                         <p><i>Oct 2012</i></p>
                         <p>Novelpic.com</p>
@@ -151,31 +151,31 @@
 
 
                     <a href="http://chitramandaar.shreyasg.com/" class="grid-item" target="_blank">
-                        <img src="images/websites/chitramandaar.png" width="75" alt="Chitramandaar" />
+                        <img src="images/websites/chitramandaar.png" alt="" />
                         <h1>Online Presence</h1>
                         <p><i>Feb 2013 - Feb 2015</i></p>
                         <p>Chitramandaar.com</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item grid-item-big">
-                        <img src="images/websites/vit.jpg" width="75" alt="VIT" />
+                        <img src="images/websites/vit.jpg" alt="VIT" />
                         <h1>Web Developer & Live Streaming</h1>
                         <p><i>Sept 2011 - April 2013</i></p>
                         <p>Vidyalankar Institute of Technology</p>
                     </a>
                     <a href="http://random.shreyasg.com/" class="grid-item">
-                        <img src="images/websites/SG.png" width="75" alt="Random Name Generator" />
+                        <img src="images/websites/SG.png" alt="Random Name Generator" />
                         <h1>Random Name Generator</h1>
                         <br />
                         <p>random.shreyasg.com</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
-                        <img src="images/websites/svc.png" width="75" alt="SVC" />
+                        <img src="images/websites/svc.png" alt="" />
                         <h1>Logo Designer</h1>
                         <p><i>July 2015</i></p>
                         <p>S.V. Corp.</p>
                     </a>
                     <a href="http://racecar.shreyasg.com/" class="grid-item">
-                        <img src="images/websites/SG.png" width="75" alt="Racecar" />
+                        <img src="images/websites/SG.png" alt="Racecar" />
                         <h1>jQuery Car Racer</h1>
                         <br />
                         <p>racecar.shreyasg.com</p>
@@ -202,7 +202,7 @@
                 <div class="testimonials row" style="margin: 50px 0;">
                     <div class="comment">
                         <div class="comment-image">
-                            <img src="images/Ks.jpg" width="64" alt="Kevin Schafer" />
+                            <img src="images/Ks.jpg" alt="Kevin Schafer" />
                         </div>
                         <div class="comment-content">
                             <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />
@@ -214,7 +214,7 @@
 
                     <div class="comment">
                         <div class="comment-image">
-                            <img src="images/As.jpg" width="64" alt="Logo image" />
+                            <img src="images/As.jpg" alt="Logo image" />
                         </div>
                         <div class="comment-content">
                             <h1><strong>Anand Satyanarayanan</strong><span class="email"><br class="visible-on-small-viewport" />
@@ -226,7 +226,7 @@
 
                     <div class="comment">
                         <div class="comment-image">
-                            <img src="images/Ms.jpg" width="64" alt="Logo image" />
+                            <img src="images/Ms.jpg" alt="Logo image" />
                         </div>
                         <div class="comment-content">
                             <h1><strong>Mandaar Shinde</strong><span class="email"><br class="visible-on-small-viewport" />
