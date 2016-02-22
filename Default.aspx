@@ -6,29 +6,19 @@
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
-<<<<<<< HEAD
-    <meta name="description" content="Shreyas Gaonkar is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
-=======
-    <meta name="description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
->>>>>>> parent of a7e2908... updated
-        is looking to make career in Web Design & Development." />
+
+    <meta name="description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and is looking to make career in Web Design & Development." />
 
     <!-- Meta tags for links on social networks -->
     <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
-<<<<<<< HEAD
     <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png" />
-    <meta property="og:description" content="Shreyas Gaonkar is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
-=======
-    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png" />
-    <meta property="og:description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
->>>>>>> parent of a7e2908... updated
-        is looking to make career in Web Design & Development." />
+    <meta property="og:description" content="Shreyas Gaonkar is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and is looking to make career in Web Design & Development." />
 
 
 
     <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
-    <script src="Scripts/easteregg.js"></script>
+    <script src="Scripts/easteregg-dist.js"></script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -48,15 +38,15 @@
                     <div class="row">
 
                         <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
-                            <img src="icons/3-linkedin.png" />
+                            <img src="icons/3-linkedin.png"  width="64" title="LinkedIn" alt="LinkedIn"/>
                         </a></span>
                         <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
-                            <img src="icons/2-github.png" /></a> </span>
+                            <img src="icons/2-github.png" width="64" title="GitHub" alt="GitGub"/></a> </span>
                         <span class="social-icons"><a href="https://angel.co/shreyasgaonkar" title="AngelList" target="_blank">
-                            <img src="icons/4-angellist.png" />
+                            <img src="icons/4-angellist.png" width="64" title="AngelList" alt="AngelList"/>
                         </a></span>
                         <span class="social-icons"><a href="https://www.facebook.com/shreyas.gaonkar" title="Facebook" target="_blank">
-                            <img src="icons/1-fb.png" /></a> </span>
+                            <img src="icons/1-fb.png" width="64" title="Facebook" alt="Facebook"/></a> </span>
 
                     </div>
                     <!-- End row -->
@@ -133,7 +123,7 @@
                     </a>
 
                     <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank">
-                        <img src="images/websites/uic.png" alt="" />
+                        <img src="images/websites/uic.png" alt="UIC" />
                         <h1>Graduate Student Associate</h1>
                         <p><i>Oct 2014 - Present</i></p>
                         <p>University of Illinois at Chicago </p>
@@ -278,7 +268,7 @@
                 <h3>Hello there!</h3>
                 <br />
                 <p>
-                    Welcome back, please feel free to check out my story and my resume if you haven't checked it before!
+                    Welcome back, please feel free to check the following links if you haven't checked it before!
                     <br />
 
                 </p>
@@ -287,14 +277,14 @@
                 </span>&nbsp;
                 <span class="learn-more">
                     <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
-                </span>
+                </span>&nbsp;
                 <span class="learn-more">
                     <a href="docs/Shreyas_Gaonkar_skills.pdf" title="Resume">Skill Tree </a>
                 </span>
                 <br />
                 <br />
                 <p>
-                    <small>Close this modal from reappearing</small>
+                    <small><a href="#/" class="close-modal">Close this modal from reappearing</a></small>
                 </p>
 
                 <%-- <form>

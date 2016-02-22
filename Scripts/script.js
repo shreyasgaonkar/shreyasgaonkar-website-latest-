@@ -5,7 +5,6 @@ $(function () {
 
     // Visit Home
     if ($('div').hasClass('Home') && !$.cookie('seen')) {
-
         $.cookie('seen', 'step1', { expires: 120, path: '/' });
         console.log($.cookie('seen'));
     }
@@ -34,7 +33,11 @@ $(function () {
         console.log($.cookie('seen'));
     });
 
-
+    $('.signup-modal .close-modal').click(function () {
+        $('.signup-modal').removeClass('is-open');
+        $.cookie('seen', 'complete', { expires: 120, path: '/' });
+        console.log($.cookie('seen'));
+    });
 
 });
 

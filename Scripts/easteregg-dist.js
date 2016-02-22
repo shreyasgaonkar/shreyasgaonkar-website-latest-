@@ -1,0 +1,2 @@
+function check_input(){input==secret&&(window.location.href="/me")}var secret="79806978836983657769",input="",timer,mode=!1;$(document).keyup(function(e){input+=e.which,clearTimeout(timer),timer=setTimeout(function(){input=""},500),check_input()}),$(document).ready(function(){});
+//# sourceMappingURL=easteregg-dist.js.map

@@ -52,8 +52,7 @@
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- remove when not using beta site -->
-    <meta name="alexaVerifyID" content="L-iyMcRQfegaVYQcQKgivFA2ztU" />
+    <meta name="alexaVerifyID" content="paWASB1cyJZhza1R19l_ShfeBF4"/>
 
     <!-- Heap Analytics -->
 
@@ -115,7 +114,7 @@
 
     <footer class="footer" role="contentinfo" id="footer">
         <div class="footer-logo">
-            <img src="images/SG.png" alt="Shreyas Gaonkar" />
+            <img src="images/SG.png" width="119" alt="Shreyas Gaonkar" title="Shreyas Gaonkar"/>
         </div>
         <div class="footer-links">
             <ul>
@@ -159,14 +158,8 @@
     <!-- if JQuery CDN fails, use local-->
     <script>window.jQuery || document.write('<script src="JQuery/jquery-2.1.4.min.js"><\/script>');</script>
 
-
-<<<<<<< HEAD
     <script src="Scripts/cookie-dist.js"></script>
     <script src="Scripts/script-dist.js"></script>
-=======
-    <script src="Scripts/cookie.js"></script>
-    <script src="Scripts/script.js"></script>
->>>>>>> parent of a7e2908... updated
 
     <script type="application/ld+json">
         {
