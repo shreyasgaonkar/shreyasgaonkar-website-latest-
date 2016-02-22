@@ -34,7 +34,16 @@ $(function () {
         console.log($.cookie('seen'));
     });
 
+    $('.signup-modal .close-modal').click(function () {
+        $('.signup-modal').removeClass('is-open');
+        $.cookie('seen', 'complete', { expires: 120, path: '/' });
+        console.log($.cookie('seen'));
+    });
 
+
+   /* $('.close-modal').click(function () {
+        $(this).addClass('close');
+    });*/
 
 });
 
