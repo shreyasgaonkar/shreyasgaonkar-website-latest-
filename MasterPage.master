@@ -160,8 +160,13 @@
     <script>window.jQuery || document.write('<script src="JQuery/jquery-2.1.4.min.js"><\/script>');</script>
 
 
+<<<<<<< HEAD
     <script src="Scripts/cookie-dist.js"></script>
     <script src="Scripts/script-dist.js"></script>
+=======
+    <script src="Scripts/cookie.js"></script>
+    <script src="Scripts/script.js"></script>
+>>>>>>> parent of a7e2908... updated
 
     <script type="application/ld+json">
         {
