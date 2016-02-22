@@ -6,20 +6,20 @@
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
-    <meta name="description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
+    <meta name="description" content="Shreyas Gaonkar is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
         is looking to make career in Web Design & Development." />
 
     <!-- Meta tags for links on social networks -->
     <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
-    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png" />
-    <meta property="og:description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
+    <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png" />
+    <meta property="og:description" content="Shreyas Gaonkar is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
         is looking to make career in Web Design & Development." />
 
 
 
     <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
-    <script src="Scripts/easteregg.js"></script>
+    <script src="Scripts/easteregg-dist.js"></script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
