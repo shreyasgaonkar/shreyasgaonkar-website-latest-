@@ -3,9 +3,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   box-sizing: inherit;
 }
 
@@ -34,11 +32,7 @@ button {
   white-space: nowrap;
 }
 
-button:hover,
-button:focus, input[type="button"]:hover,
-input[type="button"]:focus, input[type="reset"]:hover,
-input[type="reset"]:focus, input[type="submit"]:hover,
-input[type="submit"]:focus,
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
 button:hover,
 button:focus {
   background-color: #2c5999;
@@ -221,14 +215,11 @@ a {
   transition: color 0.1s linear;
 }
 
-a:active,
-a:focus,
-a:hover {
+a:active, a:focus, a:hover {
   color: #2c5999;
 }
 
-a:active,
-a:focus {
+a:active, a:focus {
   outline: none;
 }
 
@@ -291,8 +282,7 @@ picture {
   }
 }
 
-.centered-navigation .centered-navigation-mobile-menu:focus,
-.centered-navigation .centered-navigation-mobile-menu:hover {
+.centered-navigation .centered-navigation-mobile-menu:focus, .centered-navigation .centered-navigation-mobile-menu:hover {
   color: #333;
 }
 
@@ -362,8 +352,7 @@ picture {
   text-decoration: none;
 }
 
-.centered-navigation ul li.nav-link a:focus,
-.centered-navigation ul li.nav-link a:hover {
+.centered-navigation ul li.nav-link a:focus, .centered-navigation ul li.nav-link a:hover {
   color: #333;
 }
 

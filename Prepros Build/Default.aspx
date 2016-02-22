@@ -6,13 +6,24 @@
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css' /> -->
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
-    <meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />
+    <meta name="description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
+        is looking to make career in Web Design & Development." />
+
+    <!-- Meta tags for links on social networks -->
+    <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
+    <meta property="og:image" content="http://beta.shreyasg.com/images/srg.png" />
+    <meta property="og:description" content="Shreyas is a Graduate Student at the University of Illinois at Chicago, pursuing Master's Degree in Computer Engineering. He's Passionate about Software and 
+        is looking to make career in Web Design & Development." />
+
+
+
+    <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
     <script src="Scripts/easteregg.js"></script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    
+    <div class="Home">
         <div class="header">
             <div class="container">
                 <img src="images/srg.png" />
@@ -85,7 +96,10 @@
                         <a href="me.aspx" title="Learn More">Learn More </a>
                     </span>
                     <span class="learn-more">
-                        <a href="docs/Shreyas Gaonkar Resume.pdf" title="Learn More">Resume </a>
+                        <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
+                    </span>
+                    <span class="learn-more">
+                        <a href="docs/Shreyas_Gaonkar_skills.pdf" title="Resume">Skill Tree </a>
                     </span>
 
                 </div>
@@ -101,17 +115,32 @@
                 </div>
                 <hr />
                 <div class="grid-items-lines" style="cursor: pointer;">
-                    <a href="http://techweekends.in/" class="grid-item" target="_blank">
-                        <img src="images/websites/techweekends.png" alt="Techweekends" />
-                        <h1>Co-founder & Web Designer</h1>
-                        <p><i>March 2015 - Present</i></p>
-                        <p>Techweekends.in</p>
+
+                    <a href="http://www.amlhealthcoaching.com" class="grid-item" target="_blank">
+                        <img src="images/websites/AML.png" alt="AML Health Coach" />
+                        <h1>Web Developer Intern</h1>
+                        <p><i>Jan 2016 - Present</i></p>
+                        <p>AML Health Coaching</p>
                     </a>
+
                     <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank">
                         <img src="images/websites/uic.png" alt="" />
                         <h1>Graduate Student Associate</h1>
                         <p><i>Oct 2014 - Present</i></p>
                         <p>University of Illinois at Chicago </p>
+                    </a>
+                    <a href="http://techweekends.in/" class="grid-item" target="_blank">
+                        <img src="images/websites/techweekends.png" alt="Techweekends" />
+                        <h1>Co-founder & Web Designer</h1>
+                        <p><i>March 2015 - July 2015</i></p>
+                        <p>Techweekends.in</p>
+                    </a>
+
+                    <a href="http://mote-app.github.io/MTWebsite/" class="grid-item grid-item-big" target="_blank">
+                        <img src="images/websites/mote.png" alt="mote" />
+                        <h1>Lead Web Developer & UI/UX Designer</h1>
+                        <p><i>May 2015 - Aug 2015</i></p>
+                        <p>CollegeLife LLC</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
                         <img src="images/websites/novelpic.png" alt="" />
@@ -119,20 +148,9 @@
                         <p><i>Oct 2012</i></p>
                         <p>Novelpic.com</p>
                     </a>
-                    <a href="http://www.motelife.co/" class="grid-item grid-item-big" target="_blank">
-                        <img src="images/websites/mote.png" alt="mote" />
-                        <h1>Lead Web Developer & UX/UI Designer</h1>
-                        <p><i>May 2015 - Present</i></p>
-                        <p>CollegeLife LLC</p>
-                    </a>
 
-                    <a href="javascript:void(0)" class="grid-item">
-                        <img src="images/websites/zenscorner.png" alt="Zenscorner" />
-                        <h1>Web Designer & Developer</h1>
-                        <p><i>July 2015 - September</i></p>
-                        <p>Zenscorner</p>
-                    </a>
-                    <a href="http://chitramandaar.com/" class="grid-item" target="_blank">
+
+                    <a href="http://chitramandaar.shreyasg.com/" class="grid-item" target="_blank">
                         <img src="images/websites/chitramandaar.png" alt="" />
                         <h1>Online Presence</h1>
                         <p><i>Feb 2013 - Feb 2015</i></p>
@@ -140,15 +158,15 @@
                     </a>
                     <a href="javascript:void(0)" class="grid-item grid-item-big">
                         <img src="images/websites/vit.jpg" alt="VIT" />
-                        <h1>Web Development & Live Streaming</h1>
+                        <h1>Web Developer & Live Streaming</h1>
                         <p><i>Sept 2011 - April 2013</i></p>
                         <p>Vidyalankar Institute of Technology</p>
                     </a>
-                    <a href="javascript:void(0)" class="grid-item grid-item-big">
-                        <img src="images/websites/chem.png" alt="ChemEnviroTech" />
-                        <h1>Web Developer</h1>
-                        <p><i>July 2015 - Present</i></p>
-                        <p>ChemEnviroTech Corp.</p>
+                    <a href="http://random.shreyasg.com/" class="grid-item">
+                        <img src="images/websites/SG.png" alt="Random Name Generator" />
+                        <h1>Random Name Generator</h1>
+                        <br />
+                        <p>random.shreyasg.com</p>
                     </a>
                     <a href="javascript:void(0)" class="grid-item">
                         <img src="images/websites/svc.png" alt="" />
@@ -156,7 +174,12 @@
                         <p><i>July 2015</i></p>
                         <p>S.V. Corp.</p>
                     </a>
-
+                    <a href="http://racecar.shreyasg.com/" class="grid-item">
+                        <img src="images/websites/SG.png" alt="Racecar" />
+                        <h1>jQuery Car Racer</h1>
+                        <br />
+                        <p>racecar.shreyasg.com</p>
+                    </a>
                     <div class="right-cover"></div>
                     <div class="bottom-cover"></div>
                 </div>
@@ -238,9 +261,46 @@
             </div>
         </div>
 
-        <!-- end content -->
-   
-    <div id="info"></div>
+        <!-- Modal -->
+        <aside class="signup-modal">
+            <div class="signup-modal--overlay"></div>
+            <div class="signup-modal--card">
+                <div class="close">&#10006;</div>
+                <h3>Hello there!</h3>
+                <br />
+                <p>
+                    Welcome back, please feel free to check out my story and my resume if you haven't checked it before!
+                    <br />
 
+                </p>
+                <span class="learn-more">
+                    <a href="me.aspx" title="My Story">My Story </a>
+                </span>&nbsp;
+                <span class="learn-more">
+                    <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
+                </span>
+                <span class="learn-more">
+                    <a href="docs/Shreyas_Gaonkar_skills.pdf" title="Resume">Skill Tree </a>
+                </span>
+                <br />
+                <br />
+                <p>
+                    <small>Close this modal from reappearing</small>
+                </p>
+
+                <%-- <form>
+                    <input type="text" placeholder="Email" />
+                    <input type="submit" />
+                </form>--%>
+            </div>
+        </aside>
+
+
+        <!-- end content -->
+
+
+
+        <div id="info"></div>
+    </div>
 </asp:Content>
 

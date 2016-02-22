@@ -1,12 +1,12 @@
 ﻿@import "../bourbon/bourbon";
 @import "../neat/_neat";
 @import "../base/_base";
-@import 'mobile';
-@import "footer";
-@import "testimonials";
-@import "website";
-@import "papers";
-@import "breadcrumb";
+@import 'mobile.scss';
+@import "footer.scss";
+@import "testimonials.scss";
+@import "website.scss";
+@import "papers.scss";
+@import "breadcrumb.scss";
 @import "modal.scss";
 
 

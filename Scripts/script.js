@@ -1,4 +1,5 @@
-﻿$(function () {
+﻿
+$(function () {
 
     $('#fadein').fadeIn(2000);
 

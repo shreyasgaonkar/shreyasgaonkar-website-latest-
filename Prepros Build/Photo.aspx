@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+     <meta name="keywords" content="Shreyas, Gaonkar, Website, Photographer, Porfolio, Online" />
+    <meta name="title" content="Shreyas Gaonkar" />
+    <meta name="description" content="Check out Shreyas' few of Photos over the past years." />
     <link href="JQuery/img/css/style.css" rel="stylesheet" />
    <%-- <link rel="stylesheet" type="text/css" href="JQuery/img/css/default.css" />
     <link rel="stylesheet" type="text/css" href="JQuery/img/css/component.css" />
@@ -21,23 +24,23 @@
 				<ul id="og-grid" class="og-grid">
                     <li>
 						<a href="Default.aspx" data-largesrc="JQuery/img/images/3.jpg" data-title="The Bean, all covered up in snow" data-description="Don't go out they said, it would be this beautiful they never said.">
-							<img src="JQuery/img/images/thumbs/3.jpg" alt="img03"/>
+							<img src="JQuery/img/images/thumbs/3.jpg" alt="Cloud Gate aka The Bean at Chicago"/>
 						</a>
 					</li>
 					<li>
 						<a href="Default.aspx" data-largesrc="JQuery/img/images/2.jpg" data-title="Crawling Green" data-description="'I'll just pass by'">
-							<img src="JQuery/img/images/thumbs/2.jpg" alt="img02"/>
+							<img src="JQuery/img/images/thumbs/2.jpg" alt="Crawling Green"/>
 						</a>
 					</li>
                     <li>
 						<a href="Default.aspx" data-largesrc="JQuery/img/images/30.jpg" data-title="Good ol' rusty bulb" data-description="Photo Manipulation with spare time in hand">
-							<img src="JQuery/img/images/thumbs/30.jpg" alt="img02"/>
+							<img src="JQuery/img/images/thumbs/30.jpg" alt="Good ol' rusty bulb"/>
 						</a>
 					</li>
 					
 					<li>
 						<a href="Default.aspx" data-largesrc="JQuery/img/images/5.jpg" data-title="Go Flames!" data-description="Spring, 2015">
-							<img src="JQuery/img/images/thumbs/5.jpg" alt="img01"/>
+							<img src="JQuery/img/images/thumbs/5.jpg" alt="Go flames - UIC" title="Go Flames - UIC"/>
 						</a>
 					</li>
 					<li>

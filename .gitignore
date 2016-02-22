@@ -2,6 +2,7 @@ node_modules
 dist
 .tmp
 bower_components
+Prepros Build
 
 
 # Created by https://www.gitignore.io/api/windows,visualstudio
