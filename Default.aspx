@@ -18,7 +18,7 @@
 
     <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
-    <script src="Scripts/easteregg-dist.js"></script>
+    
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -61,7 +61,7 @@
 
         <div class="content">
             <div class="white" id="about">
-                <div class="container">
+                <div class="container" style="margin-bottom:-40px;">
 
                     <p class="lead">
 
@@ -71,8 +71,7 @@
                         <span id="changeText" class="colorchange"></span>
                         <script type="text/javascript">
 
-
-                            var text = ["Web Developer.", "UI/UX Designer.", "an Engineer", "Shreyas."];
+                            var text = ["Web Developer.", "UI/UX Designer.", "an Engineer.", "Shreyas."];
                             var counter = 1;
                             var elem = document.getElementById("changeText");
                             elem.innerHTML = text[0];
@@ -193,7 +192,7 @@
             <!-- end Websites -->
 
 
-            <div class="container" id="testimonial">
+            <div class="container" id="testimonial" style="margin-top:40px;">
                 <div class="line-behind-text">
                     <h6>Testimonials</h6>
                 </div>
@@ -223,7 +222,7 @@
                         </div>
                     </div>
 
-                    <div class="comment">
+                    <div class="comment" style="border-bottom:none;">
                         <div class="comment-image">
                             <img src="images/Ms.jpg" alt="Logo image" />
                         </div>
@@ -301,5 +300,6 @@
 
         <div id="info"></div>
     </div>
+    <script src="Scripts/easteregg-dist.js"></script>
 </asp:Content>
 

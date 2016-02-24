@@ -8,11 +8,7 @@
     <meta name="description" content="Check out Shreyas Gaonkar experience, skills and web expertise here" />
     <meta name="author" content="Shreyas Gaonkar" />
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#fadein').fadeIn(1500);
-        });
-    </script>
+    
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -134,5 +130,11 @@
 
 
     </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fadein').fadeIn(1500);
+        });
+    </script>
 </asp:Content>
 
