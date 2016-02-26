@@ -18,14 +18,14 @@
 
     <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
-    
+
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="Home">
         <div class="header">
             <div class="container">
-                <img src="images/srg.png" />
+                <img src="images/srg.png" class="shreyasgaonkar" />
                 <div class="header-info">
                     <span style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
@@ -38,15 +38,15 @@
                     <div class="row">
 
                         <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
-                            <img src="icons/3-linkedin.png"  width="64" title="LinkedIn" alt="LinkedIn"/>
+                            <img src="icons/3-linkedin.png" width="64" title="LinkedIn" alt="LinkedIn" />
                         </a></span>
                         <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
-                            <img src="icons/2-github.png" width="64" title="GitHub" alt="GitGub"/></a> </span>
-                        <span class="social-icons"><a href="https://angel.co/shreyasgaonkar" title="AngelList" target="_blank">
-                            <img src="icons/4-angellist.png" width="64" title="AngelList" alt="AngelList"/>
+                            <img src="icons/2-github.png" width="64" title="GitHub" alt="GitGub" /></a> </span>
+                        <span class="social-icons"><a href="https://www.behance.net/shreyasgaonkar" title="Behance" target="_blank">
+                            <img src="icons/7-behance.png" width="64" title="Behance" alt="Behance" />
                         </a></span>
-                        <span class="social-icons"><a href="https://www.facebook.com/shreyas.gaonkar" title="Facebook" target="_blank">
-                            <img src="icons/1-fb.png" width="64" title="Facebook" alt="Facebook"/></a> </span>
+                        <span class="social-icons"><a href="https://www.twitter.com/shreyasgaonkar" title="Twitter" target="_blank">
+                            <img src="icons/8-twitter.png" width="64" title="Twitter" alt="Twitter" /></a> </span>
 
                     </div>
                     <!-- End row -->
@@ -61,7 +61,7 @@
 
         <div class="content">
             <div class="white" id="about">
-                <div class="container" style="margin-bottom:-40px;">
+                <div class="container header-content">
 
                     <p class="lead">
 
@@ -192,7 +192,7 @@
             <!-- end Websites -->
 
 
-            <div class="container" id="testimonial" style="margin-top:40px;">
+            <div class="container" id="testimonial">
                 <div class="line-behind-text">
                     <h6>Testimonials</h6>
                 </div>
@@ -222,7 +222,7 @@
                         </div>
                     </div>
 
-                    <div class="comment" style="border-bottom:none;">
+                    <div class="comment" style="border-bottom: none;">
                         <div class="comment-image">
                             <img src="images/Ms.jpg" alt="Logo image" />
                         </div>
@@ -243,7 +243,7 @@
 
 
             <!---------------------------------------------------------------------------------------------------------->
-            <div class="container" style="margin-top: -40px" id="contact">
+            <div class="container" id="contact">
                 <div class="line-behind-text">
                     <h6>Lets work together</h6>
                 </div>
@@ -301,5 +301,11 @@
         <div id="info"></div>
     </div>
     <script src="Scripts/easteregg-dist.js"></script>
+    <script>
+        var domAnimator = new DomAnimator();
+        domAnimator.addFrame('Hello there :)');
+        domAnimator.addFrame('Hello there :D');
+        domAnimator.animate();
+    </script>
 </asp:Content>
 

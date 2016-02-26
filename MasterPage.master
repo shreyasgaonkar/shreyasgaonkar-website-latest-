@@ -193,6 +193,27 @@
         }
     </script>
     
+    <!-- sleepy overlay -->
+
+    <div class="sleepy-overlay">
+    <div class="sleepy-modal">
+        <div class="sleepy-header">
+            <span>Snoozing...</span>
+            <div class="sleepy-close"> </div>
+        </div>
+        <div class="sleepy-content">
+            <div class="sleepy-owl">
+                <div class="sleepy-img"> </div>
+            </div>
+            <div class="sleepy-message">
+                <p>Hey good looking, I have detected that you have been inactive for a while</p>
+                <p>I got sleepy so I've taken a nap!</p>
+                <p class="sleepy-mobile-only">Alright Sleepy Head...</p>
+            </div>
+        </div>
+        <div class="sleepy-wake-up">Wake Up!</div>
+    </div>
+</div>
 
 
 
