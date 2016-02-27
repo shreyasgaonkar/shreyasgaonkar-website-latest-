@@ -1,5 +1,6 @@
-﻿
+﻿//@prepros-append elevator.js
 $(function () {
+
 
     $('#fadein').fadeIn(2000);
 
@@ -44,7 +45,7 @@ $(function () {
     var idleTime = 0;
 
     $(document).ready(function () {
-        var idleInterval = setInterval(timerIncrement, 20000);
+        var idleInterval = setInterval(timerIncrement, 20000);  //40s
         $(this).mousemove(function (e) {
             idleTime = 0;
         });
@@ -66,6 +67,7 @@ $(function () {
             $('.sleepy-overlay').fadeIn('slow');
             idleTime = 0;
         }
+
     }
 
 

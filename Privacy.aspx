@@ -44,6 +44,9 @@
                   <li>
                       4. This website uses cookies for enhanced User Experience
                   </li>
+                  <li>
+                      5. Tim Holman for elevator scroll to top.
+                  </li>
               </ol>
         </div>
     <!-- end container -->

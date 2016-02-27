@@ -656,9 +656,18 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 
 
 
+.elevator-button{
+    opacity: 0.5;
+    padding:10px;
+    //text-align:center;
+    float: right;
+    margin-top: -60px;
+}
 
-
-
+.elevator-button:hover{
+    cursor: pointer;
+    color: red;
+}
 
 
 

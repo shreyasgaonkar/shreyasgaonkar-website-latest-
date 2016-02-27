@@ -11,7 +11,7 @@
 
     <%--<script src="Scripts/jquery-1.10.2.min.js"></script>--%>
 
-   
+
 
     <%--<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>--%>
@@ -52,13 +52,13 @@
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
 
-    <meta name="alexaVerifyID" content="paWASB1cyJZhza1R19l_ShfeBF4"/>
+    <meta name="alexaVerifyID" content="paWASB1cyJZhza1R19l_ShfeBF4" />
 
     <!-- Heap Analytics -->
 
-        <script type="text/javascript">
-      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var n=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(n?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o);for(var r=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=r(p[c])};
-      heap.load("2884439115");
+    <script type="text/javascript">
+        window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var n = t.forceSSL || "https:" === document.location.protocol, a = document.createElement("script"); a.type = "text/javascript", a.async = !0, a.src = (n ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js"; var o = document.getElementsByTagName("script")[0]; o.parentNode.insertBefore(a, o); for (var r = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["clearEventProperties", "identify", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++) heap[p[c]] = r(p[c]) };
+        heap.load("2884439115");
     </script>
 
     <!-- Beta Website Heap Analytics Script -->
@@ -70,9 +70,9 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body >
+<body>
 
-   <%-- <script>
+    <%-- <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
@@ -86,15 +86,17 @@
     </script>--%>
 
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-37241645-2', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-37241645-2', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
     <!-- Google Analytics Ends -->
 
 
@@ -112,9 +114,26 @@
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     </asp:ContentPlaceHolder>
 
+    <div class="elevator-button">Back to Top
+        <img src="images/scroll-to-top.png" alt="scroll to top"/>
+    </div>
+
+    <script>
+        // Thanks to Tim Holman
+
+        window.onload = function () {
+            var elevator = new Elevator({
+                element: document.querySelector('.elevator-button'),
+                //mainAudio: '/src/elevator.mp3',
+                endAudio: '/src/ding.mp3'
+            });
+        }
+    </script>
+
+
     <footer class="footer" role="contentinfo" id="footer">
         <div class="footer-logo">
-            <img src="images/SG.png" width="119" alt="Shreyas Gaonkar" title="Shreyas Gaonkar"/>
+            <img src="images/SG.png" width="119" alt="Shreyas Gaonkar" title="Shreyas Gaonkar" />
         </div>
         <div class="footer-links">
             <ul>
@@ -152,7 +171,7 @@
         <p>Designed and coded by Shreyas Gaonkar</p>
     </footer>
 
-     <!-- JQuery CDN -->
+    <!-- JQuery CDN -->
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
 
     <!-- if JQuery CDN fails, use local-->
@@ -192,28 +211,28 @@
           "url" : "http://www.beta.shreyasg.com"
         }
     </script>
-    
+
     <!-- sleepy overlay -->
 
     <div class="sleepy-overlay">
-    <div class="sleepy-modal">
-        <div class="sleepy-header">
-            <span>Snoozing...</span>
-            <div class="sleepy-close"> </div>
-        </div>
-        <div class="sleepy-content">
-            <div class="sleepy-owl">
-                <div class="sleepy-img"> </div>
+        <div class="sleepy-modal">
+            <div class="sleepy-header">
+                <span>Snoozing...</span>
+                <div class="sleepy-close"></div>
             </div>
-            <div class="sleepy-message">
-                <p>Hey good looking, I have detected that you have been inactive for a while</p>
-                <p>I got sleepy so I've taken a nap!</p>
-                <p class="sleepy-mobile-only">Alright Sleepy Head...</p>
+            <div class="sleepy-content">
+                <div class="sleepy-owl">
+                    <div class="sleepy-img"></div>
+                </div>
+                <div class="sleepy-message">
+                    <p>Hey good looking, I have detected that you have been inactive for a while</p>
+                    <p>I got sleepy so I've taken a nap!</p>
+                    <p class="sleepy-mobile-only">Alright Sleepy Head...</p>
+                </div>
             </div>
+            <div class="sleepy-wake-up">Wake Up!</div>
         </div>
-        <div class="sleepy-wake-up">Wake Up!</div>
     </div>
-</div>
 
 
 
