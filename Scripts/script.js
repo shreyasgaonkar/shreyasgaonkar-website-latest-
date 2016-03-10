@@ -34,6 +34,7 @@ $(function () {
         console.log($.cookie('seen'));
     });
 
+    //closing with text
     $('.signup-modal .close-modal').click(function () {
         $('.signup-modal').removeClass('is-open');
         $.cookie('seen', 'complete', { expires: 120, path: '/' });
