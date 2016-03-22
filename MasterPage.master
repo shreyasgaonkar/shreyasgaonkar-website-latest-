@@ -115,7 +115,7 @@
     </asp:ContentPlaceHolder>
 
     <div class="elevator-button">Back to Top
-        <img src="images/scroll-to-top.png" alt="scroll to top"/>
+       <%-- <img src="images/scroll-to-top.png" alt="scroll to top"/>--%>
     </div>
 
     <script>
@@ -179,6 +179,7 @@
 
     <script src="Scripts/cookie-dist.js"></script>
     <script src="Scripts/script-dist.js"></script>
+    
 
     <script type="application/ld+json">
         {

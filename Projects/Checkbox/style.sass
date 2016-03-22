@@ -1,0 +1,98 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+@import "bourbon.scss"
+
+$color1: #EF913E
+$color2: #E71D36
+$color3: #BFC0DF
+$color4: #DDEAE9
+$color5: #F3FCF0
+
+body
+    border: 0px
+    margin: 0px
+    background: $color1
+
+.checkboxes
+    position: relative
+
+.center
+    position: absolute
+    top: 50%
+    left: 50%
+    +transform(translate(-50%, -50%))
+
+    h4,h2
+        letter-spacing: 0.75px
+        text-align: center
+        color: #EEE
+        line-height: 2em
+
+        a
+            color: inherit
+            text-decoration: underline
+
+            &:hover
+                color: rgba(black, 0.75)
+                text-decoration: none
+
+form
+    margin: 0 auto
+    max-width: 250px
+    min-width: 200px
+    background: $color5
+    border: 3px solid rgba($color3, 0.5)
+    padding: 20px 30px
+    border-radius: 10px
+    box-shadow: 5px 5px 25px 1px rgba(black, 0.5)
+
+    h1
+        color: $color2
+        border-bottom: 1px solid rgba(#AAA,0.75)
+
+label
+    display: block
+    padding: 5px 0
+    cursor: pointer
+    color: #666
+    font-size: 30px
+
+input[type="checkbox"]
+    display: none
+
+    + .label-text:before
+        content: "\f096"
+        font-family: "FontAwesome"
+        speak: none
+        font-style: normal
+        font-weight: normal
+        font-variant: normal
+        text-transform: none
+        line-height: 1
+        -webkit-font-smoothing: antialised
+        width: 1em
+        display: inline-block
+        margin-right: 5px
+
+    &:checked + .label-text
+        text-decoration: line-through
+
+    &:checked + .label-text:before
+        content: '\f14a'
+        color: #2EC4B6
+        +animation(tick 180ms ease-in)
+
+    &:disabled + .label-text
+        color: #aaa
+        cursor: no-drop
+
+        &:before
+            content: '\f0c8'
+            color: #3D3D3D
+
++keyframes(tick)
+    0%
+        +transform(scale(0))
+    90%
+        +transform(scale(1.5))
+    100%
+        +transform(scale(1))

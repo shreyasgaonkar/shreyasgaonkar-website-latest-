@@ -8,7 +8,7 @@
     <meta name="description" content="Check out Shreyas Gaonkar experience, skills and web expertise here" />
     <meta name="author" content="Shreyas Gaonkar" />
 
-    
+
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -21,9 +21,12 @@
                         /
                         <a href="me.aspx">ABOUT ME</a>
                     </h3>
-                </div><!-- end skew-pos -->
-            </div><!-- end containter -->
-        </div><!-- end navigation-bar -->
+                </div>
+                <!-- end skew-pos -->
+            </div>
+            <!-- end containter -->
+        </div>
+        <!-- end navigation-bar -->
 
         <div class="container">
 

@@ -121,7 +121,7 @@
                         <p>AML Health Coaching</p>
                     </a>
 
-                    <a href="http://chicago.medicine.uic.edu/gems" class="grid-item" target="_blank">
+                    <a href="http://chicago.medicine.uic.edu/ogdp" class="grid-item" target="_blank">
                         <img src="images/websites/uic.png" alt="UIC" />
                         <h1>Graduate Student Associate</h1>
                         <p><i>Oct 2014 - Present</i></p>
