@@ -150,9 +150,10 @@
                 <li>
                     <h3>Follow Me</h3>
                 </li>
-                <li><a href="https://www.linkedin.com/in/shreyasgaonkar" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/shreyasgaonkar" target="_blank">GitHub</a></li>
-                <li><a href="https://angel.co/shreyasgaonkar" target="_blank">AngelList</a></li>
+                <li><a href="https://www.linkedin.com/in/shreyasgaonkar" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/shreyasgaonkar" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+                <li><a href="https://www.behance.net/shreyasgaonkar" target="_blank"><i class="fa fa-behance-square"></i> Behance</a></li>
+                <li><a href="https://www.twitter.com/shreyasgaonkar" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
             </ul>
             <ul>
                 <li>

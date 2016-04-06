@@ -27,13 +27,15 @@
     "grunt-wiredep": "^2.0.0",
     "jit-grunt": "^0.9.1",
     "load-grunt-tasks": "^3.4.0",
-    "time-grunt": "^1.1.0"
+    "tape": "^4.5.1",
+    "time-grunt": "^1.1.0",
+    "zuul": "^3.10.1"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "node test.js && zuul --ui tape --local 996 -- test.js"
   },
   "eslintConfig": {
     "extends": [

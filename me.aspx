@@ -70,29 +70,29 @@
                 <%--<div class="media3">
                 <img src="images/srg1-sm.png" class="pull-left" />
             </div>--%>
-
+                
                 <p>
-                    Web Dev has gone far beyond solely HTML & CSS, but lot of new technologies and frameworks that together create beautiful web designs with rich <i>Typography</i> and <i>Graphic</i> experience.
-                I love creating <strong>responsive websites</strong> meticulously designed for each project.
+                    Web Dev has gone far beyond solely HTML & CSS, with lot of new technologies and frameworks that together create beautiful web designs with rich <i>Typography</i>, <i>Graphic</i> and <i>User</i> Experience.
+                I love creating <code>responsive websites</code> meticulously designed for each project.
                 </p>
                 <%--<p class="right">
                     " Web Users don't read, they just click away and move over "<br />
                     - <span>Jakob Neilson</span>
                 </p>--%>
                 <p>
-                    I use <strong>Grunt</strong> as primary task runner to quickly optimize source code and minify files. I love <strong>GitHub</strong>, a distributed revision control to keep track on my source code and effectively
-                share with peers whenever needed. I also use preprocessor compiler for SASS & SCSS, opening doors to <strong>Bourbon, Neat, Bitters & Refills</strong>.
+                    I use <code>Grunt</code> as primary task runner to quickly optimize source code and minify files. I love <code>GitHub</code>, a distributed revision control to keep track on my source code and effectively
+                share with peers whenever needed. I also use preprocessor compiler for SASS & SCSS, opening doors to <code>Bourbon, Neat, Bitters & Refills</code>.
                 </p>
                 <p>
                     Web Hosting, FTP, Managing personal email accounts & custom error redirects are some of the other things that I incorporate in my projects.
                 </p>
                 <p>
-                    Great content and design doesn't yield <i>Audience</i>, that's why I create webstites with <strong>Search Engine Optimization (SEO)</strong> so that your business is not lost deep amongst the search engines.
-                Keeping track of your visitors can yeild vital information about your perspective clients, for that I rely on <strong>Google Analytics</strong> & <strong>Heap Analytics</strong> to better 
+                    Great content and design doesn't yield <i>Audience</i>, that's why I create webstites with <code>Search Engine Optimization (SEO)</code> so that your business is not lost deep amongst the search engines.
+                Keeping track of your visitors can yeild vital information about your perspective clients, for that I rely on <code>Google Analytics</code> & <code>Heap Analytics</code> to better 
                 understand my audience.
                 </p>
                 <p>
-                    Questions? Shoot me a message <a href="Default.aspx#contact">Here</a>
+                    Questions? Send me a message <a href="Default.aspx#contact">here</a>
                 </p>
 
             </div>
