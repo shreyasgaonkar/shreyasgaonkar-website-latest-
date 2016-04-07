@@ -35,7 +35,9 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test.js && zuul --ui tape --local 996 -- test.js"
+    "test": "grunt test",
+    "tape": "node test.js && zuul --ui tape --local 996 -- test.js",
+    "ci": "node tape.js"
   },
   "eslintConfig": {
     "extends": [
