@@ -9,7 +9,7 @@
 @import "breadcrumb.scss";
 @import "modal.scss";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
-
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 
 /*@import "../Style/top-nav";
 @import "hero";
@@ -32,9 +32,10 @@ a {
     outline: none;
 }
 
-img{
-    max-width:100%;
+img {
+    max-width: 100%;
 }
+
 .center {
     text-align: center;
 }
@@ -415,11 +416,14 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
     animation: hello 0.5s linear;
 }
 
-@media (max-width:763px){
+@media (max-width:763px) {
     .signup-modal--card {
-        top:50%;
-        max-width: 80%;
-        }
+        top: 50%;
+        //bottom: 10%;
+        max-height: 80vh;
+        overflow: auto;
+        width: 70%;
+    }
 }
 
 
@@ -553,11 +557,11 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
     margin-top: 3px;
 }
 
-.sleepy-close {
+.sleepy-close, ion-android-close {
     float: right;
     width: 16px;
     height: 16px;
-    background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-close-x.svg");
+    //background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-close-x.svg");
     margin-top: 5px;
     cursor: pointer;
 }
@@ -598,7 +602,7 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 .sleepy-owl div {
     width: 110px;
     height: 122px;
-    background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-owl-default.svg");
+    background-image: url("../images/owl.svg");
 }
 
 .sleepy-wake-up {
@@ -669,33 +673,32 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 
 
 
-.elevator-button{
+.elevator-button {
     opacity: 0.5;
-    padding:10px;
+    padding: 10px;
     border: 2px solid rgba($color4, 0.75);
-    border-radius:5px;
+    border-radius: 5px;
     //padding:20px;
     //text-align:center;
     float: right;
     margin: -65px 50px 0 0;
     color: $color3;
-    
-   
 }
-@media (max-width: 786px){
-    .elevator-button{
-    margin: -65px 20px 0 0
+
+@media (max-width: 786px) {
+    .elevator-button {
+        margin: -65px 20px 0 0;
     }
 }
 
-.elevator-button:hover{
+.elevator-button:hover {
     cursor: pointer;
     color: red;
     border: 2px solid rgba(red, 0.75);
 }
 
-.back-to-home{
-    margin-top:10px;
+.back-to-home {
+    margin-top: 10px;
     padding: 10px;
     border: 2px solid rgba($color4, 0.75);
     border-radius: 5px;
@@ -768,5 +771,17 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
             padding-left: 180px {
             }
         }
+    }
+}
+
+@media (min-width: 786px) {
+    .visible-on-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+    .hidden-on-mobile {
+        display: none;
     }
 }

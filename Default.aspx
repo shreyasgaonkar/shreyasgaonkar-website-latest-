@@ -37,8 +37,8 @@
                 <div class="header-social">
                     <div class="row">
 
-                        <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
-                            <img src="icons/3-linkedin.png" width="64" title="LinkedIn" alt="LinkedIn" />
+                        <span class="social-icons" ><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
+                             <img src="icons/3-linkedin.png" width="64" title="LinkedIn" alt="LinkedIn" />
                         </a></span>
                         <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
                             <img src="icons/2-github.png" width="64" title="GitHub" alt="GitGub" /></a> </span>
@@ -93,6 +93,7 @@
                     <span class="learn-more">
                         <a href="me.aspx" title="Learn More">Learn More </a>
                     </span>
+
                     <span class="learn-more">
                         <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
                     </span>
@@ -125,7 +126,7 @@
                         <img src="images/websites/uic.png" alt="UIC" />
                         <h1>Graduate Student Associate</h1>
                         <p><i>Oct 2014 - Present</i></p>
-                        <p>University of Illinois at Chicago </p>
+                        <p>University of Illinois </p>
                     </a>
                     <a href="http://techweekends.in/" class="grid-item" target="_blank">
                         <img src="images/websites/techweekends.png" alt="Techweekends" />
@@ -263,7 +264,8 @@
         <aside class="signup-modal">
             <div class="signup-modal--overlay"></div>
             <div class="signup-modal--card">
-                <div class="close">&#10006;</div>
+                <div class="ion-android-close close"></div>
+                <%--<div class="close">&#10006;</div>--%>
                 <h3>Hello there!</h3>
                 <br />
                 <p>
@@ -283,7 +285,8 @@
                 <br />
                 <br />
                 <p>
-                    <small><a href="#/" class="close-modal">Close this modal from reappearing</a></small>
+                    <small class="visible-on-mobile">Psst! This website looks even better on desktop!</small>
+                    <small class="hidden-on-mobile"><a href="#/" class="close-modal">Close this modal from reappearing</a></small>
                 </p>
 
                 <%-- <form>

@@ -1,3 +1,5 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 html {
   box-sizing: border-box; }
 
@@ -1490,7 +1492,9 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 @media (max-width: 763px) {
   .signup-modal--card {
     top: 50%;
-    max-width: 80%; } }
+    max-height: 80vh;
+    overflow: auto;
+    width: 70%; } }
 .signup-modal h3 {
   margin: 0;
   padding: 0;
@@ -1585,11 +1589,10 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 .sleepy-header span {
   margin-top: 3px; }
 
-.sleepy-close {
+.sleepy-close, ion-android-close {
   float: right;
   width: 16px;
   height: 16px;
-  background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-close-x.svg");
   margin-top: 5px;
   cursor: pointer; }
 
@@ -1622,7 +1625,7 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 .sleepy-owl div {
   width: 110px;
   height: 122px;
-  background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-owl-default.svg"); }
+  background-image: url("../images/owl.svg"); }
 
 .sleepy-wake-up {
   font-family: Verdana, Verdana, Geneva, sans-serif;
@@ -1746,5 +1749,12 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
   left: 200px; }
 #sidebartoggler:checked + .page-wrap .pagecontent {
   padding-left: 180px; }
+
+@media (min-width: 786px) {
+  .visible-on-mobile {
+    display: none; } }
+@media (max-width: 786px) {
+  .hidden-on-mobile {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

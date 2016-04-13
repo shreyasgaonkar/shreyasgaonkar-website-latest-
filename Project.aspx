@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Projects.aspx.cs" Inherits="Projects" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Project.aspx.cs" Inherits="Project" %>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>Projects | Shreyas Gaonkar</title>
@@ -45,7 +46,7 @@
                         <!-- Left Col -->
 
                         <div class="list-group">
-                            <a href="#/" target="_blank" class="list-group-item">
+                            <a href="https://github.com/shreyasgaonkar/Hollo" target="_blank" class="list-group-item">
                                 <h4 class="list-group-item-heading">Hollo - cross platform Text messaging application
                                     <br />
                                     <small>August - December 2015</small></h4>
@@ -103,7 +104,7 @@
                         </div>
 
                         <div class="list-group">
-                            <a href="docs/ECE 436.pdf" target="_blank" class="list-group-item">
+                            <a href="#/" class="list-group-item">
                                 <h4 class="list-group-item-heading">Embedded Systems - Easy Go - Automated Toll Collection System using RFID backscattering and Cloud Based Server
                                     <br />
                                     <small>July 2013 - April 2014</small></h4>
@@ -134,7 +135,7 @@
 
 
                         <div class="list-group">
-                            <a href="#/" target="_blank" class="list-group-item">
+                            <a href="docs/ECE 466.pdf" target="_blank" class="list-group-item">
                                 <h4 class="list-group-item-heading">Microprocessor performance using SimpleScalar simulations
                                     <br />
                                     <small>Nov 2015</small></h4>
@@ -166,7 +167,7 @@
                         </div>
 
                         <div class="list-group">
-                            <a href="#/" target="_blank" class="list-group-item">
+                            <a href="http://www.chicago.medicine.uic.edu" target="_blank" class="list-group-item">
                                 <h4 class="list-group-item-heading">Web Development & Photoshop - UIC College of Medicine
                                     <br />
                                     <small>October 2014 - Present</small></h4>
@@ -204,7 +205,7 @@
 
 
                         <div class="list-group">
-                            <a href="#/" target="_blank" class="list-group-item">
+                            <a href="#/" class="list-group-item">
                                 <h4 class="list-group-item-heading">Embedded Systems - Intern at ThinkLabs, Mumbai<br />
                                     <small>January - February 2013</small></h4>
                                 <p class="list-group-item-text ">
