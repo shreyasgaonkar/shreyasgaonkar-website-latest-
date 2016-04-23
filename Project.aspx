@@ -40,10 +40,32 @@
                     <!--LEading text stands out, makes it awesome-->
                     The ones that I did over the years.
                 </p>
+
+                <div class="row">
+
+                    </div>
+
+
                 <div class="row" id="center">
 
                     <div class="col-sm-6">
                         <!-- Left Col -->
+
+                         <div class="list-group">
+                             <a href="https://github.com/pavvu/TeachMeIn5Steps/tree/Shreyas" target="_blank" class="list-group-item">
+                                <h4 class="list-group-item-heading">Android App - Learn Guitar in 5 Steps.
+                                    <br />
+                                    <small>April 2016</small></h4>
+                                <p class="list-group-item-text ">
+                                    <strong>Info</strong>:
+                                     <span>
+                                         Ever wondered how to play guitar, the easy way and not get frustrated about the theory?
+                                         This app will teach you just the things that you need to know and *drum rolls* play your favourite pop song!
+                                     </span>
+                                    </p>
+                            </a>
+                             </div>
+
 
                         <div class="list-group">
                             <a href="https://github.com/shreyasgaonkar/Hollo" target="_blank" class="list-group-item">
@@ -57,11 +79,15 @@
                                          application and allows the users to easily communicate with each other on multiple devices. We used Amazon EC2 Cloud server 
                                          to store the Database and the messages that were sent to the users.
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
 
                         <div class="list-group">
+
+                            
+
                             <a href="http://mote-app.github.io/MTWebsite/" target="_blank" class="list-group-item">
                                 <h4 class="list-group-item-heading">Summer Intern - Mote
                                     <br />
@@ -71,6 +97,7 @@
                                      <span>Working with multiple professional developer and leading the team of Web Design & Development at an emerging startup - CollegeLife LLC.
                                         Job skills includes HTML, CSS, SASS/SCSS, Bourbon, Neat, Refills, Bitters, Bootstrap, JQuery, MV JavaScript (AngularJS), Google & REST API.
                                      </span>
+                                    </p>
                             </a>
                         </div>
                         <div class="list-group">
@@ -83,6 +110,7 @@
                                     
                                     <span id="abstract">Face recognition and Face detection using Eigen Faces.
                                     </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -100,6 +128,7 @@
                                          2. Removal of Moire effect pattern noise from an Image using Notch Filtering.<br />
                                          3. Image Enhancement by removal of Shot noise using Median Filtering.<br />
                                          4. Image restoration using Bi-linear Interpolation technique.</span>
+                                    </p>
                             </a>
                         </div>
 
@@ -112,6 +141,7 @@
                                     <strong>Abstract</strong>:
                                      <span>Solution to removing traffic load from the manual toll booths.
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -125,6 +155,7 @@
                                      <span>Designing and development of website, managing web traffic and better page rankings.
                                             Working with HTML, CSS, JQuery and SEO.
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -149,6 +180,7 @@
                                          others with are vital for benchmarks. I also speculated the performance of a very long instructions program with the help
                                           of various commands in Simplescalar. I observed changes in missrate, CPI and IPC values when the instruction and data cache was altered.  
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -163,6 +195,7 @@
                                     <strong>Abstract</strong>:
                                      <span>Comparison of TCP-only and UDP-only setups in terms of throughput and number of dropped packets in wireless multi-hop networks
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -175,6 +208,7 @@
                                     <strong>Info</strong>:
                                      <span>Working for College of Medicine in the University of Illinois at Chicago. Primary work includes Web development in HTML, CSS & JQuery along with Photoshop skills.
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -187,6 +221,7 @@
                                     <strong>Abstract</strong>:
                                      <span>Product Photography for Amazon India.
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -199,6 +234,7 @@
                                     <strong>Abstract</strong>:
                                      <span>Designing 8 Bit ALU for Chocolate Vending Machines
                                      </span>
+                                    </p>
                             </a>
                         </div>
 
@@ -213,6 +249,7 @@
                                      <span>Studied in-depth knowledge of various ATmega series micro-controllers and their architecture.
 Learnt Embedded C programming language, UART, Timers, Interrupts, ADC based applications and SPI based multi-board communications. I completed the course with automatic liquid level sensor system.
                                      </span>
+                                    </p>
                             </a>
                         </div>
 

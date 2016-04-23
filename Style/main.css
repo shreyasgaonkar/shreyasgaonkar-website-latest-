@@ -1756,5 +1756,23 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 @media (max-width: 786px) {
   .hidden-on-mobile {
     display: none; } }
+/* Img on text hover */
+.grunt, .github, .google-analytics, .heap-analytics, .bourbon, .neat, .refills, .bitters {
+  position: relative;
+  cursor: pointer; }
+
+.grunt-img, .github-img, .google-analytics-img, .heap-analytics-img, .bourbon-img, .neat-img, .bitters-img, .refills-img {
+  position: absolute;
+  bottom: 30px;
+  left: -5px; }
+
+/*
+.google-analytics-img{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    //width: 64px;
+}
+    */
 
 /*# sourceMappingURL=main.css.map */

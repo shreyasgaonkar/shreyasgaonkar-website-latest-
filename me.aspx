@@ -70,7 +70,7 @@
                 <%--<div class="media3">
                 <img src="images/srg1-sm.png" class="pull-left" />
             </div>--%>
-                
+
                 <p>
                     Web Dev has gone far beyond solely HTML & CSS, with lot of new technologies and frameworks that together create beautiful web designs with rich <i>Typography</i>, <i>Graphic</i> and <i>User</i> Experience.
                 I love creating <code>responsive websites</code> meticulously designed for each project.
@@ -80,16 +80,83 @@
                     - <span>Jakob Neilson</span>
                 </p>--%>
                 <p>
-                    I use <code>Grunt</code> as primary task runner to quickly optimize source code and minify files. I love <code>GitHub</code>, a distributed revision control to keep track on my source code and effectively
-                share with peers whenever needed. I also use preprocessor compiler for SASS & SCSS, opening doors to <code>Bourbon, Neat, Bitters & Refills</code>.
+                    I use <code class="grunt">Grunt
+
+                        <span class="grunt-img" style="display: none;">
+                            <img src="icons/grunt.png" />
+                        </span>
+
+                    </code>as primary task runner to quickly optimize source code and minify files. I love 
+                    
+                    <code class="github">GitHub
+
+                         <span class="github-img" style="display: none;">
+                            <img src="icons/2-github.png" />
+                        </span>
+
+                    </code>,
+                    
+                    
+                     a distributed revision control to keep track on my source code and effectively
+                share with peers whenever needed. I also use preprocessor compiler for SASS & SCSS, opening doors to 
+                    
+                    <code class="bourbon">Bourbon,
+
+                         <span class="bourbon-img" style="display: none;">
+                            <img src="icons/SASS.jpg"/>
+                        </span>
+
+                    </code>
+                      <code class="neat">Neat,
+
+                         <span class="neat-img" style="display: none;">
+                            <img src="icons/SASS.jpg"/>
+                        </span>
+
+                    </code>
+                      <code class="bitters">Bitters
+
+                         <span class="bitters-img" style="display: none;">
+                            <img src="icons/SASS.jpg"/>
+                        </span>
+
+                    </code>& 
+                      <code class="refills">Refills
+
+                         <span class="refills-img" style="display: none;">
+                            <img src="icons/SASS.jpg"/>
+                        </span>
+
+                    </code>
+
+
+
                 </p>
                 <p>
                     Web Hosting, FTP, Managing personal email accounts & custom error redirects are some of the other things that I incorporate in my projects.
                 </p>
                 <p>
                     Great content and design doesn't yield <i>Audience</i>, that's why I create webstites with <code>Search Engine Optimization (SEO)</code> so that your business is not lost deep amongst the search engines.
-                Keeping track of your visitors can yeild vital information about your perspective clients, for that I rely on <code>Google Analytics</code> & <code>Heap Analytics</code> to better 
-                understand my audience.
+                Keeping track of your visitors can yeild vital information about your perspective clients, for that I rely on 
+                    
+                    <code class="google-analytics">Google-Analytics
+
+                         <span class="google-analytics-img" style="display: none;">
+                            <img src="icons/google_analytics_logo.png" />
+                        </span>
+
+                    </code>
+                                   
+                    
+                     & <code class="heap-analytics">Heap Analytics
+
+                         <span class="heap-analytics-img" style="display: none;">
+                            <img src="icons/Heap_logo.png" />
+                        </span>
+
+                       </code> 
+                    
+                    to better understand my audience.
                 </p>
                 <p>
                     Questions? Send me a message <a href="Default.aspx#contact">here</a>
@@ -120,6 +187,7 @@
                     </a></span>
 
                 </div>
+
                 <!-- End row -->
             </div>
             <!-- End Header-Social -->

@@ -140,11 +140,12 @@
                 <li>
                     <h3>Content</h3>
                 </li>
-                <li><a href="Default.aspx"><span class="ion-android-home"> </span>Home</a></li>
-                <li><a href="me.aspx"><span class="ion-person"> </span>About Me</a></li>
-                <li><a href="Papers.aspx"><span class="ion-document-text"> </span>Technical Papers</a></li>
-                <li><a href="Photo.aspx"><span class="ion-images"> </span>Photos</a></li>
-                <li><a href="Project.aspx"><span class="ion-code"> </span>Other Projects</a></li>
+                <li><a href="Default.aspx"><span class="ion-android-home"> </span> Home</a></li>
+                <li><a href="me.aspx"><span class="ion-person"> </span> About Me</a></li>
+                <li><a href="Papers.aspx"><span class="ion-document-text"> </span> Technical Papers</a></li>
+                <li><a href="Photo.aspx"><span class="ion-images"> </span> Photos</a></li>
+                <li><a href="Project.aspx"><span class="ion-code"> </span> Other Projects</a></li>
+                <li><a href="https://www.youtube.com/channel/UCRp3ZNMDmjlXol3fKGOoevA"><span class="ion-social-youtube"> </span> YouTube</a></li>
             </ul>
             <ul>
                 <li>
@@ -178,6 +179,7 @@
     <!-- if JQuery CDN fails, use local-->
     <script>window.jQuery || document.write('<script src="JQuery/jquery-2.1.4.min.js"><\/script>');</script>
 
+    <script src="Scripts/script.js"></script>
     <script src="Scripts/cookie-dist.js"></script>
     <script src="Scripts/script-dist.js"></script>
     
