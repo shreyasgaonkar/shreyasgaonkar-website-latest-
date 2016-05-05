@@ -37,8 +37,8 @@
                 <div class="header-social">
                     <div class="row">
 
-                        <span class="social-icons" ><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
-                             <img src="icons/3-linkedin.png" width="64" title="LinkedIn" alt="LinkedIn" />
+                        <span class="social-icons"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank">
+                            <img src="icons/3-linkedin.png" width="64" title="LinkedIn" alt="LinkedIn" />
                         </a></span>
                         <span class="social-icons"><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank">
                             <img src="icons/2-github.png" width="64" title="GitHub" alt="GitGub" /></a> </span>
@@ -107,90 +107,143 @@
             <!-- end white -->
 
 
-            <!-- Websites -->
-            <div class="container" id="portfolio">
-                <div class="line-behind-text">
-                    <h6>Portfolio</h6>
-                </div>
-                <hr />
-                <div class="grid-items-lines" style="cursor: pointer;">
+       <!-- Websites -->
+           <div class="container" id="portfolio">
+               <div class="line-behind-text">
+                   <h6>Experience</h6>
+               </div>
+               <hr />
+               <div class="grid-items-lines" style="cursor: pointer;">
 
-                    <a href="http://www.amlhealthcoaching.com" class="grid-item" target="_blank">
-                        <img src="images/websites/AML.png" alt="AML Health Coach" />
-                        <h1>Web Developer Intern</h1>
-                        <p><i>Jan 2016 - Present</i></p>
-                        <p>AML Health Coaching</p>
-                    </a>
 
-                    <a href="http://chicago.medicine.uic.edu/ogdp" class="grid-item" target="_blank">
-                        <img src="images/websites/uic.png" alt="UIC" />
-                        <h1>Graduate Student Associate</h1>
-                        <p><i>Oct 2014 - Present</i></p>
-                        <p>University of Illinois </p>
-                    </a>
-                    <a href="http://techweekends.in/" class="grid-item" target="_blank">
-                        <img src="images/websites/techweekends.png" alt="Techweekends" />
-                        <h1>Co-founder & Web Designer</h1>
-                        <p><i>March 2015 - July 2015</i></p>
-                        <p>Techweekends.in</p>
-                    </a>
+                   <a href="http://www.amlhealthcoaching.com" class="grid-item" target="_blank">
+                       <img src="images/websites/AML.png" alt="AML Health Coach" />
+                       <h1>Web Developer Intern</h1>
+                       <p><i>Jan 2016 - May 2016</i></p>
+                       <p>AML Health Coaching</p>
+                   </a>
 
-                    <a href="http://mote-app.github.io/MTWebsite/" class="grid-item grid-item-big" target="_blank">
-                        <img src="images/websites/mote.png" alt="mote" />
-                        <h1>Lead Web Developer & UI/UX Designer</h1>
-                        <p><i>May 2015 - Aug 2015</i></p>
-                        <p>CollegeLife LLC</p>
-                    </a>
+                   <a href="http://chicago.medicine.uic.edu/ogdp" class="grid-item" target="_blank">
+                       <img src="images/websites/uic.png" alt="UIC" />
+                       <h1>Graduate Student Associate</h1>
+                       <p><i>Oct 2014 - May 2016</i></p>
+                       <p>University of Illinois </p>
+                   </a>
+                   <a href="http://techweekends.in/" class="grid-item" target="_blank">
+                       <img src="images/websites/techweekends.png" alt="Techweekends" />
+                       <h1>Co-founder & Web Designer</h1>
+                       <p><i>March 2015 - July 2015</i></p>
+                       <p>Techweekends.in</p>
+                   </a>
+                   <a href="http://mote-app.github.io/MTWebsite/" class="grid-item" target="_blank">
+                       <img src="images/websites/mote.png" alt="mote" />
+                       <h1>Lead Web Developer Intern</h1>
+                       <p><i>May 2015 - Aug 2015</i></p>
+                       <p>CollegeLife LLC</p>
+                   </a>
+                   <a href="http://chitramandaar.shreyasg.com/" class="grid-item" target="_blank">
+                       <img src="images/websites/chitramandaar.png" alt="" />
+                       <h1>Online Presence</h1>
+                       <p><i>Feb 2013 - Feb 2015</i></p>
+                       <p>Chitramandaar.com</p>
+                   </a>
+                   <a href="#/" class="grid-item">
+                       <img src="images/websites/thinklabs.jpg" alt="" />
+                       <h1>Embedded Systems Intern</h1>
+                       <p><i>Jan 2013 - Feb 2013</i></p>
+                       <p>ThinkLabs Technosolutions</p>
+                   </a>
+
+
+                   <%-- <a href="http://mote-app.github.io/MTWebsite/" class="grid-item grid-item-big" target="_blank">
+                       <img src="images/websites/mote.png" alt="mote" />
+                       <h1>Lead Web Developer Intern</h1>
+                       <p><i>May 2015 - Aug 2015</i></p>
+                       <p>CollegeLife LLC</p>
+                   </a>--%>
+                   <%--  <a href="javascript:void(0)" class="grid-item">
+                       <img src="images/websites/novelpic.png" alt="" />
+                       <h1>Co-founder & Web Developer</h1>
+                       <p><i>Oct 2012</i></p>
+                       <p>Novelpic.com</p>
+                   </a>--%>
+
+
+
+                   <div class="right-cover"></div>
+                   <div class="bottom-cover"></div>
+               </div>
+               </div>
+
+
+
+
+           </div>
+           <!-- End Container -->
+           <div class="container" id="portfolio1">
+               <div class="line-behind-text">
+                   <h6>Projects</h6>
+               </div>
+               <hr />
+               <div class="grid-items-lines" style="cursor: pointer;">
+
+                   <a href="https://github.com/pavvu/TeachMeIn5Steps/tree/Shreyas" class="grid-item">
+                       <img src="images/websites/google.png" alt="Google Developers" />
+                       <h1>Android for Beginners</h1>
+                       <p><i>March - April 2016</i></p>
+                       <p>Google Developers</p>
+                   </a>
+                    <a href="https://github.com/shreyasgaonkar/Hollo" class="grid-item">
+                       <img src="images/websites/hollo.png" alt="Hollo" />
+                       <h1>Hollo</h1>
+                       <p><i>Aug - Dec 2015</i></p>
+                       <p>Cross platform text app</p>
+                   </a>
                     <a href="javascript:void(0)" class="grid-item">
-                        <img src="images/websites/novelpic.png" alt="" />
-                        <h1>Co-founder & Web Developer</h1>
-                        <p><i>Oct 2012</i></p>
-                        <p>Novelpic.com</p>
-                    </a>
-
-
-                    <a href="http://chitramandaar.shreyasg.com/" class="grid-item" target="_blank">
-                        <img src="images/websites/chitramandaar.png" alt="" />
-                        <h1>Online Presence</h1>
-                        <p><i>Feb 2013 - Feb 2015</i></p>
-                        <p>Chitramandaar.com</p>
-                    </a>
-                    <a href="javascript:void(0)" class="grid-item grid-item-big">
-                        <img src="images/websites/vit.jpg" alt="VIT" />
-                        <h1>Web Developer & Live Streaming</h1>
-                        <p><i>Sept 2011 - April 2013</i></p>
-                        <p>Vidyalankar Institute of Technology</p>
-                    </a>
-                    <a href="http://random.shreyasg.com/" class="grid-item">
-                        <img src="images/websites/SG.png" alt="Random Name Generator" />
-                        <h1>Random Name Generator</h1>
-                        <br />
-                        <p>random.shreyasg.com</p>
-                    </a>
-                    <a href="javascript:void(0)" class="grid-item">
-                        <img src="images/websites/svc.png" alt="" />
-                        <h1>Logo Designer</h1>
-                        <p><i>July 2015</i></p>
-                        <p>S.V. Corp.</p>
-                    </a>
-                    <a href="http://racecar.shreyasg.com/" class="grid-item">
-                        <img src="images/websites/SG.png" alt="Racecar" />
-                        <h1>jQuery Car Racer</h1>
-                        <br />
-                        <p>racecar.shreyasg.com</p>
-                    </a>
-                    <div class="right-cover"></div>
-                    <div class="bottom-cover"></div>
-                </div>
-
+                       <img src="images/websites/svc.png" alt="" />
+                       <h1>Logo Designer</h1>
+                       <p><i>July 2015</i></p>
+                       <p>S.V. Corp.</p>
+                   </a>
+                   <a href="javascript:void(0)" class="grid-item grid-item-big">
+                       <img src="images/websites/vit.jpg" alt="VIT" />
+                       <h1>Web Dev & Live Streaming</h1>
+                       <p><i>Sept 2011 - April 2013</i></p>
+                       <p>Vidyalankar Institute of Technology</p>
+                   </a>
+                    <a href="https://github.com/shreyasgaonkar/ATCS" class="grid-item">
+                       <img src="images/websites/SG.png" alt="ATCS" />
+                       <h1>ATCS</h1>
+                       <p><i>Sept 2011 - April 2013</i></p>
+                       <p>Automated Toll Collection System</p>
+                   </a>
+                   <a href="http://random.shreyasg.com/" class="grid-item">
+                       <img src="images/websites/SG.png" alt="Random Name Generator" />
+                       <h1>Random Name Generator</h1>
+                       <br />
+                       <p>random.shreyasg.com</p>
+                   </a>
+                   <a href="Projects/Checkbox/index.html" class="grid-item">
+                       <img src="images/websites/SG.png" alt="Random Name Generator" />
+                       <h1>Custom Checkbox</h1>
+                       <br />
+                       <p>random.shreyasg.com</p>
+                   </a>
+                   <a href="http://racecar.shreyasg.com/" class="grid-item">
+                       <img src="images/websites/SG.png" alt="Racecar" />
+                       <h1>jQuery Car Racer</h1>
+                       <br />
+                       <p>racecar.shreyasg.com</p>
+                   </a>
+                   <div class="right-cover"></div>
+                   <div class="bottom-cover"></div>
+               </div>
 
 
 
-
-            </div>
-            <!-- End Container -->
-
-            <!-- end Websites -->
+           </div>
+           <!-- End Container -->
+           <!-- end Websites -->
 
 
             <div class="container" id="testimonial">

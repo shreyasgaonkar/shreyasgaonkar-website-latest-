@@ -72,6 +72,7 @@
             </div>--%>
 
                 <p>
+
                     Web Dev has gone far beyond solely HTML & CSS, with lot of new technologies and frameworks that together create beautiful web designs with rich <i>Typography</i>, <i>Graphic</i> and <i>User</i> Experience.
                 I love creating <code>responsive websites</code> meticulously designed for each project.
                 </p>
@@ -98,7 +99,7 @@
                     
                     
                      a distributed revision control to keep track on my source code and effectively
-                share with peers whenever needed. I also use preprocessor compiler for SASS & SCSS, opening doors to 
+                share with peers whenever needed. I also use preprocessor compiler for <code>SASS</code>, opening doors to 
                     
                     <code class="bourbon">Bourbon,
 
