@@ -37,213 +37,213 @@
         <ul id="og-grid" class="og-grid">
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/3.jpg" data-title="The Bean, all covered up in snow" data-description="Don't go out they said, it would be this beautiful they never said.">
-                    <img src="JQuery/img/images/thumbs/3.jpg" alt="Cloud Gate aka The Bean at Chicago" />
+                    <img src="JQuery/img/images/thumbs/3.jpg" alt="Shreyas Gaonkar | Cloud Gate aka The Bean at Chicago" title="The Bean"/>
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/2.jpg" data-title="Crawling Green" data-description="'I'll just pass by'">
-                    <img src="JQuery/img/images/thumbs/2.jpg" alt="Crawling Green" />
+                    <img src="JQuery/img/images/thumbs/2.jpg" alt="Shreyas Gaonkar | Crawling Green" title="Crawling Green"/>
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/30.jpg" data-title="Good ol' rusty bulb" data-description="Photo Manipulation with spare time in hand">
-                    <img src="JQuery/img/images/thumbs/30.jpg" alt="Good ol' rusty bulb" />
+                    <img src="JQuery/img/images/thumbs/30.jpg" alt="Shreyas Gaonkar | Good ol' rusty bulb" title="Good ol' rusty bulb"/>
                 </a>
             </li>
 
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/5.jpg" data-title="Go Flames!" data-description="Spring, 2015">
-                    <img src="JQuery/img/images/thumbs/5.jpg" alt="Go flames - UIC" title="Go Flames - UIC" />
+                    <img src="JQuery/img/images/thumbs/5.jpg" alt="Shreyas Gaonkar  | Go flames - UIC" title="Go Flames - UIC" />
                 </a>
             </li>
             <li>
-                <a href="Default.aspx" data-largesrc="JQuery/img/images/6.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/6.jpg" alt="img02" />
+                <a href="Default.aspx" data-largesrc="JQuery/img/images/6.jpg" data-title="Hey There!" data-description="Little fella">
+                    <img src="JQuery/img/images/thumbs/6.jpg" alt="Shreyas Gaonkar | Tortoise" title="Tortoise"/>
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/7.jpg" data-title="Halloween" data-description="Procastination, Photo Manipulation">
-                    <img src="JQuery/img/images/thumbs/7.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/7.jpg" alt="Shreyas Gaonkar | Halloween" title="Halloween"/>
                 </a>
             </li>
             <li>
-                <a href="Default.aspx" data-largesrc="JQuery/img/images/8.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/8.jpg" alt="img01" />
+                <a href="Default.aspx" data-largesrc="JQuery/img/images/8.jpg" data-title="Clock" data-description="Make your time worth">
+                    <img src="JQuery/img/images/thumbs/8.jpg" alt="Shreyas Gaonkar | Clock" title="Clock"/>
                 </a>
             </li>
             <li>
-                <a href="Default.aspx" data-largesrc="JQuery/img/images/9.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/9.jpg" alt="img02" />
+                <a href="Default.aspx" data-largesrc="JQuery/img/images/9.jpg" data-title="Into the unknowns" data-description="">
+                    <img src="JQuery/img/images/thumbs/9.jpg" alt="Shreyas Gaonkar | Into the unknowns" />
                 </a>
             </li>
             <li>
-                <a href="Default.aspx" data-largesrc="JQuery/img/images/10.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/10.jpg" alt="img03" />
+                <a href="Default.aspx" data-largesrc="JQuery/img/images/10.jpg" data-title="Chameleon" data-description="">
+                    <img src="JQuery/img/images/thumbs/10.jpg" alt="Shreyas Gaonkar | Chameleon" title="Chameleon"/>
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/11.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/11.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/11.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/12.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/12.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/12.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
-                <a href="Default.aspx" data-largesrc="JQuery/img/images/13.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/13.jpg" alt="img03" />
+                <a href="Default.aspx" data-largesrc="JQuery/img/images/13.jpg" data-title="Chicago Loop" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+                    <img src="JQuery/img/images/thumbs/13.jpg" alt="Shreyas Gaonkar | Chicago Loop" title="Chicago Loop"/>
                 </a>
             </li>
             <li>
-                <a href="Default.aspx" data-largesrc="JQuery/img/images/14.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/14.jpg" alt="img01" />
+                <a href="Default.aspx" data-largesrc="JQuery/img/images/14.jpg" data-title="Brooklyn Bridge" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+                    <img src="JQuery/img/images/thumbs/14.jpg" alt="Shreyas Gaonkar | Brooklyn Bridge" title="Brooklyn Bridge"/>
                 </a>
             </li>
             <li>
-                <a href="Default.aspx" data-largesrc="JQuery/img/images/15.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/15.jpg" alt="img02" />
+                <a href="Default.aspx" data-largesrc="JQuery/img/images/15.jpg" data-title="NVidia & Canon" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+                    <img src="JQuery/img/images/thumbs/15.jpg" alt="Shreyas Gaonkar | NVidia & Canon" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/16.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/16.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/16.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/17.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/17.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/17.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/18.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/18.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/18.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/19.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/19.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/19.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/20.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/20.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/20.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/21.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/21.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/21.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/22.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/22.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/22.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/23.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/23.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/23.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/24.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/24.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/24.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/25.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/25.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/25.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/26.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/26.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/26.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/27.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/27.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/27.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/28.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/28.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/28.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/29.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/29.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/29.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/1.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/1.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/31.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/31.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/31.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/32.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/32.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/32.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/34.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/34.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/34.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/35.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/35.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/35.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/36.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/36.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/36.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/37.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/37.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/37.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/38.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/38.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/38.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/39.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/39.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/39.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/40.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                    <img src="JQuery/img/images/thumbs/40.jpg" alt="img02" />
+                    <img src="JQuery/img/images/thumbs/40.jpg" alt="Shreyas Gaonkar | img02" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/41.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-                    <img src="JQuery/img/images/thumbs/41.jpg" alt="img03" />
+                    <img src="JQuery/img/images/thumbs/41.jpg" alt="Shreyas Gaonkar | img03" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/42.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/42.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/42.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/43.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/43.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/43.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
             <li>
                 <a href="Default.aspx" data-largesrc="JQuery/img/images/44.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                    <img src="JQuery/img/images/thumbs/44.jpg" alt="img01" />
+                    <img src="JQuery/img/images/thumbs/44.jpg" alt="Shreyas Gaonkar | img01" />
                 </a>
             </li>
         </ul>

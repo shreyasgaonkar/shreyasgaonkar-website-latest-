@@ -140,19 +140,21 @@
                 <li>
                     <h3>Content</h3>
                 </li>
-                <li><a href="Default.aspx">Home</a></li>
-                <li><a href="me.aspx">About Me</a></li>
-                <li><a href="Papers.aspx">Technical Papers</a></li>
-                <li><a href="Photo.aspx">Photos</a></li>
-                <li><a href="Projects.aspx">Other Projects</a></li>
+                <li><a href="Default.aspx"><span class="ion-android-home"> </span> Home</a></li>
+                <li><a href="me.aspx"><span class="ion-person"> </span> About Me</a></li>
+                <li><a href="Papers.aspx"><span class="ion-document-text"> </span> Technical Papers</a></li>
+                <li><a href="Photo.aspx"><span class="ion-images"> </span> Photos</a></li>
+                <li><a href="Project.aspx"><span class="ion-code"> </span> Other Projects</a></li>
+                <li><a href="https://www.youtube.com/channel/UCRp3ZNMDmjlXol3fKGOoevA"><span class="ion-social-youtube"> </span> YouTube</a></li>
             </ul>
             <ul>
                 <li>
                     <h3>Follow Me</h3>
                 </li>
-                <li><a href="https://www.linkedin.com/in/shreyasgaonkar" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/shreyasgaonkar" target="_blank">GitHub</a></li>
-                <li><a href="https://angel.co/shreyasgaonkar" target="_blank">AngelList</a></li>
+                <li><a href="https://www.linkedin.com/in/shreyasgaonkar" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/shreyasgaonkar" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+                <li><a href="https://www.behance.net/shreyasgaonkar" target="_blank"><i class="fa fa-behance-square"></i> Behance</a></li>
+                <li><a href="https://www.twitter.com/shreyasgaonkar" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
             </ul>
             <ul>
                 <li>
@@ -177,6 +179,7 @@
     <!-- if JQuery CDN fails, use local-->
     <script>window.jQuery || document.write('<script src="JQuery/jquery-2.1.4.min.js"><\/script>');</script>
 
+    <script src="Scripts/script.js"></script>
     <script src="Scripts/cookie-dist.js"></script>
     <script src="Scripts/script-dist.js"></script>
     
@@ -219,7 +222,7 @@
         <div class="sleepy-modal">
             <div class="sleepy-header">
                 <span>Snoozing...</span>
-                <div class="sleepy-close"></div>
+                <div class="sleepy-close ion-android-close"></div>
             </div>
             <div class="sleepy-content">
                 <div class="sleepy-owl">

@@ -8,7 +8,8 @@
 @import "papers.scss";
 @import "breadcrumb.scss";
 @import "modal.scss";
-
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 
 /*@import "../Style/top-nav";
 @import "hero";
@@ -19,6 +20,7 @@ $color2: #EF3742;
 $color3: #253040;
 $color4: #40526B;
 $deg: 2deg;
+$deg1: 4deg;
 
 body, html {
     margin: 0;
@@ -31,9 +33,10 @@ a {
     outline: none;
 }
 
-img{
-    max-width:100%;
+img {
+    max-width: 100%;
 }
+
 .center {
     text-align: center;
 }
@@ -280,6 +283,52 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
     }*/
 }
 
+.navigation-bar1 {
+    background-color: $color3;
+    /*@include linear-gradient(to top, $color3, $color4);*/
+    margin: -2.0% auto 0;
+    padding: 2% 20px 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-transform: skewY(-$deg1);
+    -moz-transform: skewY(-$deg1);
+    -ms-transform: skewY(-$deg1);
+    -o-transform: skewY(-$deg1);
+    transform: skewY(-$deg1);
+}
+
+.skew-pos1 {
+    -webkit-transform: skewY($deg1);
+    -moz-transform: skewY($deg1);
+    -ms-transform: skewY($deg1);
+    -o-transform: skewY($deg1);
+    transform: skewY($deg1);
+
+    h3 {
+        font-family: $georgia;
+        padding-left: 2%;
+        color: #5abbc9;
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: 4px;
+    }
+
+    a {
+        color: #5abbc9;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #FFF;
+        opacity: 0.9;
+        text-decoration: none;
+    }
+    /*a:active,a:focus,a:visited{
+        color:#5abbc9;
+        text-decoration:none;
+    }*/
+}
+
 .me-title {
     font-size: 4vh;
     color: #FFF;
@@ -414,11 +463,14 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
     animation: hello 0.5s linear;
 }
 
-@media (max-width:763px){
+@media (max-width:763px) {
     .signup-modal--card {
-        top:50%;
-        max-width: 80%;
-        }
+        top: 50%;
+        //bottom: 10%;
+        max-height: 80vh;
+        overflow: auto;
+        width: 70%;
+    }
 }
 
 
@@ -552,11 +604,11 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
     margin-top: 3px;
 }
 
-.sleepy-close {
+.sleepy-close, ion-android-close {
     float: right;
     width: 16px;
     height: 16px;
-    background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-close-x.svg");
+    //background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-close-x.svg");
     margin-top: 5px;
     cursor: pointer;
 }
@@ -597,7 +649,7 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 .sleepy-owl div {
     width: 110px;
     height: 122px;
-    background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-owl-default.svg");
+    background-image: url("../images/owl.svg");
 }
 
 .sleepy-wake-up {
@@ -668,33 +720,32 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 
 
 
-.elevator-button{
+.elevator-button {
     opacity: 0.5;
-    padding:10px;
+    padding: 10px;
     border: 2px solid rgba($color4, 0.75);
-    border-radius:5px;
+    border-radius: 5px;
     //padding:20px;
     //text-align:center;
     float: right;
     margin: -65px 50px 0 0;
     color: $color3;
-    
-   
 }
-@media (max-width: 786px){
-    .elevator-button{
-    margin: -65px 20px 0 0
+
+@media (max-width: 786px) {
+    .elevator-button {
+        margin: -65px 20px 0 0;
     }
 }
 
-.elevator-button:hover{
+.elevator-button:hover {
     cursor: pointer;
     color: red;
     border: 2px solid rgba(red, 0.75);
 }
 
-.back-to-home{
-    margin-top:10px;
+.back-to-home {
+    margin-top: 10px;
     padding: 10px;
     border: 2px solid rgba($color4, 0.75);
     border-radius: 5px;
@@ -767,5 +818,173 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
             padding-left: 180px {
             }
         }
+    }
+}
+
+@media (min-width: 786px) {
+    .visible-on-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+}
+
+
+/* Img on text hover */
+.grunt, .github, .google-analytics, .heap-analytics, .bourbon, .neat, .refills, .bitters {
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.grunt-img, .github-img, .google-analytics-img, .heap-analytics-img, .bourbon-img, .neat-img, .bitters-img, .refills-img {
+    position: absolute;
+    bottom: 30px;
+    left: -5px;
+}
+/*
+.google-analytics-img{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    //width: 64px;
+}
+    */
+
+.top-rect {
+    position: absolute;
+    background-color: #253040;
+    padding-top: 340px;
+    padding-top: 500px;
+    width: 100%;
+    padding-top: 400px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    //background-color: #F9EC31;
+    overflow: hidden;
+
+    &::after {
+        content: "";
+        display: block;
+        background: white;
+        height: 450px;
+        width: 8000px;
+        position: absolute;
+        z-index: 1;
+        bottom: -50%;
+        left: 50%;
+        margin-left: -4000px;
+        -webkit-transform: rotate(-$deg1);
+        transform: rotate(-$deg1);
+    }
+}
+
+.nav-header {
+    color: rgba(#FFF, 0.9);
+    font-size: 24px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 75px;
+}
+
+.navi {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: white;
+    font-family: $georgia;
+    color: #5abbc9;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 4px;
+
+    a {
+        color: #5abbc9;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #FFF;
+        opacity: 0.9;
+        text-decoration: none;
+    }
+}
+
+.navi-mobile {
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    left: 15px;
+    top: 15px;
+    padding: 3px 9px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.notes-content {
+    margin-top: 250px;
+    min-height: 80vh;
+}
+
+/*blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid red;
+    Just change the color value and that's it;
+}*/
+
+.notes-intro {
+    margin: 40px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #64b5f6;
+    padding: 25px 0 25px 25px;
+    color: #777;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 36px !important;
+}
+
+.notes-text {
+    p {
+        text-align: justify;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    &::selection{
+        background:red;
+    }
+}
+
+@media (min-width: 768px) {
+    .navi-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navi {
+        display: none;
+    }
+
+    .notes-content {
+        margin-top: 200px;
+    }
+
+    .notes-intro {
+        //margin: 40px 0;
+        padding-right: 10px;
+        font-size: 16px;
+        line-height: 30px !important;
     }
 }

@@ -7,73 +7,85 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.shreyasgaonkar.com/</loc>
+  <loc>http://shreyasgaonkar.com/</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/me</loc>
+  <loc>http://shreyasgaonkar.com/me</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/docs/Shreyas%20Gaonkar%20Resume.pdf</loc>
-  <lastmod>2016-02-08T21:41:47+00:00</lastmod>
+  <loc>http://shreyasgaonkar.com/docs/Shreyas%20Gaonkar%20Resume.pdf</loc>
+  <lastmod>2016-02-22T21:38:08+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/Default</loc>
+  <loc>http://shreyasgaonkar.com/docs/Shreyas_Gaonkar_skills.pdf</loc>
+  <lastmod>2016-02-22T21:38:09+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/Papers</loc>
+  <loc>http://shreyasgaonkar.com/Default</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/Photo</loc>
+  <loc>http://shreyasgaonkar.com/Papers</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/Projects</loc>
+  <loc>http://shreyasgaonkar.com/Photo</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/Privacy</loc>
+  <loc>http://shreyasgaonkar.com/Project</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/docs/Embedded%20Systems.pdf</loc>
-  <lastmod>2016-02-08T21:41:45+00:00</lastmod>
+  <loc>http://shreyasgaonkar.com/Privacy</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://shreyasgaonkar.com/docs/Embedded%20Systems.pdf</loc>
+  <lastmod>2016-02-22T21:38:05+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/docs/Shreyas%20Gaonkar%20ECE%20515%20MidTerm%20Project.pdf</loc>
-  <lastmod>2016-02-08T21:41:46+00:00</lastmod>
+  <loc>http://shreyasgaonkar.com/docs/Shreyas%20Gaonkar%20ECE%20515%20MidTerm%20Project.pdf</loc>
+  <lastmod>2016-02-22T21:38:06+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/docs/ECE%20415.pdf</loc>
-  <lastmod>2016-02-08T21:41:40+00:00</lastmod>
+  <loc>http://shreyasgaonkar.com/docs/ECE%20415.pdf</loc>
+  <lastmod>2016-02-22T21:38:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/docs/ECE%20436.pdf</loc>
-  <lastmod>2016-02-08T21:41:43+00:00</lastmod>
+  <loc>http://shreyasgaonkar.com/docs/ECE%20466.pdf</loc>
+  <lastmod>2016-04-13T05:46:36+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shreyasgaonkar.com/docs/8bitALU.pdf</loc>
-  <lastmod>2016-02-08T21:41:42+00:00</lastmod>
+  <loc>http://shreyasgaonkar.com/docs/ECE%20436.pdf</loc>
+  <lastmod>2016-02-22T21:38:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://shreyasgaonkar.com/docs/8bitALU.pdf</loc>
+  <lastmod>2016-02-22T21:38:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>

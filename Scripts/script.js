@@ -6,6 +6,49 @@ $(function () {
 
     $('#fadein').fadeIn(2000);
 
+
+    $('.grunt').hover(function () {
+        console.log("Hi");
+        $(".grunt-img").toggle();
+    });
+
+    $('.github').hover(function () {
+        console.log("Hi");
+        $(".github-img").toggle();
+    });
+
+    $('.bourbon').hover(function () {
+        console.log("Hi");
+        $(".bourbon-img").toggle();
+    });
+
+    $('.neat').hover(function () {
+        console.log("Hi");
+        $(".neat-img").toggle();
+    });
+
+    $('.refills').hover(function () {
+        console.log("Hi");
+        $(".refills-img").toggle();
+    });
+
+    $('.bitters').hover(function () {
+        console.log("Hi");
+        $(".bitters-img").toggle();
+    });
+
+    $('.google-analytics').hover(function () {
+        console.log("Hi");
+        $(".google-analytics-img").toggle();
+    });
+
+    $('.heap-analytics').hover(function () {
+        console.log("Hi");
+        $(".heap-analytics-img").toggle();
+    });
+
+
+
     // Visit Home
     if ($('div').hasClass('Home') && !$.cookie('seen')) {
         $.cookie('seen', 'step1', { expires: 120, path: '/' });
@@ -48,7 +91,7 @@ $(function () {
     var idleTime = 0;
 
     $(document).ready(function () {
-        var idleInterval = setInterval(timerIncrement, 20000);  //40s
+        var idleInterval = setInterval(timerIncrement, 200000);  //40s
         $(this).mousemove(function (e) {
             idleTime = 0;
         });

@@ -1,3 +1,5 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 html {
   box-sizing: border-box; }
 
@@ -739,6 +741,8 @@ picture {
   .grid-items-lines .grid-item {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    /*position:relative;
+    z-index:1;*/
     background: #fff;
     border-bottom: 1px solid rgba(51, 51, 51, 0.2);
     border-right: 1px solid rgba(51, 51, 51, 0.2);
@@ -754,7 +758,11 @@ picture {
       .grid-items-lines .grid-item {
         width: 33.33333%; } }
     .grid-items-lines .grid-item:focus, .grid-items-lines .grid-item:hover {
-      background: rgba(65, 94, 155, 0.09); }
+      background: rgba(65, 94, 155, 0.09)
+      /*box-shadow: 0 0 8px rgba(black, 0.1);
+      z-index: 10;
+      transform: scale(1.05);
+      overflow: hidden;*/ }
   .grid-items-lines .grid-item img {
     display: block;
     height: 3em;
@@ -1351,6 +1359,40 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
     opacity: 0.9;
     text-decoration: none; }
 
+.navigation-bar1 {
+  background-color: #253040;
+  /*@include linear-gradient(to top, $color3, $color4);*/
+  margin: -2.0% auto 0;
+  padding: 2% 20px 20px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  transform: skewY(-4deg); }
+
+.skew-pos1 {
+  -webkit-transform: skewY(4deg);
+  -ms-transform: skewY(4deg);
+  transform: skewY(4deg)
+  /*a:active,a:focus,a:visited{
+      color:#5abbc9;
+      text-decoration:none;
+  }*/ }
+  .skew-pos1 h3 {
+    font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    padding-left: 2%;
+    color: #5abbc9;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 4px; }
+  .skew-pos1 a {
+    color: #5abbc9;
+    text-decoration: none; }
+  .skew-pos1 a:hover {
+    color: #FFF;
+    opacity: 0.9;
+    text-decoration: none; }
+
 .me-title {
   font-size: 4vh;
   color: #FFF;
@@ -1490,7 +1532,9 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 @media (max-width: 763px) {
   .signup-modal--card {
     top: 50%;
-    max-width: 80%; } }
+    max-height: 80vh;
+    overflow: auto;
+    width: 70%; } }
 .signup-modal h3 {
   margin: 0;
   padding: 0;
@@ -1585,11 +1629,10 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 .sleepy-header span {
   margin-top: 3px; }
 
-.sleepy-close {
+.sleepy-close, ion-android-close {
   float: right;
   width: 16px;
   height: 16px;
-  background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-close-x.svg");
   margin-top: 5px;
   cursor: pointer; }
 
@@ -1622,7 +1665,7 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 .sleepy-owl div {
   width: 110px;
   height: 122px;
-  background-image: url("https://ac34f74d3a8f9e8ca699-5e5203a51e097ee9b458aceaa52c067a.ssl.cf3.rackcdn.com/i/blog/sleepy-head-owl-default.svg"); }
+  background-image: url("../images/owl.svg"); }
 
 .sleepy-wake-up {
   font-family: Verdana, Verdana, Geneva, sans-serif;
@@ -1746,5 +1789,140 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
   left: 200px; }
 #sidebartoggler:checked + .page-wrap .pagecontent {
   padding-left: 180px; }
+
+@media (min-width: 786px) {
+  .visible-on-mobile {
+    display: none; } }
+@media (max-width: 786px) {
+  .hidden-on-mobile {
+    display: none; } }
+/* Img on text hover */
+.grunt, .github, .google-analytics, .heap-analytics, .bourbon, .neat, .refills, .bitters {
+  position: relative;
+  cursor: pointer; }
+
+.grunt-img, .github-img, .google-analytics-img, .heap-analytics-img, .bourbon-img, .neat-img, .bitters-img, .refills-img {
+  position: absolute;
+  bottom: 30px;
+  left: -5px; }
+
+/*
+.google-analytics-img{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    //width: 64px;
+}
+    */
+.top-rect {
+  position: absolute;
+  background-color: #253040;
+  padding-top: 340px;
+  padding-top: 500px;
+  width: 100%;
+  padding-top: 400px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden; }
+  .top-rect::after {
+    content: "";
+    display: block;
+    background: white;
+    height: 450px;
+    width: 8000px;
+    position: absolute;
+    z-index: 1;
+    bottom: -50%;
+    left: 50%;
+    margin-left: -4000px;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+        transform: rotate(-4deg); }
+
+.nav-header {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 24px;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 75px; }
+
+.navi {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  color: white;
+  font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  color: #5abbc9;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 4px; }
+  .navi a {
+    color: #5abbc9;
+    text-decoration: none; }
+  .navi a:hover {
+    color: #FFF;
+    opacity: 0.9;
+    text-decoration: none; }
+
+.navi-mobile {
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  left: 15px;
+  top: 15px;
+  padding: 3px 9px;
+  border-radius: 3px;
+  border: 1px solid white; }
+
+.notes-content {
+  margin-top: 250px;
+  min-height: 80vh; }
+
+/*blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid red;
+    Just change the color value and that's it;
+}*/
+.notes-intro {
+  margin: 40px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #64b5f6;
+  padding: 25px 0 25px 25px;
+  color: #777;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 36px !important; }
+
+.notes-text p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 10px;
+  letter-spacing: 1.5px; }
+.notes-text::-moz-selection {
+  background: red; }
+.notes-text::selection {
+  background: red; }
+
+@media (min-width: 768px) {
+  .navi-mobile {
+    display: none; } }
+@media (max-width: 768px) {
+  .navi {
+    display: none; }
+
+  .notes-content {
+    margin-top: 200px; }
+
+  .notes-intro {
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 30px !important; } }
 
 /*# sourceMappingURL=main.css.map */
