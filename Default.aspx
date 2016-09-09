@@ -28,7 +28,7 @@
                 <div class="header-info">
                     <span style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
-                    Web Developer / UI Designer
+                    Web Developer / Graphic Designer
                     <br />
                     <span class="glyphicon glyphicon-globe"></span>
                     Chicago, IL
@@ -114,6 +114,12 @@
                 <hr />
                 <div class="grid-items-lines" style="cursor: pointer;">
 
+                      <a href="http://marketingrelevance.com/" class="grid-item" target="_blank">
+                        <img src="images/websites/marketing-relevance.jpeg" alt="AML Health Coach" />
+                        <h1>Front End Web Developer</h1>
+                        <p><i>Aug 2016 - Present</i></p>
+                        <p>Marketing Relevance</p>
+                    </a>
 
                     <a href="http://www.amlhealthcoaching.com" class="grid-item" target="_blank">
                         <img src="images/websites/AML.png" alt="AML Health Coach" />
@@ -192,31 +198,55 @@
                     <p><i>March - April 2016</i></p>
                     <p>Google Developers</p>
                 </a>
+                 <a href="https://fir-pwa-a5c06.firebaseapp.com/" class="grid-item">
+                    <img src="images/websites/firebase.png" alt="" />
+                    <h1>Notes Progressive Web App</h1>
+                    <br />
+                    <p>using Firebase & Google Login</p>
+                </a>
                 <a href="https://github.com/shreyasgaonkar/Hollo" class="grid-item">
                     <img src="images/websites/hollo.png" alt="Hollo" />
                     <h1>Hollo</h1>
                     <p><i>Aug - Dec 2015</i></p>
                     <p>Cross platform text app</p>
                 </a>
-                <a href="https://fir-pwa-a5c06.firebaseapp.com/" class="grid-item">
-                    <img src="images/websites/firebase.png" alt="" />
-                    <h1>Notes Progressive Web App</h1>
-                    <br />
-                    <p>using Firebase & Google Login</p>
-                </a>
+               
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/vit.jpg" alt="VIT" />
-                    <h1>Web Dev & Live Streaming</h1>
-                    <p><i>Sept 2011 - April 2013</i></p>
+                    <h1>Live Streaming and Web Developer</h1>
+                    <br />  
                     <p>Vidyalankar Institute of Technology</p>
+                </a>
+                <a href="https://shreyasgaonkar.github.io/pokeball/" class="grid-item">
+                    <img src="images/websites/SG.png" alt="ATCS" />
+                    <h1>Pokeball animation</h1>
+                    <br />
+                    <p>Using CSS</p>
+                </a>
+                <a href="https://github.com/shreyasgaonkar/weather-API" class="grid-item">
+                    <img src="images/websites/SG.png" alt="ATCS" />
+                    <h1>Weather Web App</h1>
+                    <br />
+                    <p>Using openweathermaps API</p>
+                </a>
+                <a href="https://github.com/shreyasgaonkar/API-with-p5.js/tree/master/ISS" class="grid-item">
+                    <img src="images/websites/SG.png" alt="ATCS" />
+                    <h1>Real time ISS tracker</h1>
+                    <br />
+                    <p>Using opennotify API</p>
                 </a>
                 <a href="http://www.shreyasgaonkar.com/Projects/modal" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Full Screen Splash Page</h1>
                     <br />
-                    <p>Automated Toll Collection System</p>
+                    <p>and responsive</p>
                 </a>
-
+                 <a href="http://video.shreyasg.com/" class="grid-item">
+                    <img src="images/websites/SG.png" alt="ATCS" />
+                    <h1>Full Screen Video Background Page</h1>
+                    <br />
+                    <p>and responsive</p>
+                </a>
                 <a href="https://github.com/shreyasgaonkar/ATCS" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>ATCS</h1>
@@ -235,7 +265,7 @@
                     <br />
                     <%--<p>random.shreyasg.com</p>--%>
                 </a>
-                <a href="http://racecar.shreyasg.com/" class="grid-item">
+                <a href="http://racecar.shreyasg.com/" class="grid-item ">
                     <img src="images/websites/SG.png" alt="Racecar" />
                     <h1>jQuery Car Racer</h1>
                     <br />
