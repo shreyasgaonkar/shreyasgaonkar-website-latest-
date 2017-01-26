@@ -15,7 +15,7 @@
     <meta property="og:description" content="Shreyas is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
 
 
-    <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasg.com" />--%>
+    <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasgaonkar.com" />--%>
     <meta name="author" content="Shreyas Gaonkar" />
 
 
@@ -66,7 +66,7 @@
                     <p class="lead">
 
                         <!--LEading text stands out, makes it awesome-->
-                        Hi, I'm  
+                        Hi, I'm
                     <!-- Changing text -->
                         <span id="changeText" class="colorchange"></span>
                         <script type="text/javascript">
@@ -146,7 +146,7 @@
                         <p><i>May 2015 - Aug 2015</i></p>
                         <p>CollegeLife LLC</p>
                     </a>
-                    <a href="http://chitramandaar.shreyasg.com/" class="grid-item" target="_blank">
+                    <a href="http://chitramandaar.shreyasgaonkar.com/" class="grid-item" target="_blank">
                         <img src="images/websites/chitramandaar.png" alt="" />
                         <h1>Online Presence</h1>
                         <p><i>Feb 2013 - Feb 2015</i></p>
@@ -192,84 +192,84 @@
             <hr />
             <div class="grid-items-lines" style="cursor: pointer;">
 
-                <a href="https://github.com/pavvu/TeachMeIn5Steps/tree/Shreyas" class="grid-item">
+                <a href="https://github.com/pavvu/TeachMeIn5Steps/tree/Shreyas" target="_blank" class="grid-item">
                     <img src="images/websites/google.png" alt="Google Developers" />
                     <h1>Android for Beginners</h1>
                     <p><i>March - April 2016</i></p>
                     <p>Google Developers</p>
                 </a>
-                 <a href="https://fir-pwa-a5c06.firebaseapp.com/" class="grid-item">
+                 <a href="https://fir-pwa-a5c06.firebaseapp.com/" target="_blank" class="grid-item">
                     <img src="images/websites/firebase.png" alt="" />
                     <h1>Notes Progressive Web App</h1>
                     <br />
                     <p>using Firebase & Google Login</p>
                 </a>
-                <a href="https://github.com/shreyasgaonkar/Hollo" class="grid-item">
+                <a href="https://github.com/shreyasgaonkar/Hollo" target="_blank" class="grid-item">
                     <img src="images/websites/hollo.png" alt="Hollo" />
                     <h1>Hollo</h1>
                     <p><i>Aug - Dec 2015</i></p>
                     <p>Cross platform text app</p>
                 </a>
-               
+
                 <a href="javascript:void(0)" class="grid-item">
                     <img src="images/websites/vit.jpg" alt="VIT" />
                     <h1>Live Streaming and Web Developer</h1>
-                    <br />  
+                    <br />
                     <p>Vidyalankar Institute of Technology</p>
                 </a>
-                <a href="https://shreyasgaonkar.github.io/pokeball/" class="grid-item">
+                <a href="https://shreyasgaonkar.github.io/pokeball/" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Pokeball animation</h1>
                     <br />
                     <p>Using CSS</p>
                 </a>
-                <a href="https://github.com/shreyasgaonkar/weather-API" class="grid-item">
+                <a href="https://github.com/shreyasgaonkar/weather-API" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Weather Web App</h1>
                     <br />
                     <p>Using openweathermaps API</p>
                 </a>
-                <a href="https://github.com/shreyasgaonkar/API-with-p5.js/tree/master/ISS" class="grid-item">
+                <a href="https://github.com/shreyasgaonkar/API-with-p5.js/tree/master/ISS" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Real time ISS tracker</h1>
                     <br />
                     <p>Using opennotify API</p>
                 </a>
-                <a href="http://www.shreyasgaonkar.com/Projects/modal" class="grid-item">
+                <a href="http://www.shreyasgaonkar.com/Projects/modal" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Full Screen Splash Page</h1>
                     <br />
                     <p>and responsive</p>
                 </a>
-                 <a href="http://video.shreyasg.com/" class="grid-item">
+                 <a href="http://video.shreyasgaonkar.com/" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Full Screen Video Background Page</h1>
                     <br />
                     <p>and responsive</p>
                 </a>
-                <a href="https://github.com/shreyasgaonkar/ATCS" class="grid-item">
+                <a href="https://github.com/shreyasgaonkar/ATCS" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>ATCS</h1>
                     <p><i>Sept 2011 - April 2013</i></p>
                     <p>Automated Toll Collection System</p>
                 </a>
-                <a href="http://random.shreyasg.com/" class="grid-item">
+                <a href="http://random.shreyasgaonkar.com/" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="Random Name Generator" />
                     <h1>Random Name Generator</h1>
                     <br />
-                    <p>random.shreyasg.com</p>
+                    <p>random.shreyasgaonkar.com</p>
                 </a>
-                <a href="Projects/Checkbox/index.html" class="grid-item">
+                <a href="Projects/Checkbox/index.html" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="Random Name Generator" />
                     <h1>Custom Checkbox</h1>
                     <br />
-                    <%--<p>random.shreyasg.com</p>--%>
+                    <p>using CSS</p>
                 </a>
-                <a href="http://racecar.shreyasg.com/" class="grid-item ">
+                <a href="http://racecar.shreyasgaonkar.com/" target="_blank" class="grid-item ">
                     <img src="images/websites/SG.png" alt="Racecar" />
                     <h1>jQuery Car Racer</h1>
                     <br />
-                    <p>racecar.shreyasg.com</p>
+                    <p>racecar.shreyasgaonkar.com</p>
                 </a>
                 <div class="right-cover"></div>
                 <div class="bottom-cover"></div>
@@ -403,7 +403,7 @@
 
 
     <div id="info"></div>
-   
+
     <script src="Scripts/easteregg-dist.js"></script>
     <script>
         var domAnimator = new DomAnimator();
@@ -412,4 +412,3 @@
         domAnimator.animate();
     </script>
 </asp:Content>
-
