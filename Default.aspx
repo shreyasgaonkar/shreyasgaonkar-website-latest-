@@ -134,7 +134,7 @@
                         <p><i>Oct 2014 - May 2016</i></p>
                         <p>University of Illinois </p>
                     </a>
-                    <a href="http://techweekends.in/" class="grid-item" target="_blank">
+                    <a href="http://shreyasgaonkar.github.io/Techweekends/" class="grid-item" target="_blank">
                         <img src="images/websites/techweekends.png" alt="Techweekends" />
                         <h1>Co-founder & Web Designer</h1>
                         <p><i>March 2015 - July 2015</i></p>
