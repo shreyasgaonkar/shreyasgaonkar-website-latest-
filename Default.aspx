@@ -112,7 +112,7 @@
                         <a href="me.aspx" title="Learn More">Learn More </a>
                     </span>
                     <span class="learn-more">
-                        <a href="docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
+                        <a href="/resume" title="Resume">Resume </a>
                     </span>
                     <span class="learn-more">
                         <a href="docs/Shreyas_Gaonkar_skills.pdf" title="Resume">Skill Tree </a>
