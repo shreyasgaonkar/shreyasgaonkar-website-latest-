@@ -10,7 +10,7 @@
     <meta name="description" content="Shreyas is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
 
     <!-- Meta tags for links on social networks -->
-    <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
+    <meta property="og:title" content="Shreyas Gaonkar | sshreyasgaonkar.com" />
     <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png" />
     <meta property="og:description" content="Shreyas is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
 
@@ -139,7 +139,7 @@
                         <p>Marketing Relevance</p>
                     </a>
 
-                    <a href="http://www.amlhealthcoaching.com" class="grid-item" target="_blank">
+                    <a href="http://shreyasgaonkar.github.io/AML-Health-Coach/" class="grid-item" target="_blank">
                         <img src="images/websites/AML.png" alt="AML Health Coach" />
                         <h1>Web Developer Intern</h1>
                         <p><i>Jan 2016 - May 2016</i></p>
