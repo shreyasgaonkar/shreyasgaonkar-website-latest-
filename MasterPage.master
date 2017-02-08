@@ -151,10 +151,12 @@
                 <li>
                     <h3>Follow Me</h3>
                 </li>
+                <li><a href="http://blog.shreyasgaonkar.com/" target="_blank"><i class="fa fa-rss"></i> Blog</a></li>
                 <li><a href="https://www.linkedin.com/in/shreyasgaonkar" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
                 <li><a href="https://github.com/shreyasgaonkar" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
                 <li><a href="https://www.behance.net/shreyasgaonkar" target="_blank"><i class="fa fa-behance-square"></i> Behance</a></li>
                 <li><a href="https://www.twitter.com/shreyasgaonkar" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="https://www.instagram.com/shreyasgaonkar/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
             </ul>
             <ul>
                 <li>
@@ -184,8 +186,8 @@
     <script src="Scripts/script-dist.js"></script>
 
     <script src="Scripts/cookie-dist.js"></script>
-    
-    
+
+
 
     <script type="application/ld+json">
         {

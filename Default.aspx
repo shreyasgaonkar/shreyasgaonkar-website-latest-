@@ -26,7 +26,13 @@
             <div class="container">
                 <img src="images/srg.png" class="shreyasgaonkar" />
                 <div class="header-info">
-                    <span style="font-size: 30px;">Shreyas Gaonkar </span>
+
+                    <div class="outerText hidden-on-mobile">
+                        <span class="fName">Shreyas</span>
+                        <span class="lName">Gaonkar</span>
+                    </div>
+
+                    <span class="visible-on-mobile" style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
                     Web Developer / Graphic Designer
                     <br />
@@ -58,6 +64,16 @@
         <!-- end header -->
 
 
+        <%--<nav class="sticky">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>--%>
+
 
         <div class="content">
             <div class="white" id="about">
@@ -85,9 +101,11 @@
 
                         <!-- Changing Text Ends -->
                         <br />
-                        I design responsive websites optimized for desktops and mobile platforms. I love coding and playing around with Photoshop. When I am not at School or designing websites,
-                    I enjoy Photography and playing Music.<br />
-                        Learn more about me by clicking the link below.
+                        I'm passionate about coding, I design websites and  enjoy playing music. I am trying to explore the new realm of <code>Linux</code> and building servers.
+                        <%--I design responsive websites optimized for desktops and mobile platforms. I love coding and playing around with Photoshop. When I am not at School or designing websites,
+                    I enjoy Photography and playing Music.--%>
+                        <br />
+                        Learn more about my projects below.
                     </p>
 
                     <span class="learn-more">
@@ -114,7 +132,7 @@
                 <hr />
                 <div class="grid-items-lines" style="cursor: pointer;">
 
-                      <a href="http://marketingrelevance.com/" class="grid-item" target="_blank">
+                    <a href="http://marketingrelevance.com/" class="grid-item" target="_blank">
                         <img src="images/websites/marketing-relevance.jpeg" alt="AML Health Coach" />
                         <h1>Front End Web Developer</h1>
                         <p><i>Aug 2016 - Present</i></p>
@@ -198,7 +216,7 @@
                     <p><i>March - April 2016</i></p>
                     <p>Google Developers</p>
                 </a>
-                 <a href="https://fir-pwa-a5c06.firebaseapp.com/" target="_blank" class="grid-item">
+                <a href="https://fir-pwa-a5c06.firebaseapp.com/" target="_blank" class="grid-item">
                     <img src="images/websites/firebase.png" alt="" />
                     <h1>Notes Progressive Web App</h1>
                     <br />
@@ -241,7 +259,7 @@
                     <br />
                     <p>and responsive</p>
                 </a>
-                 <a href="http://video.shreyasgaonkar.com/" target="_blank" class="grid-item">
+                <a href="http://video.shreyasgaonkar.com/" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Full Screen Video Background Page</h1>
                     <br />

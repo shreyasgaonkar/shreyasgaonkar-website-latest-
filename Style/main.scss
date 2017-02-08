@@ -823,13 +823,13 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
 
 @media (min-width: 786px) {
     .visible-on-mobile {
-        display: none;
+        display: none !important;
     }
 }
 
 @media (max-width: 786px) {
     .hidden-on-mobile {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -961,10 +961,68 @@ form input[type="submit"]:visited, form input[type="submit"]:active, form input[
         letter-spacing: 1.5px;
     }
 
-    &::selection{
-        background:red;
+    &::selection {
+        background: red;
     }
 }
+
+$border: 3px solid white;
+
+p.lead {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+nav.sticky {
+    z-index: 999;
+    width: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    //height: 70px;
+    background: rgba(gray, 0.25);
+
+    ul {
+        padding: 20px;
+
+        li {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.outerText {
+    padding: 20px;
+    display: inline-block;
+    //background: black;
+
+    span {
+        color: white;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+        font-weight: 700;
+        //font-family: Georgia, 'Helvetica Neue';
+    }
+
+    .fName {
+        border-top: $border;
+        border-left: $border;
+        border-bottom: $border;
+        margin-right: -10px;
+    }
+
+    .lName {
+        background: white;
+        color: black;
+        border-top: $border;
+        border-right: $border;
+        border-bottom: $border;
+    }
+}
+
+
 
 @media (min-width: 768px) {
     .navi-mobile {
