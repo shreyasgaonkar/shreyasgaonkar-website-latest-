@@ -7,10 +7,10 @@
     <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
 
-    <meta name="description" content="Shreyas is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
+    <meta name="description" content="Shreyas Gaonkar is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
 
     <!-- Meta tags for links on social networks -->
-    <meta property="og:title" content="Shreyas Gaonkar | sshreyasgaonkar.com" />
+    <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
     <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png" />
     <meta property="og:description" content="Shreyas is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
 
@@ -312,8 +312,8 @@
                         <img src="images/Al.jpg" alt="Kevin Schafer" />
                     </div>
                     <div class="comment-content">
-                        <h1><strong>April Larson</strong><span class="email"><br class="visible-on-small-viewport" />
-                            april@amlhealthcoaching.com</span></h1>
+                        <h1><strong>April Larson</strong>
+			<!--<span class="email"><br class="visible-on-small-viewport" />april@amlhealthcoaching.com</span> --></h1>
                         <p>Shreyas built my website from the ground up and was a pleasure to work with. From just a few meetings, he was able to build my website from start to finish and capture the look and feel that I wanted. Very efficient and a self starter, which I very much appreciated. He also can turnaround projects and changes very quickly. I highly recommend Shreyas as he is highly skilled, reliable and no doubt, a valuable and dedicated employee to add to your team.</p>
                         <p class="comment-detail">Founder, AML Health Coaching</p>
                     </div>
@@ -325,8 +325,8 @@
                         <img src="images/Ks.jpg" alt="Kevin Schafer" />
                     </div>
                     <div class="comment-content">
-                        <h1><strong>Kevin Schafer</strong><span class="email"><br class="visible-on-small-viewport" />
-                            kschaf696@gmail.com</span></h1>
+                        <h1><strong>Kevin Schafer</strong>
+			<!--<span class="email"><br class="visible-on-small-viewport" />kschaf696@gmail.com</span>--></h1>
                         <p>Shreyas has been a great addition to our startup team, bringing initiative and constantly refining his work for perfection. He is knowledgeable in many web development languages including HTML, CSS, SASS, JQuery, JavaScript (AngularJS), and Google & Rest API's. Shreyas has been an integral asset to our team and works both effectively and efficiently</p>
                         <p class="comment-detail">Chief Operating Officer, CollegeLife LLC</p>
                     </div>
@@ -337,8 +337,8 @@
                         <img src="images/As.jpg" alt="Logo image" />
                     </div>
                     <div class="comment-content">
-                        <h1><strong>Anand Satyanarayanan</strong><span class="email"><br class="visible-on-small-viewport" />
-                            anand@boutline.com</span></h1>
+                        <h1><strong>Anand Satyanarayanan</strong>
+			<!--<span class="email"><br class="visible-on-small-viewport" />anand@boutline.com</span>--></h1>
                         <p>"I have been Shreyas’ tutor for Website Management & Development. I found him to be consistently pleasant, tackling all assignments with dedication and a smile. Besides being a joy to work with, Shreyas likes to try out new things on his own. Also, he is a take charge person."</p>
                         <p class="comment-detail">Co-Founder,Samefaretaxi Studios.</p>
                     </div>
@@ -349,8 +349,8 @@
                         <img src="images/Ms.jpg" alt="Logo image" />
                     </div>
                     <div class="comment-content">
-                        <h1><strong>Mandaar Shinde</strong><span class="email"><br class="visible-on-small-viewport" />
-                            mandaarshinde@yahoo.in</span></h1>
+                        <h1><strong>Mandaar Shinde</strong>
+			<!--<span class="email"><br class="visible-on-small-viewport" />mandaarshinde@yahoo.in</span>--></h1>
                         <p>"I appreciate your zeal & sincerity I experienced in designing this website, an attitude which will take you much further in life. I always feel very happy to see young talented people like you show such commitment towards their job."</p>
                         <p class="comment-detail">Director, Chitramandaar.com</p>
                     </div>
