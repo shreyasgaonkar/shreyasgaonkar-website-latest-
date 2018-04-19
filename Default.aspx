@@ -112,7 +112,7 @@
                         <a href="me.aspx" title="Learn More">Learn More </a>
                     </span>
                     <span class="learn-more">
-                        <a href="/resume" title="Resume">Resume </a>
+                        <a href="/docs/Shreyas Gaonkar Resume.pdf" title="Resume">Resume </a>
                     </span>
                     <span class="learn-more">
                         <a href="docs/Shreyas_Gaonkar_skills.pdf" title="Resume">Skill Tree </a>
@@ -132,11 +132,18 @@
                 <hr />
                 <div class="grid-items-lines" style="cursor: pointer;">
 
+                    <a href="http://aws.amazon.com/" class="grid-item" target="_blank">
+                        <img src="images/websites/aws.png" alt="Amazon Web Services" />
+                        <h1>Cloud Support Associate</h1>
+                        <p><i>June 2017 - Present</i></p>
+                        <p>Amazon Web Services</p>
+                    </a>
+
                     <a href="http://marketingrelevance.com/" class="grid-item" target="_blank">
-                        <img src="images/websites/marketing-relevance.jpeg" alt="AML Health Coach" />
+                        <img src="images/websites/marketing-relevance.jpeg" alt="Marketing RELEVANCE" />
                         <h1>Front End Web Developer</h1>
-                        <p><i>Aug 2016 - Present</i></p>
-                        <p>Marketing Relevance</p>
+                        <p><i>Aug 2016 - May 2017</i></p>
+                        <p>Marketing RELEVANCE</p>
                     </a>
 
                     <a href="http://shreyasgaonkar.github.io/AML-Health-Coach/" class="grid-item" target="_blank">
@@ -150,7 +157,7 @@
                         <img src="images/websites/uic.png" alt="UIC" />
                         <h1>Graduate Student Associate</h1>
                         <p><i>Oct 2014 - May 2016</i></p>
-                        <p>University of Illinois </p>
+                        <p>University of Illinois</p>
                     </a>
                     <a href="http://shreyasgaonkar.github.io/Techweekends/" class="grid-item" target="_blank">
                         <img src="images/websites/techweekends.png" alt="Techweekends" />
@@ -177,7 +184,6 @@
                         <p>ThinkLabs Technosolutions</p>
                     </a>
 
-
                     <%-- <a href="http://mote-app.github.io/MTWebsite/" class="grid-item grid-item-big" target="_blank">
                        <img src="images/websites/mote.png" alt="mote" />
                        <h1>Lead Web Developer Intern</h1>
@@ -191,14 +197,10 @@
                        <p>Novelpic.com</p>
                    </a>--%>
 
-
-
                     <div class="right-cover"></div>
                     <div class="bottom-cover"></div>
                 </div>
             </div>
-
-
 
 
         </div>
@@ -209,7 +211,18 @@
             </div>
             <hr />
             <div class="grid-items-lines" style="cursor: pointer;">
-
+            <a href="https://github.com/shreyasgaonkar/weather-API" target="_blank" class="grid-item">
+                <img src="images/websites/SG.png" alt="Weather App" />
+                <h1>Weather Web App</h1>
+                <br />
+                <p>Using openweathermaps API</p>
+            </a>
+            <a href="#/" class="grid-item">
+                <img src="images/websites/SG.png" alt="ATCS" />
+                <h1>OwnCloud and Plex server</h1>
+                <br />
+                <p>Using CentOS</p>
+            </a>
                 <a href="https://github.com/pavvu/TeachMeIn5Steps/tree/Shreyas" target="_blank" class="grid-item">
                     <img src="images/websites/google.png" alt="Google Developers" />
                     <h1>Android for Beginners</h1>
@@ -241,12 +254,7 @@
                     <br />
                     <p>Using CSS</p>
                 </a>
-                <a href="https://github.com/shreyasgaonkar/weather-API" target="_blank" class="grid-item">
-                    <img src="images/websites/SG.png" alt="ATCS" />
-                    <h1>Weather Web App</h1>
-                    <br />
-                    <p>Using openweathermaps API</p>
-                </a>
+
                 <a href="https://github.com/shreyasgaonkar/API-with-p5.js/tree/master/ISS" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Real time ISS tracker</h1>
@@ -313,7 +321,8 @@
                     </div>
                     <div class="comment-content">
                         <h1><strong>April Larson</strong>
-			<!--<span class="email"><br class="visible-on-small-viewport" />april@amlhealthcoaching.com</span> --></h1>
+                            <!--<span class="email"><br class="visible-on-small-viewport" />april@amlhealthcoaching.com</span> -->
+                        </h1>
                         <p>Shreyas built my website from the ground up and was a pleasure to work with. From just a few meetings, he was able to build my website from start to finish and capture the look and feel that I wanted. Very efficient and a self starter, which I very much appreciated. He also can turnaround projects and changes very quickly. I highly recommend Shreyas as he is highly skilled, reliable and no doubt, a valuable and dedicated employee to add to your team.</p>
                         <p class="comment-detail">Founder, AML Health Coaching</p>
                     </div>
@@ -326,7 +335,8 @@
                     </div>
                     <div class="comment-content">
                         <h1><strong>Kevin Schafer</strong>
-			<!--<span class="email"><br class="visible-on-small-viewport" />kschaf696@gmail.com</span>--></h1>
+                            <!--<span class="email"><br class="visible-on-small-viewport" />kschaf696@gmail.com</span>-->
+                        </h1>
                         <p>Shreyas has been a great addition to our startup team, bringing initiative and constantly refining his work for perfection. He is knowledgeable in many web development languages including HTML, CSS, SASS, JQuery, JavaScript (AngularJS), and Google & Rest API's. Shreyas has been an integral asset to our team and works both effectively and efficiently</p>
                         <p class="comment-detail">Chief Operating Officer, CollegeLife LLC</p>
                     </div>
@@ -338,7 +348,8 @@
                     </div>
                     <div class="comment-content">
                         <h1><strong>Anand Satyanarayanan</strong>
-			<!--<span class="email"><br class="visible-on-small-viewport" />anand@boutline.com</span>--></h1>
+                            <!--<span class="email"><br class="visible-on-small-viewport" />anand@boutline.com</span>-->
+                        </h1>
                         <p>"I have been Shreyas’ tutor for Website Management & Development. I found him to be consistently pleasant, tackling all assignments with dedication and a smile. Besides being a joy to work with, Shreyas likes to try out new things on his own. Also, he is a take charge person."</p>
                         <p class="comment-detail">Co-Founder,Samefaretaxi Studios.</p>
                     </div>
@@ -350,7 +361,8 @@
                     </div>
                     <div class="comment-content">
                         <h1><strong>Mandaar Shinde</strong>
-			<!--<span class="email"><br class="visible-on-small-viewport" />mandaarshinde@yahoo.in</span>--></h1>
+                            <!--<span class="email"><br class="visible-on-small-viewport" />mandaarshinde@yahoo.in</span>-->
+                        </h1>
                         <p>"I appreciate your zeal & sincerity I experienced in designing this website, an attitude which will take you much further in life. I always feel very happy to see young talented people like you show such commitment towards their job."</p>
                         <p class="comment-detail">Director, Chitramandaar.com</p>
                     </div>
@@ -424,9 +436,9 @@
 
     <script src="Scripts/easteregg-dist.js"></script>
     <script>
-        var domAnimator = new DomAnimator();
-        domAnimator.addFrame('Hello there :)');
-        domAnimator.addFrame('Hello there :D');
-        domAnimator.animate();
+                            var domAnimator = new DomAnimator();
+                            domAnimator.addFrame('Hello there :)');
+                            domAnimator.addFrame('Hello there :D');
+                            domAnimator.animate();
     </script>
 </asp:Content>
