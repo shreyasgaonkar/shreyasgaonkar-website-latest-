@@ -179,7 +179,7 @@
                         <p><i>May 2015 - Aug 2015</i></p>
                         <p>CollegeLife LLC</p>
                     </a>
-                    <a href="http://chitramandaar.shreyasgaonkar.com/" class="grid-item" target="_blank">
+                    <a href="https://github.com/shreyasgaonkar/Dhyaas" class="grid-item" target="_blank">
                         <img src="images/websites/chitramandaar.png" alt="" />
                         <h1>Online Presence</h1>
                         <p><i>Feb 2013 - Feb 2015</i></p>
@@ -296,13 +296,15 @@
                     <br />
                     <p>Using opennotify API</p>
                 </a>
+                <!--
                 <a href="http://www.shreyasgaonkar.com/Projects/modal" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Full Screen Splash Page</h1>
                     <br />
                     <p>and responsive</p>
                 </a>
-                <a href="http://video.shreyasgaonkar.com/" target="_blank" class="grid-item">
+                -->
+                <a href="https://github.com/shreyasgaonkar/full-screen-video-website" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="ATCS" />
                     <h1>Full Screen Video Background Page</h1>
                     <br />
@@ -314,11 +316,11 @@
                     <p><i>Sept 2011 - April 2013</i></p>
                     <p>Automated Toll Collection System</p>
                 </a>
-                <a href="http://random.shreyasgaonkar.com/" target="_blank" class="grid-item">
+                <a href="http://shreyasgaonkar.github.io/Random-Name-Generator/" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="Random Name Generator" />
                     <h1>Random Name Generator</h1>
                     <br />
-                    <p>random.shreyasgaonkar.com</p>
+                    <br />
                 </a>
                 <a href="Projects/Checkbox/index.html" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="Random Name Generator" />
@@ -326,11 +328,11 @@
                     <br />
                     <p>using CSS</p>
                 </a>
-                <a href="http://racecar.shreyasgaonkar.com/" target="_blank" class="grid-item ">
+                <a href="https://github.com/shreyasgaonkar/Racecar-using-JQuery" target="_blank" class="grid-item ">
                     <img src="images/websites/SG.png" alt="Racecar" />
                     <h1>jQuery Car Racer</h1>
                     <br />
-                    <p>racecar.shreyasgaonkar.com</p>
+                    <br />
                 </a>
                 <div class="right-cover"></div>
                 <div class="bottom-cover"></div>
