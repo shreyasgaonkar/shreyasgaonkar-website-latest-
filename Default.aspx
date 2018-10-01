@@ -322,12 +322,12 @@
                     <br />
                     <br />
                 </a>
-                <a href="Projects/Checkbox/index.html" target="_blank" class="grid-item">
+                <!--<a href="Projects/Checkbox/index.html" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="Random Name Generator" />
                     <h1>Custom Checkbox</h1>
                     <br />
                     <p>using CSS</p>
-                </a>
+                </a> -->
                 <a href="https://github.com/shreyasgaonkar/Racecar-using-JQuery" target="_blank" class="grid-item ">
                     <img src="images/websites/SG.png" alt="Racecar" />
                     <h1>jQuery Car Racer</h1>
