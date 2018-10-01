@@ -24,10 +24,7 @@ button {
   line-height: 1;
   padding: 0.75em 1em;
   text-decoration: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
@@ -73,8 +70,7 @@ textarea {
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
-  -webkit-transition: border-color;
-          transition: border-color;
+  transition: border-color;
   width: 100%; }
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select[multiple=multiple]:hover,
@@ -177,8 +173,7 @@ p {
 a {
   color: #477dca;
   text-decoration: none;
-  -webkit-transition: color 0.1s linear;
-          transition: color 0.1s linear; }
+  transition: color 0.1s linear; }
   a:active, a:focus, a:hover {
     color: #2c5999; }
   a:active, a:focus {
@@ -205,6 +200,7 @@ picture {
     display: table; }
   .grid-items-lines .grid-item {
     -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     /*position:relative;
     z-index:1;*/
@@ -221,9 +217,9 @@ picture {
     width: 100%; }
     @media screen and (min-width: 53.75em) {
       .grid-items-lines .grid-item {
-        width: 33.33333%; } }
+        width: 33.3333333333%; } }
     .grid-items-lines .grid-item:focus, .grid-items-lines .grid-item:hover {
-      background: rgba(65, 94, 155, 0.09)
+      background: rgba(65, 94, 155, 0.09);
       /*box-shadow: 0 0 8px rgba(black, 0.1);
       z-index: 10;
       transform: scale(1.05);
@@ -245,7 +241,7 @@ picture {
         max-width: 70%; } }
   @media screen and (min-width: 53.75em) {
     .grid-items-lines .grid-item-big {
-      width: 66.66667%; } }
+      width: 66.6666666667%; } }
   @media screen and (min-width: 40em) {
     .grid-items-lines .grid-item-big p {
       max-width: 60%; } }

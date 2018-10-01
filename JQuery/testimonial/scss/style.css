@@ -1,42 +1,22 @@
 /*
-Error: File to import not found or unreadable: settings/prefixer.
-       Load path: D:/Google Drive/Websites Back up/ShreyasG/Projects/Checkbox
-        on line 6 of D:/Google Drive/Websites Back up/ShreyasG/Projects/Checkbox/_bourbon.scss
-        from line 2 of D:\Google Drive\Websites Back up\ShreyasG\Projects\Checkbox\style.sass
+Error: File to import not found or unreadable: bourbon.
+       Load path: D:/Google Drive/Websites Back up/ShreyasG/JQuery/testimonial/scss
+        on line 1 of D:\Google Drive\Websites Back up\ShreyasG\JQuery\testimonial\scss\style.scss
 
-1: @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-2: @import "bourbon.scss"
-3: 
-4: $color1: #EF913E
-5: $color2: #E71D36
-6: $color3: #BFC0DF
-7: $color4: #DDEAE9
-8: $color5: #F3FCF0
-9: 
-10: body
-11:     border: 0px
+1: @import 'bourbon'; // http://bourbon.io/
+2: 
+3: @import '../partials/variables'; // colors, fonts etc...
+4: 
+5: @import '../partials/mixins'; // custom mixins
+6: 
 
 Backtrace:
-D:/Google Drive/Websites Back up/ShreyasG/Projects/Checkbox/_bourbon.scss:6
-D:\Google Drive\Websites Back up\ShreyasG\Projects\Checkbox\style.sass:2
+D:\Google Drive\Websites Back up\ShreyasG\JQuery\testimonial\scss\style.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -69,4 +49,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: settings/prefixer.\A        Load path: D:/Google Drive/Websites Back up/ShreyasG/Projects/Checkbox\A         on line 6 of D:/Google Drive/Websites Back up/ShreyasG/Projects/Checkbox/_bourbon.scss\A         from line 2 of D:\Google Drive\Websites Back up\ShreyasG\Projects\Checkbox\style.sass\A \A 1: @import \"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\"\A 2: @import \"bourbon.scss\"\A 3: \A 4: $color1: #EF913E\A 5: $color2: #E71D36\A 6: $color3: #BFC0DF\A 7: $color4: #DDEAE9\A 8: $color5: #F3FCF0\A 9: \A 10: body\A 11:     border: 0px"; }
+  content: "Error: File to import not found or unreadable: bourbon.\A        Load path: D:/Google Drive/Websites Back up/ShreyasG/JQuery/testimonial/scss\A         on line 1 of D:\Google Drive\Websites Back up\ShreyasG\JQuery\testimonial\scss\style.scss\A \A 1: @import 'bourbon'; // http://bourbon.io/\A 2: \A 3: @import '../partials/variables'; // colors, fonts etc...\A 4: \A 5: @import '../partials/mixins'; // custom mixins\A 6: "; }

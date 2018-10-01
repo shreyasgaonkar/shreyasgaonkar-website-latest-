@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>Shreyas Gaonkar</title>
@@ -34,10 +34,11 @@
 
                     <span class="visible-on-mobile" style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
-                    Web Developer / Graphic Designer
+                    <!-- Web Developer / Graphic Designer -->
+                    Cloud Support Engineer
                     <br />
                     <span class="glyphicon glyphicon-globe"></span>
-                    Chicago, IL
+                    Dallas, TX
                 </div>
                 <!-- End header-info -->
                 <div class="header-social">
@@ -101,7 +102,7 @@
 
                         <!-- Changing Text Ends -->
                         <br />
-                        I'm passionate about coding, I design websites and  enjoy playing music. I am trying to explore the new realm of <code>Linux</code> and building servers.
+                        I'm passionate about coding, I design websites and  enjoy playing music. I am trying to explore the new realm of <code>Linux</code> and building servers using <code>Amazon Web Services</code>.
                         <%--I design responsive websites optimized for desktops and mobile platforms. I love coding and playing around with Photoshop. When I am not at School or designing websites,
                     I enjoy Photography and playing Music.--%>
                         <br />
@@ -132,10 +133,17 @@
                 <hr />
                 <div class="grid-items-lines" style="cursor: pointer;">
 
+
+                  <a href="http://aws.amazon.com/" class="grid-item" target="_blank">
+                      <img src="images/websites/aws.png" alt="Amazon Web Services" />
+                      <h1>Cloud Support Engineer</h1>
+                      <p><i>August 2018 - Present</i></p>
+                      <p>Amazon Web Services</p>
+                  </a>
                     <a href="http://aws.amazon.com/" class="grid-item" target="_blank">
                         <img src="images/websites/aws.png" alt="Amazon Web Services" />
                         <h1>Cloud Support Associate</h1>
-                        <p><i>June 2017 - Present</i></p>
+                        <p><i>June 2017 - August 2018</i></p>
                         <p>Amazon Web Services</p>
                     </a>
 
@@ -211,18 +219,45 @@
             </div>
             <hr />
             <div class="grid-items-lines" style="cursor: pointer;">
-            <a href="https://github.com/shreyasgaonkar/weather-API" target="_blank" class="grid-item">
-                <img src="images/websites/SG.png" alt="Weather App" />
-                <h1>Weather Web App</h1>
-                <br />
-                <p>Using openweathermaps API</p>
-            </a>
-            <a href="#/" class="grid-item">
-                <img src="images/websites/SG.png" alt="ATCS" />
-                <h1>OwnCloud and Plex server</h1>
-                <br />
-                <p>Using CentOS</p>
-            </a>
+
+                <a href="https://github.com/shreyasgaonkar/website-scrapper-beautifulsoup" class="grid-item" target="_blank">
+                    <img src="images/websites/SG.png" alt="Webscrapper" />
+                    <h1>Remitly Web Scrapper</h1>
+                    <p><i>September 2018</i></p>
+                    <p>Using beautifulsoup</p>
+                </a>
+                <a href="https://github.com/shreyasgaonkar/Plex-filename-parser" class="grid-item" target="_blank">
+                    <img src="images/websites/aws.png" alt="Amazon Web Services" />
+                    <h1>Plex name parser</h1>
+                    <p><i>August 2018</i></p>
+                    <br />
+                </a>
+
+                <a href="https://trim.live/" class="grid-item" target="_blank">
+                    <img src="images/websites/aws.png" alt="URL Shortner" />
+                    <h1>URL Shortner</h1>
+                    <p><i>June 2018</i></p>
+                    <p>trim.live</p>
+                </a>
+
+                <a href="https://weather.shreyasgaonkar.com/" target="_blank" class="grid-item">
+                    <img src="images/websites/SG.png" alt="Weather App" />
+                    <h1>Weather Web App</h1>
+                    <br />
+                    <p>Using openweathermaps API</p>
+                </a>
+                <a href="#/" class="grid-item">
+                    <img src="images/websites/SG.png" alt="Plex" />
+                    <h1>OwnCloud and Plex server</h1>
+                    <br />
+                    <p>Using CentOS</p>
+                </a>
+                <a href="https://github.com/shreyasgaonkar/GIPHY-GIF" class="grid-item">
+                    <img src="images/websites/SG.png" alt="Giphy" />
+                    <h1>Giphy GIF Search</h1>
+                    <br />
+                    <p>Using Giphy API</p>
+                </a>
                 <a href="https://github.com/pavvu/TeachMeIn5Steps/tree/Shreyas" target="_blank" class="grid-item">
                     <img src="images/websites/google.png" alt="Google Developers" />
                     <h1>Android for Beginners</h1>
@@ -436,9 +471,9 @@
 
     <script src="Scripts/easteregg-dist.js"></script>
     <script>
-                            var domAnimator = new DomAnimator();
-                            domAnimator.addFrame('Hello there :)');
-                            domAnimator.addFrame('Hello there :D');
-                            domAnimator.animate();
+        var domAnimator = new DomAnimator();
+        domAnimator.addFrame('Hello there :)');
+        domAnimator.addFrame('Hello there :D');
+        domAnimator.animate();
     </script>
 </asp:Content>

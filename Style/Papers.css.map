@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAAA,OAAO;EACH,MAAM,EAAC,IAAI;EACX,SAAS,EAAC,IAAI;EACd,WAAW,EAAC,IAAI;EAChB,KAAK,EAAC,KAAK",
-"sources": ["Papers.scss"],
+"sources": ["papers.scss"],
 "names": [],
 "file": "Papers.css"
 }

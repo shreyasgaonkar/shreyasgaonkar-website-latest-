@@ -208,7 +208,7 @@ picture {
       display: table; }
     @media screen and (min-width: 40em) {
       .footer .footer-links {
-        margin-left: 25.58941%; } }
+        margin-left: 25.5894128995%; } }
   .footer ul {
     margin-bottom: 3em;
     padding: 0; }
@@ -216,8 +216,8 @@ picture {
       .footer ul {
         float: left;
         display: block;
-        margin-right: 2.35765%;
-        width: 23.23176%; }
+        margin-right: 2.3576515979%;
+        width: 23.2317613015%; }
         .footer ul:last-child {
           margin-right: 0; }
         .footer ul:nth-child(3n) {
