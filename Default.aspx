@@ -227,14 +227,14 @@
                     <p>Using beautifulsoup</p>
                 </a>
                 <a href="https://github.com/shreyasgaonkar/Plex-filename-parser" class="grid-item" target="_blank">
-                    <img src="images/websites/aws.png" alt="Amazon Web Services" />
+                    <img src="images/websites/SG.png" alt="Plex Name parser" />
                     <h1>Plex name parser</h1>
                     <p><i>August 2018</i></p>
                     <br />
                 </a>
 
                 <a href="https://trim.live/" class="grid-item" target="_blank">
-                    <img src="images/websites/aws.png" alt="URL Shortner" />
+                    <img src="images/websites/SG.png" alt="URL Shortner" />
                     <h1>URL Shortner</h1>
                     <p><i>June 2018</i></p>
                     <p>trim.live</p>
