@@ -240,7 +240,7 @@
                     <p>trim.live</p>
                 </a>
 
-                <a href="https://weather.shreyasgaonkar.com/" target="_blank" class="grid-item">
+                <a href="http://weather.shreyasgaonkar.com/" target="_blank" class="grid-item">
                     <img src="images/websites/SG.png" alt="Weather App" />
                     <h1>Weather Web App</h1>
                     <br />
