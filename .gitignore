@@ -1,0 +1,7 @@
+*.config
+img
+*.png
+*.jpg
+*.JPEG
+*.gif
+browserconfig.xml
