@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="Shreyas, Gaonkar, Website, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
+    <meta name="keywords" content="Shreyas, Gaonkar, Website, AWS, Amazon Web Services, Cloud Support Engineer, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList" />
     <meta name="title" content="Shreyas Gaonkar" />
 
     <meta name="description" content="Shreyas Gaonkar is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
@@ -15,10 +15,9 @@
     <!-- Meta tags for links on social networks -->
     <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
     <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png" />
-    <meta property="og:description" content="Shreyas is Computer Engineering Master's Graduate from the University of Illinois at Chicago. He's Passionate about Software and is looking to make career in Web Design & Development." />
+    <meta property="og:description" content="Shreyas works at Amazon Web Services as a Cloud Support Engineer, working on AWS Lambda, API Gateway, SNS, SQS, S3, CloudFront, Cognito, AppSync and other distributed Services. He enjoys spending time learning new services and technologies during his spare time apart from playing music." />
 
-
-    <%--<meta name="description" content="Shreyas Gaonkar's personal portfolio website. Check more about Shreyas at shreyasgaonkar.com" />--%>
+    <%--<meta name="description" content="Shreyas works at Amazon Web Services as a Cloud Support Engineer, working on AWS Lambda, API Gateway, SNS, SQS, S3, CloudFront, Cognito, AppSync and other distributed Services. He enjoys spending time learning new services and technologies during his spare time apart from playing music." />--%>
     <meta name="author" content="Shreyas Gaonkar" />
 
 
@@ -38,7 +37,7 @@
                     <span class="visible-on-mobile" style="font-size: 30px;">Shreyas Gaonkar </span>
                     <br />
                     <!-- Web Developer / Graphic Designer -->
-                    Cloud Support Engineer
+                    Cloud Support Engineer @ AWS
                     <br />
                     <span class="glyphicon glyphicon-globe"></span>
                     Dallas, TX
@@ -105,7 +104,7 @@
 
                         <!-- Changing Text Ends -->
                         <br />
-                        I'm passionate about coding, I design websites and  enjoy playing music. I am trying to explore the new realm of <code>Linux</code> and building servers using <code>Amazon Web Services</code>.
+                        I'm passionate about coding, I design websites and  enjoy playing music. I'm currently exploring new realm of <code>Linux</code>, and building servers using <code>Amazon Web Services</code>.
                         <%--I design responsive websites optimized for desktops and mobile platforms. I love coding and playing around with Photoshop. When I am not at School or designing websites,
                     I enjoy Photography and playing Music.--%>
                         <br />
