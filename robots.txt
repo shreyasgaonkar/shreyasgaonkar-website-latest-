@@ -1,5 +1,9 @@
-# www.robotstxt.org/
+# Group 1
+User-agent: Googlebot
+Disallow: /node_modules/
 
-# Allow crawling of all content
+# Group 2
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: http://www.example.com/sitemap.xml

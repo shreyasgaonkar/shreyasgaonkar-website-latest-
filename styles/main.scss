@@ -1,0 +1,248 @@
+$color1: #253040;
+// transition from left to right
+$color2: #9a9fa3;
+$color3: #9ba1a7;
+$color4: #354d79;
+$color5: #6898e0;
+$color6: #a6c0f1;
+
+body,
+html {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.visible-on-mobile {
+  display: none;
+}
+
+.fa-twitter-square {
+  // background: red;
+  // display: block;
+  // text-indent: -9999px;
+  // width: 100px;
+  // height: 82px;
+  background: url("/images/instagram.svg");
+  // background-size: 100px 82px;
+}
+
+.header {
+  position: relative;
+  background: $color1;
+  background: url("/images/background.png");
+  background-size: cover;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  // filter: blur(4px);
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  min-height: 70vh;
+
+  img {
+    max-width: 100%;
+  }
+
+  hr {
+    border: transparent;
+  }
+
+  h4 {
+    line-height: 1.5;
+  }
+
+  .navbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    // top: 10%;
+
+    ul {
+      list-style: none;
+      text-align: left;
+      padding: 0 0 0 20px;
+
+      li {
+        float: left;
+        margin: 20px;
+        background: rgba($color1, 0.03);
+        border-radius: 7px;
+
+        a {
+          display: block;
+          padding: 5px 10px;
+          font-size: 1.15rem;
+          color: $color1;
+          font-weight: 600;
+          transition: 0.3s;
+
+          &:hover {
+            color: white;
+            text-decoration: underline;
+            // text-decoration-color: $color6;
+            text-underline-position: under;
+            // // text-decoration-skip-ink: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .outerText {
+    padding: 20px;
+    display: inline-block;
+
+    .fName {
+      border-top: 3px solid white;
+      border-left: 3px solid white;
+      border-bottom: 3px solid white;
+      margin-right: -10px;
+    }
+
+    .lName {
+      background: white;
+      color: black;
+      border-top: 3px solid white;
+      border-right: 3px solid white;
+      border-bottom: 3px solid white;
+    }
+
+    span {
+      color: white;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-size: 2rem;
+      letter-spacing: 4px;
+      font-weight: 700;
+    }
+  }
+
+  // .grow {
+  // }
+  // .grow:hover {
+  // }
+
+  .social {
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 400px;
+
+    a > i {
+      font-size: 3rem;
+      flex: 1;
+      color: white;
+      border: 1px solid transparent;
+      padding: 0;
+      transition: all 0.2s ease-in-out;
+      // border-radius: 25px;
+      // background: white;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.outer-content {
+  background: linear-gradient(to right, $color2 50%, $color3 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+}
+
+.intro {
+  font-size: 1.25rem;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+// Media Queries
+
+// Tiny screen sizes
+@media (max-width: 400px) {
+  .header {
+    padding: 40px 0 20px 0;
+    h4 {
+      font-size: 1.25rem;
+    }
+    .social {
+      margin-top: 20px;
+      i {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .header {
+    padding-bottom: 0;
+    min-height: 70vh;
+
+    img {
+      max-width: 75%;
+      padding-bottom: 20px;
+    }
+  }
+
+  .intro {
+    padding: 0 0 20px 0;
+  }
+
+  .hidden-on-mobile {
+    display: none !important;
+  }
+
+  .visible-on-mobile {
+    display: block !important;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .header {
+    min-height: 70vh;
+
+    .navbar {
+      padding-right: 0;
+      ul {
+        li {
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops)
+@media (min-width: 1600px) {
+  .header {
+    .navbar {
+      ul {
+        li {
+          background: rgba(white, 0.5);
+
+          a {
+            &:hover {
+              color: $color4;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// No media query since the extra-large breakpoint has no upper bound on its width
