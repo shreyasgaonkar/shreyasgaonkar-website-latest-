@@ -40,7 +40,7 @@
                     Cloud Support Engineer @ AWS
                     <br />
                     <span class="glyphicon glyphicon-globe"></span>
-                    Dallas, TX
+                    Dublin, Ireland
                 </div>
                 <!-- End header-info -->
                 <div class="header-social">
