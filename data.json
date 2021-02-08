@@ -1,0 +1,16 @@
+[{
+    "name": "Remitly Web Scrapper",
+    "skills": "Python - Beautifulsoup",
+    "img": "/images/aws.png",
+    "href": "#/"
+}, {
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "job": "Playboy",
+    "roll": 30
+}, {
+    "firstName": "Peter",
+    "lastName": "Parker",
+    "job": "Photographer",
+    "roll": 40
+}]

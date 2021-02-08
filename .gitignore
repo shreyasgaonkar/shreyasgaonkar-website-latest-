@@ -1,4 +1,7 @@
 package-lock.json
+*.psd
+*.config
+.postcssrc
 
 ### Linux ###
 *~

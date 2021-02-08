@@ -20,16 +20,19 @@
   "homepage": "https://github.com/shreyasgaonkar/shreyasgaonkar-website-latest-#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
+    "autoprefixer": "^9.7.4",
     "parcel-bundler": "^1.12.4",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-parcel-import": "0.0.2",
     "sass": "^1.25.0"
   },
   "dependencies": {
+    "abc": "^0.6.1",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "parcel-plugin-sitemap": "^2.1.6",
     "popper.js": "^1.16.1"
-},
-"sitemap": {
-       "siteURL": "https://www.shreyasgaonkar.com/"
-   }
+  }
 }

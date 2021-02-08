@@ -1,78 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shreyas Gaonkar | shreyasgaonkar.com</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Shreyas Gaonkar | shreyasgaonkar.com</title>
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
 
-</head>
+        <meta
+            name="keywords"
+            content="Shreyas, Gaonkar, Website, AWS, Amazon Web Services, Cloud Support Engineer, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList, YouTube, Abandoned Hope"/>
+        <meta name="title" content="Shreyas Gaonkar"/>
 
-<body>
+        <meta
+            name="description"
+            content="Shreyas works at Amazon Web Services as a Cloud Support Engineer, working on AWS Lambda, API Gateway, SNS, SQS, S3, CloudFront, Cognito, AppSync and other distributed Services. He enjoys spending time learning new services and technologies during his spare time apart from playing music."/>
 
-    <div class="outer-content">
-        <div class="header">
-            <div class="container">
-                <img src="./images/shreyas-circle.png" alt="Shreyas Gaonkar">
-                <hr>
-                <div class="outerText hidden-on-mobile">
-                    <span class="fName">Shreyas</span>
-                    <span class="lName">Gaonkar</span>
+        <!-- Meta tags for links on social networks -->
+        <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com"/>
+        <meta property="og:image" content="http://www.shreyasgaonkar.com/images/srg.png"/>
+        <meta
+            property="og:description"
+            content="Shreyas works at Amazon Web Services as a Cloud Support Engineer, working on AWS Lambda, API Gateway, SNS, SQS, S3, CloudFront, Cognito, AppSync and other distributed Services. He enjoys spending time learning new services and technologies during his spare time apart from playing music."/>
+        <meta name="author" content="Shreyas Gaonkar"/>
+
+        <!-- Heap Analytics -->
+
+        <!-- <script type="text/javascript"> window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var n = t.forceSSL || "https:" === document.location.protocol, a =
+        document.createElement("script"); a.type = "text/javascript", a.async = !0, a.src = ( n ? "https:" : "http:" ) + "//cdn.heapanalytics.com/js/heap-" + e + ".js"; var o = document.getElementsByTagName("script")[0]; o.parentNode.insertBefore(a, o); for
+        (var r = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = [ "clearEventProperties", "identify", "setEventProperties", "track", "unsetEventProperty" ], c = 0; c < p.length; c++) heap[p[c]] =
+        r(p[c]) }; heap.load("2884439115"); </script> -->
+
+    </head>
+
+    <body>
+
+        <div class="outer-content">
+            <div class="header">
+                <div class="container">
+                    <img src="./images/shreyas-circle.png" alt="Shreyas Gaonkar">
+                    <hr>
+                    <div class="outerText hidden-on-mobile">
+                        <span class="fName">Shreyas</span>
+                        <span class="lName">Gaonkar</span>
+                    </div>
+                    <h2 class="visible-on-mobile">Shreyas Gaonkar</h2>
+                    <h4 class="text-center">Cloud Support Engineer II @ AWS
+                        <br>
+                        <img class="globe" src="/images/svg/globe.svg" alt="Kiwi standing on oval">
+                        Dublin, IE</h4>
+
+                    <div class="social hidden-on-mobile">
+                        <a target="_blank" href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn">
+                            <img src="/images/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a target="_blank" href="http://localhost:7882/#/" title="GitHub">
+                            <img src="/images/svg/github.svg" alt="GitHub">
+                        </a>
+                        <a target="_blank" href="https://www.behance.net/shreyasgaonkar" title="Behance">
+                            <img src="/images/svg/behance.svg" alt="Behance">
+                        </a>
+                        <a target="_blank" href="https://www.twitter.com/shreyasgaonkar" title="Twitter">
+                            <img src="/images/svg/twitter.svg" alt="Kiwi standing on oval">
+                        </a>
+                    </div>
                 </div>
-                <h2 class="visible-on-mobile">Shreyas Gaonkar</h2>
-                <h4 class="text-center">Cloud Support Engineer @ AWS <br>
-                    <i class="fas fa-globe-americas"></i> Dublin, IE</h4>
-
-                <div class="social">
-                    <a href="#/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#/" title="GitHub"><i class="fab fa-github-square"></i></a>
-                    <a href="#/" title="Behance"><i class="fab fa-instagram-square"></i></a>
-                    <a href="#/" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                <nav class="navbar hidden-on-mobile">
+                    <ul>
+                        <li>
+                            <a href="#/">Home</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/docs/Resume.pdf">Resume</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/shreyasgaonkar">Projects</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="intro">
+                <div class="container">
+                    <p>
+                        Hi, I'm Shreyas.
+                        <br>
+                        I'm passionate about coding, I design websites and enjoy playing music. I'm currently exploring new realm of
+                        <code>Linux</code>, and building servers using
+                        <code>Amazon Web Services</code>.
+                        <br>
+                        Learn more about my projects below.
+                    </p>
                 </div>
             </div>
-            <nav class="navbar hidden-on-mobile">
-                <ul>
-                    <li><a href="#/">Home</a></li>
-                    <li><a href="#/">Resume</a></li>
-                    <li><a href="#/">Learn More</a></li>
-                </ul>
-            </nav>
         </div>
 
-
-        <div class="intro">
+        <div class="inner-content">
             <div class="container">
-                <p>
-                    Hi, I'm Shreyas. <br>
-                    I'm passionate about coding, I design websites and enjoy playing music. I'm currently exploring new realm of Linux, and building servers using Amazon Web Services. <br>
-                    Learn more about my projects below.
-                </p>
+
+                <div class="line-behind-text">
+                    <h6>Experience</h6>
+                    <hr class="hr-shadow"/>
+                </div>
+                <section id="experience"></section>
+
+                <div class="line-behind-text">
+                    <h6>Projects</h6>
+                    <hr class="hr-shadow"/>
+                </div>
+                <section id="projects"></section>
+
+                <div class="line-behind-text">
+                    <h6>Testimonials</h6>
+                    <hr class="hr-shadow"/>
+                </div>
+            </div>
+            <!-- end container -->
+            <div class="container">
+                <section id="testimonials"></section>
+                <!-- <section id="youtube"> <h1>YouTube</h1> <div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NiL1EGXiVlA" allowfullscreen="allowfullscreen"></iframe> </div> </section> -->
 
             </div>
-        </div>
-    </div>
 
-    <script src=" ./scripts/index.js"> </script>
-</body>
+            <footer id="footer">
+                <div class="container">
+                    <div class="footer-logo">
+                        <img src="images/SG.png" width="119" alt="Shreyas Gaonkar" title="Shreyas Gaonkar">
+                    </div>
 
-</html>
+                    <div class="row">
+                        <div class="col col13">
+                            <ul>
+                                <li class="footer-title">Content</li>
+                                <li>
+                                    <a href="#/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#/">About Me</a>
+                                </li>
+                                <li>
+                                    <a href="#/">Technical Papers</a>
+                                </li>
+                                <li>
+                                    <a href="#/">Photos</a>
+                                </li>
+                                <li>
+                                    <a href="#/">Other Projects</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col col13">
+                            <ul>
+                                <li class="footer-title">Follow Me</li>
+                                <li>
+                                    <a target="_blank" href="https://medium.com/@shreyasgaonkar">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#/">LinkedIn</a>
+                                </li>
+                                <li>
+                                    <a href="#/">GitHub</a>
+                                </li>
+                                <li>
+                                    <a href="#/">Behance</a>
+                                </li>
+                                <li>
+                                    <a href="#/">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#/">Instagram</a>
+                                </li>
+                                <li>
+                                    <a href="#/">YouTube</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col col13">
+                            <ul>
+                                <li class="footer-title">Legal</li>
+                                <li>
+                                    <a href="#/">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr/>
+                    <p>Designed and coded by Shreyas Gaonkar</p>
+                </div>
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+            <script src="./scripts/index.js"></script>
+        </body>
+
+    </html>
