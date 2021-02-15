@@ -151,7 +151,7 @@ blockquote span {
 .header {
   position: relative;
   background: $color1;
-  background: url("/images/background.png");
+  background: url("/images/background-2000.png");
   background-size: cover;
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -282,8 +282,6 @@ blockquote span {
       border: 1px solid transparent;
       padding: 0;
       transition: all 0.2s ease-in-out;
-      // border-radius: 25px;
-      // background: white;
 
       &:hover {
         transform: scale(1.1);
@@ -546,6 +544,9 @@ blockquote span {
 @media (max-width: 991.98px) {
   .header {
     min-height: 70vh;
+    background: url("/images/background-1000.png");
+    background-size: cover;
+    background-position: 50% 100%;
 
     .navbar {
       padding-right: 0;
@@ -571,6 +572,11 @@ blockquote span {
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+  .header {
+    background: url("/images/background-1200.png");
+    background-size: cover;
+    background-position: 50% 100%;
+  }
 }
 
 // Extra large devices (large desktops)

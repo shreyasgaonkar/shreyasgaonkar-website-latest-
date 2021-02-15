@@ -1,0 +1,42 @@
+[{
+        "name": "HSE COVID Tracker app",
+        "skills": "Architecture: AWS Lambda, API Gateway & SNS",
+        "img": "/images/hse.webp",
+        "href": "https://covidtracker.gov.ie/"
+    },
+    {
+        "name": "AWS Public blog",
+        "skills": "Amazon API Gateway",
+        "img": "/images/aws.png",
+        "href": "https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-401-error-lambda-authorizer/"
+    },
+    {
+        "name": "Remitly Web Scrapper",
+        "skills": "Python - Beautifulsoup",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/website-scrapper-beautifulsoup"
+    }, {
+        "name": "Plex filename parser",
+        "skills": "Python",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/Plex-filename-parser"
+    },
+    {
+        "name": "Weather Web API",
+        "skills": "JavaScript",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/weather-API"
+    },
+    {
+        "name": "URL Shortner",
+        "skills": "AWS Lambda, API Gateway and DynamoDB",
+        "img": "/images/SG.png",
+        "href": "https://trim.live/"
+    },
+    {
+        "name": "Giphy GIF API search",
+        "skills": "Javascript",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/GIPHY-GIF"
+    }
+]
